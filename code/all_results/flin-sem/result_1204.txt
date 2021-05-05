@@ -1,0 +1,1769 @@
+Q-1: what about a table here at 23:30 for 3 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '23:30', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 3', 'time'= '23:30'}
+Q-2: make the reservation now for 7 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-3: can you reserve on november 26 2019 for just for me
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '26 nov', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '26 jul'}
+Q-4: make the reservation now for 7 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-5: what about a table here at 10:30 pm time for me and 2 others
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:30', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '13:00'}
+Q-6: is 5 in the evening still available
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-7: list restaurants in edinburgh new town
+gold path: /city-restaurants, [('/city-restaurants', '/city-restaurants->/search-listings/#city area', {'city area': 'edinburgh new town'})]
+Pred PATH: /city-restaurants,/city-restaurants->/search-listings/#city area{'city area'= 'edinburgh new town'}
+Q-8: details on mber
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'mber'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'}
+Q-9: finalize the reservation for 5 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-10: is it available on 23 dec 2019 at 2:30 pm time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '14:30', 'date': '23 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '03:30', 'date'= '23 dec'}
+Q-11: more info on jamies st mary at hill
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'jamies st mary at hill'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'}
+Q-12: get a table here for 4:30 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-13: can i book on october 29 2019 at 3:00 pm time for 4 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '15:00', 'date': '29 oct', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '15:00', 'date'= '3 oct'}
+Q-14: reserve for tom johnson and specify tom.fanet@gmail.com as email and 7741234567 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'tom.fanet@gmail.com', 'first name': 'tom', 'last name': 'johnson', 'phone number': '7741234567'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '7741234567', 'last name'= 'johnson', 'first name'= 'tom'}
+Q-15: is the restaurant available at 3 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-16: complete the reservation for 8:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-17: is it available on december 19 2019 at 6:30 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '6:30', 'date': '19 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '18:30', 'date'= '25 sep'}
+Q-18: is it available on 21 oct 2019 at 6:30 am time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '6:30', 'date': '21 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '12:30', 'date'= '21 oct'}
+Q-19: show me london
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'london'})]
+Pred PATH: /,/->/search-listings/#search{'restaurant name or location'= 'london'}
+Q-20: can i get a table here for 6 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-21: find me a table here for 16:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-22: i want a table here for 18:15
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-23: reserve it for me under mark johnson
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'mark', 'last name': 'johnson'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'last name'= 'johnson', 'first name'= 'mark'}
+Q-24: some heliot steak house at hippodrome casino places where i can go
+gold path: /, [('/', '/->/search-listings/#search', {'restaurant name or location': 'heliot steak house at hippodrome casino'})]
+Pred PATH: /,/->/search-listings/#search{'restaurant name or location'= 'heliot steak house at hippodrome casino'}
+Q-25: what about a table here at 8:00 for 7 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '8:00', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '12:30'}
+Q-26: find me a table here for 8:15 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-27: reserve for mark smith and specify joseph_234@outlook.com as email and 7741234567 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'mark', 'last name': 'smith', 'phone number': '7741234567'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '7741234567', 'email'= 'joseph_234@outlook.com', 'last name'= 'smith', 'first name'= 'mark'}
+Q-28: anything free at 5:30 pm time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '17:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '09:00'}
+Q-29: do have availability for 7 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7'}
+Q-30: is it available on november 11 2019 at 3  o'clock
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '15:00', 'date': '11 nov'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '14:00', 'date'= '11 jul'}
+Q-31: avaiability for 18:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-32: can i book on 18 jul 2019 at 1:00 in the morning for a party of 4 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '1:00', 'date': '18 jul', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '16:30', 'date'= '18 jul'}
+Q-33: is 4:45 in the afternoon still available
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-34: anything free at 10 night time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '12:30'}
+Q-35: i want a table here for 20:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '20:30'}
+Q-36: is it available for 4:45 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-37: tell me more about london
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'london'})]
+Pred PATH: /,/->/search-listings/#search{'restaurant name or location'= 'london'}
+Q-38: can i book on 28 oct 2019 at 10:30 in the night for 4 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:30', 'date': '28 oct', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '16:30', 'date'= '28 oct'}
+Q-39: book me this restaurant at 5:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-40: make the reservation now for 9:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-41: is it available on 1 oct 2019 at 4 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '4:00', 'date': '1 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '04:00', 'date'= '1 oct'}
+Q-42: places where to eat in bristol
+gold path: /, [('/', '/->/city-restaurants#uk cities', {'uk cities': 'bristol'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'bristol'}
+Q-43: get a table here for 8:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-44: list restaurants in edinburgh
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'edinburgh'}), ('/', '/->/city-restaurants#uk cities', {'uk cities': 'edinburgh'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'edinburgh'}
+Q-45: anything free at 11 pm time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '23:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30'}
+Q-46: is 9 o'clock still available
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-47: reserve for brian johnson and specify david123@gmail.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'david123@gmail.com', 'first name': 'brian', 'last name': 'johnson', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'email'= 'david123@gmail.com', 'last name'= 'johnson', 'first name'= 'brian'}
+Q-48: is it available on 22 aug 2019 at 1:00
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '1:00', 'date': '22 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '10:30', 'date'= '3 jul'}
+Q-49: how is hutong at the shard
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'hutong at the shard'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'hutong at the shard'}
+Q-50: what about a table here at 10:00 am in the morning for a party of 7 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '10:00', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '18:30'}
+Q-51: book it at 7:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-52: avaiability for 15:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-53: what's the avaiability on september 11 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '11 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '6 aug'}
+Q-54: is 8 pm time still available
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-55: can i book on november 27 2019 at 10:30 morning time for just for 4
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '10:30', 'date': '27 nov', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '16:30', 'date'= '27 nov'}
+Q-56: can you get me a table at this one at 5:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-57: go to edinburgh
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'edinburgh'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'edinburgh'}
+Q-58: show me more information for jamies st mary at hill
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'jamies st mary at hill'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'}
+Q-59: how booked it is on 11 sep 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '11 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '12 jul'}
+Q-60: is it available on 3 jul 2019 at 10 am time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '10:00', 'date': '3 jul'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '01:00', 'date'= '3 jul'}
+Q-61: can i get a table here for 7 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-62: how booked it is on 24 oct 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '24 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '24 oct'}
+Q-63: anything free at 5:30 pm in the evening
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '17:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '04:00'}
+Q-64: yes reserve this resturant for 9 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-65: i want to reserve for 4:30 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-66: anything free at 4:30 pm time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '16:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '19:00'}
+Q-67: make a reservation for this for 8:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-68: what's the availability on july 24 2019 for 5 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '24 jul', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'date'= '25 sep'}
+Q-69: book it at 6:30 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-70: can you reserve on 8 oct 2019 for 7 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 oct', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '8 oct'}
+Q-71: can you get me a table at this one at 8:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-72: what's the avaiability on july 26 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '26 jul'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '26 aug'}
+Q-73: i want to reserve for 3:30 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-74: is it available on august 27 2019 at 12:30
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '0:30', 'date': '27 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '12:30', 'date'= '25 sep'}
+Q-75: anything free at 10:30 in the night
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30'}
+Q-76: is the restaurant available at 16:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-77: can they accomodate the 12 of us on 27 dec 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '27 dec', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '24 dec'}
+Q-78: can i book on 30 oct 2019 at 3 in the morning for 5 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '3:00', 'date': '30 oct', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '14:00', 'date'= '3 oct'}
+Q-79: is 8 evening time still available
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-80: find me a table here for 3 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-81: is it available for 7:30 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-82: book it at 8:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-83: make the reservation now for 7:30 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-84: book me this restaurant at 5:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-85: can they accomodate 10 guests on 23 sep 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '23 sep', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '23 sep'}
+Q-86: show me some restaurants in edinburgh new town
+gold path: /city-restaurants, [('/city-restaurants', '/city-restaurants->/search-listings/#city area', {'city area': 'edinburgh new town'})]
+Pred PATH: /city-restaurants,/city-restaurants->/search-listings/#city area{'city area'= 'edinburgh new town'}
+Q-87: what about a table here at 10:30 pm time for the 9 of us
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:30', 'number of people': 'for 9'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '13:00'}
+Q-88: i'm interested in oblix west at the shard
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'oblix west at the shard'}), ('/', '/->/city-restaurants#search', {'search by name or location': 'oblix west at the shard'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'oblix east at the shard'}
+Q-89: show me only the shard options
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#location', {'location': 'the shard'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#show restaurants with offer{'show restaurants with offer'= 'false'}
+Q-90: find me a table here for 9:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-91: do they have any table left on 27 aug 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '27 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '27 aug'}
+Q-92: do they have any table left on 25 sep 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '25 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '24 sep'}
+Q-93: reserve for james smith and specify joseph_234@outlook.com as email and 7741234567 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'james', 'last name': 'smith', 'phone number': '7741234567'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '7741234567', 'email'= 'joseph_234@outlook.com', 'last name'= 'smith', 'first name'= 'james'}
+Q-94: make a reservation for this for 9:00 night time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-95: how booked it is on july 8 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 jul'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '8 aug'}
+Q-96: can they accomodate about 8 people on july 24 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '24 jul', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'date'= '25 sep'}
+Q-97: can i book on 29 aug 2019 at 4 o'clock for 11 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '16:00', 'date': '29 aug', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 11', 'time'= '17:30', 'date'= '7 aug'}
+Q-98: anything free at 5:00 am in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '5:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '09:00'}
+Q-99: can i book on 2 sep 2019 at 6:30 pm time for about 11 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '18:30', 'date': '2 sep', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 11', 'time'= '12:30', 'date'= '3 sep'}
+Q-100: is it available on 19 nov 2019 at 10:30
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '10:30', 'date': '19 nov'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '13:00', 'date'= '19 nov'}
+Q-101: can you reserve on november 20 2019 for a party of 5 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '20 nov', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 5', 'date'= '20 nov'}
+Q-102: find me a table here for 17:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-103: what about a table here at 8:30 am in the morning for about 4 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '8:30', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '18:30'}
+Q-104: reserve this one and give eric johnson as contact person
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'eric', 'last name': 'johnson'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'last name'= 'johnson', 'first name'= 'eric'}
+Q-105: yes reserve this resturant for 6:15 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-106: what's the availability on 2 aug 2019 for a group of 8 friends
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '2 aug', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'date'= '3 sep'}
+Q-107: finalize the reservation for 8:15 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-108: which are french
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'french'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'french'}
+Q-109: is it available on october 1 2019 at 4:00 pm time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '16:00', 'date': '1 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '09:00', 'date'= '12 sep'}
+Q-110: reserve for james taylor and specify joseph_234@outlook.com as email and 4401233624 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'james', 'last name': 'taylor', 'phone number': '4401233624'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '4401233624', 'email'= 'joseph_234@outlook.com', 'last name'= 'taylor', 'first name'= 'james'}
+Q-111: anything free at 21:30
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '21:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '21:30'}
+Q-112: can i book on 16 dec 2019 at 11:00 in the morning for me my wife and my daughter
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '11:00', 'date': '16 dec', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '16:30', 'date'= '16 dec'}
+Q-113: yes reserve this resturant for 6:15 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:00'}
+Q-114: can they accomodate a party of 8 people on 10 dec 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '10 dec', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'date'= '10 dec'}
+Q-115: show me some liverpool restaurants
+gold path: /, [('/', '/->/search-listings/#search', {'restaurant name or location': 'liverpool'})]
+Pred PATH: /,/->/search-listings/#search{'restaurant name or location'= 'liverpool'}
+Q-116: i want a table here for 6:15 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:00'}
+Q-117: can i book on july 26 2019 at 4:00 afternoon time for a party of 10 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '16:00', 'date': '26 jul', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'time'= '09:00', 'date'= '26 aug'}
+Q-118: place the reservation for 7:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-119: what about a table here at 1:30 pm time for 4 guests
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '13:30', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '10:00'}
+Q-120: is it available on 23 dec 2019 at 9:30 in the night
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '21:30', 'date': '23 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '09:00', 'date'= '23 dec'}
+Q-121: what's the avaiability on august 26 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '26 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '26 jul'}
+Q-122: filter by british
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'british'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#location{'location'= 'city of london'}
+Q-123: how booked it is on 29 aug 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '29 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '7 aug'}
+Q-124: can you reserve on august 2 2019 for just 1
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '2 aug', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '3 jul'}
+Q-125: more info about the restaurant aqua shard
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'aqua shard'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'aqua shard'}
+Q-126: what's the availability on 14 oct 2019 for 3 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '14 oct', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 3', 'date'= '3 oct'}
+Q-127: show me some restaurants in covent garden
+gold path: /city-restaurants, [('/city-restaurants', '/city-restaurants->/search-listings/#city area', {'city area': 'covent garden'})]
+Pred PATH: /city-restaurants,/city-restaurants->/search-listings/#city area{'city area'= 'london bridge'}
+Q-128: avaiability for 15:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-129: can they accomodate a group of 12 friends on july 17 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '17 jul', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '25 jul'}
+Q-130: reserve for david miller and specify bsmith@hotmail.com as email and 3122345786 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'bsmith@hotmail.com', 'first name': 'david', 'last name': 'miller', 'phone number': '3122345786'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3122345786', 'email'= 'bsmith@hotmail.com', 'last name'= 'miller', 'first name'= 'david'}
+Q-131: can i book on 28 oct 2019 at 1:30 in the afternoon for 8 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '13:30', 'date': '28 oct', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'time'= '18:30', 'date'= '28 oct'}
+Q-132: can you reserve on october 31 2019 for about 8 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '31 oct', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'date'= '26 jul'}
+Q-133: can they accomodate just for 8 on december 30 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '30 dec', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'date'= '7 aug'}
+Q-134: how booked it is on 11 dec 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '11 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '6 dec'}
+Q-135: what about a table here at 19:00 for about 11 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '19:00', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 11', 'time'= '19:00'}
+Q-136: which are italian
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'italian'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'italian'}
+Q-137: book it at 8:15 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-138: what about a table here at 6:30 pm time for 3 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '18:30', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 3', 'time'= '12:30'}
+Q-139: show me hutong at the shard
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'hutong at the shard'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'café rouge hays galleria'}
+Q-140: place the reservation for 4:30 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-141: can they accomodate a group of 11 friends on 6 nov 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '6 nov', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '6 aug'}
+Q-142: anything free at 5:00 pm in the evening
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '17:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '04:00'}
+Q-143: can you reserve on 11 nov 2019 for a group of 8 friends
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '11 nov', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'date'= '6 nov'}
+Q-144: what about a table here at 10:30 am in the morning for 8 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '10:30', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'time'= '16:30'}
+Q-145: anything free at 6:30 am time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '6:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '12:30'}
+Q-146: get a table here for 8 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-147: can you reserve on 27 sep 2019 for 8 guests
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '27 sep', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'date'= '27 dec'}
+Q-148: can you reserve on 31 dec 2019 for 9 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '31 dec', 'number of people': 'for 9'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'date'= '31 dec'}
+Q-149: reviews please
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant#reviews', {'reviews': 'reviews'})]
+Pred PATH: Restaurant,Restaurant->Restaurant#menu{'menu'= 'menu'}
+Q-150: i want a table here for 7 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-151: book me this restaurant at 7:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-152: can they accomodate a party of 11 people on 13 nov 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '13 nov', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '13 nov'}
+Q-153: details on edinburgh
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'edinburgh'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'edinburgh'}
+Q-154: finalize the reservation for 5:30 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-155: reserve for david smith and specify joseph_234@outlook.com as email and 4401233624 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'david', 'last name': 'smith', 'phone number': '4401233624'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '4401233624', 'email'= 'joseph_234@outlook.com', 'last name'= 'smith', 'first name'= 'david'}
+Q-156: book it at 3 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-157: yes reserve this resturant for 6:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-158: i would like for you to make this reservation for me for 5:30 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-159: can you get me a table at this one at 6 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-160: what's the availability on august 20 2019 for a party of 1
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '20 aug', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 2', 'date'= '23 jul'}
+Q-161: which are vegan
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'vegan'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'vegan'}
+Q-162: yes reserve this resturant for 4:45 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-163: finalize the reservation for 9 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-164: yes reserve this resturant for 9:00 night time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-165: anything free at 8:30 evening time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '20:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '12:30'}
+Q-166: which are in borough
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#location', {'location': 'borough'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#location{'location'= 'borough'}
+Q-167: is it available on 10 dec 2019 at 1 pm time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '13:00', 'date': '10 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '23:30', 'date'= '10 dec'}
+Q-168: reserve for brian smith and specify joseph_234@outlook.com as email and 4401233624 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'brian', 'last name': 'smith', 'phone number': '4401233624'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '4401233624', 'email'= 'joseph_234@outlook.com', 'last name'= 'smith', 'first name'= 'brian'}
+Q-169: reserve it under david123@gmail.com
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'david123@gmail.com'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'email'= 'david123@gmail.com'}
+Q-170: what's the availability on 13 aug 2019 for just for me
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '13 aug', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '10 jul'}
+Q-171: yes reserve this resturant for 3:30 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-172: is it available for 15:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-173: book it at 19:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-174: anything free at 2:30 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '2:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '02:30'}
+Q-175: reserve for david johnson and specify joseph_234@outlook.com as email and 3122345786 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'david', 'last name': 'johnson', 'phone number': '3122345786'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3122345786', 'email'= 'joseph_234@outlook.com', 'last name'= 'johnson', 'first name'= 'david'}
+Q-176: complete the reservation for 6:15 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-177: can you get me a table at this one at 3:30 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-178: make a reservation for this for 4:00 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-179: show me restaurants in ask italian edinburgh
+gold path: /, [('/', '/->/search-listings/#search', {'restaurant name or location': 'ask italian edinburgh'})]
+Pred PATH: /,/->/city-restaurants#search{'search by name or location'= 'ask italian edinburgh'}
+Q-180: reserve it for me under tom taylor
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'tom', 'last name': 'taylor'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'last name'= 'taylor', 'first name'= 'tom'}
+Q-181: book me this restaurant at 20:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '20:30'}
+Q-182: i would like for you to make this reservation for me for 5 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-183: do they have any table left on 28 oct 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '28 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '28 oct'}
+Q-184: can i book on july 4 2019 at 10:30 for 6 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '10:30', 'date': '4 jul', 'number of people': 'for 6'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'time'= '13:00', 'date'= '27 dec'}
+Q-185: reserve for tom smith and specify tom.fanet@gmail.com as email and 4401233624 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'tom.fanet@gmail.com', 'first name': 'tom', 'last name': 'smith', 'phone number': '4401233624'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '4401233624', 'last name'= 'smith', 'first name'= 'tom'}
+Q-186: i need a reservation at this place at 6 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-187: is it available on october 23 2019 at 9:30 pm in the night
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '21:30', 'date': '23 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '09:00', 'date'= '31 jul'}
+Q-188: reserve it under eric fanet
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'eric', 'last name': 'fanet'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'first name'= 'eric'}
+Q-189: find me a table here for 7 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-190: filter the results by london bridge
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#location', {'location': 'london bridge'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'chinese'}
+Q-191: is it available on august 19 2019 at 6:30 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '6:30', 'date': '19 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '18:30', 'date'= '19 dec'}
+Q-192: confirm my table for 8 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-193: what's the availability on 5 aug 2019 for the 3 of us
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '5 aug', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 3', 'date'= '9 aug'}
+Q-194: can they accomodate me my wife and my daughter on august 15 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '15 aug', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '15 jul'}
+Q-195: book it at 8:15 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-196: make a reservation for this for 3 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-197: can i book on 17 dec 2019 at 2:00 for just for 7
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '2:00', 'date': '17 dec', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '14:00', 'date'= '17 sep'}
+Q-198: reserve for joseph smith and specify joseph_234@outlook.com as email and 3122345786 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'joseph', 'last name': 'smith', 'phone number': '3122345786'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3122345786', 'last name'= 'smith', 'first name'= 'joseph'}
+Q-199: can they accomodate a party of 1 on august 12 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '12 aug', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 2', 'date'= '12 jul'}
+Q-200: show me restaurants in covent garden
+gold path: /, [('/', '/->/search-listings/#search', {'restaurant name or location': 'covent garden'})]
+Pred PATH: /,/->/city-restaurants#search{'search by name or location'= 'covent garden'}
+Q-201: confirm my table for 8:15 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-202: reserve for eric smith and specify mark_taylor@outlook.com as email and 3122345786 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'mark_taylor@outlook.com', 'first name': 'eric', 'last name': 'smith', 'phone number': '3122345786'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3122345786', 'email'= 'mark_taylor@outlook.com', 'last name'= 'smith', 'first name'= 'eric'}
+Q-203: is it available on 24 dec 2019 at 1:00 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '1:00', 'date': '24 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30', 'date'= '24 dec'}
+Q-204: display only the afternoon tea options
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'afternoon tea'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'afternoon tea'}
+Q-205: do have availability for 1 person
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12'}
+Q-206: yes reserve this resturant for 4 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-207: reserve for joseph johnson and specify mark_taylor@outlook.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'mark_taylor@outlook.com', 'first name': 'joseph', 'last name': 'johnson', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'email'= 'mark_taylor@outlook.com', 'last name'= 'johnson', 'first name'= 'joseph'}
+Q-208: reserve for mark taylor and specify joseph_234@outlook.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'mark', 'last name': 'taylor', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'email'= 'joseph_234@outlook.com', 'last name'= 'taylor', 'first name'= 'mark'}
+Q-209: can i book on 5 jul 2019 at noon for about 10 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '0:00', 'date': '5 jul', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'time'= '22:30', 'date'= '4 jul'}
+Q-210: anything free at 11:00 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '11:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30'}
+Q-211: make the reservation now for 5 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-212: i want to reserve for 4:00 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-213: do they have any table left on 17 dec 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '17 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '17 sep'}
+Q-214: can i book on december 27 2019 at 10:00 am in the morning for 8 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '10:00', 'date': '27 dec', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'time'= '18:30', 'date'= '25 sep'}
+Q-215: complete the reservation for 17:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-216: anything free at 8:00
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '8:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '12:30'}
+Q-217: can you reserve on 3 sep 2019 for just me and 2 friends so 3 total
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '3 sep', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '3 sep'}
+Q-218: can they accomodate just for 7 on 22 oct 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '22 oct', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '2 oct'}
+Q-219: do they have any table left on 30 sep 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '30 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '3 sep'}
+Q-220: how booked it is on december 13 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '13 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '28 aug'}
+Q-221: how booked it is on 19 sep 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '19 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '19 sep'}
+Q-222: confirm my table for 5:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-223: i want to reserve for 6:15 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:00'}
+Q-224: is the restaurant available at 5 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-225: can you reserve on 8 oct 2019 for about 10 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 oct', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'date'= '8 oct'}
+Q-226: what's the availability on 1 nov 2019 for a party of 7
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '1 nov', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 2', 'date'= '1 nov'}
+Q-227: reserve for brian taylor and specify joseph_234@outlook.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'brian', 'last name': 'taylor', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'email'= 'joseph_234@outlook.com', 'last name'= 'taylor', 'first name'= 'brian'}
+Q-228: can they accomodate a party of 10 people on august 1 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '1 aug', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'date'= '3 oct'}
+Q-229: make a reservation for this for 3 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-230: book it at 17:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-231: i want to reserve for 4:00 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-232: what about a table here at 6:30 in the evening for 8 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '18:30', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'time'= '12:30'}
+Q-233: i need a reservation at this place at 6 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-234: i want a table here for 7:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-235: do they have any table left on 21 oct 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '21 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '21 oct'}
+Q-236: make a reservation for this for 4:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-237: reserve for david taylor and specify mark_taylor@outlook.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'mark_taylor@outlook.com', 'first name': 'david', 'last name': 'taylor', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'email'= 'mark_taylor@outlook.com', 'last name'= 'taylor', 'first name'= 'david'}
+Q-238: how is edinburgh
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'edinburgh'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'edinburgh'}
+Q-239: avaiability for 4:00 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-240: what about a table here at 4 am time for me and my husband
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '4:00', 'number of people': 'for 2'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '09:00'}
+Q-241: what about a table here at 2:30 pm in the afternoon for a party of 2 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '14:30', 'number of people': 'for 2'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '02:00'}
+Q-242: what about a table here at 4:30 in the morning for a party of 7
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '4:30', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '19:00'}
+Q-243: select mber
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'mber'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'}
+Q-244: can i book on 1 oct 2019 at 3:30 am time for a party of 8 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '3:30', 'date': '1 oct', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'time'= '15:30', 'date'= '1 oct'}
+Q-245: is there anything in south bank
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#location', {'location': 'south bank'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'the real greek bankside'}
+Q-246: anything free at 2:30 in the afternoon
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '14:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '02:00'}
+Q-247: is the restaurant available at 16:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-248: i would like for you to make this reservation for me for 7 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-249: avaiability for 4:00 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-250: finalize the reservation for 9:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-251: i would like for you to make this reservation for me for 4:45 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-252: can you reserve on 25 oct 2019 for just me and 2 friends so 3 total
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '25 oct', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '25 oct'}
+Q-253: reserve for brian taylor and specify bsmith@hotmail.com as email and 3122345786 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'bsmith@hotmail.com', 'first name': 'brian', 'last name': 'taylor', 'phone number': '3122345786'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3122345786', 'email'= 'bsmith@hotmail.com', 'last name'= 'taylor', 'first name'= 'brian'}
+Q-254: i need a reservation at this place at 7 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-255: some more information on edinburgh
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'edinburgh'})]
+Pred PATH: /,/->/search-listings/#search{'restaurant name or location'= 'edinburgh'}
+Q-256: is it available for 5:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-257: i want to reserve for 3 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-258: can you get me a table at this one at 5:00 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-259: anything free at 22:00
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '22:00'}
+Q-260: can you show me the menu photos and reviews of jamies st mary at hill
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'jamies st mary at hill'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'}
+Q-261: i need a reservation at this place at 9 night time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-262: finalize the reservation for 3 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-263: can you reserve on november 8 2019 for about 3 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 nov', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 3', 'date'= '26 nov'}
+Q-264: can you get me a table at this one at 6:30 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-265: what about a table here at 10:30 pm in the night for about 6 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:30', 'number of people': 'for 6'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'time'= '16:30'}
+Q-266: can you reserve on september 17 2019 for a party of 10 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '17 sep', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'date'= '27 nov'}
+Q-267: do have availability for just for 12
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6'}
+Q-268: can you reserve on october 1 2019 for a group of 8 friends
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '1 oct', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'date'= '12 sep'}
+Q-269: yes reserve this resturant for 4:30 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-270: is it available for 5:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-271: i want a table here for 7 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-272: finalize the reservation for 7:30 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-273: complete the reservation for 3:30 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-274: book it at 8:15 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-275: what's the availability on 15 jul 2019 for me
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '15 jul', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '15 jul'}
+Q-276: do they have any table left on 2 sep 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '2 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '3 sep'}
+Q-277: reserve for james smith and specify joseph_234@outlook.com as email and 4401233624 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'james', 'last name': 'smith', 'phone number': '4401233624'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '4401233624', 'email'= 'joseph_234@outlook.com', 'last name'= 'smith', 'first name'= 'james'}
+Q-278: can i get a table here for 5:30 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-279: what about a table here at 8:00 morning time for a party of 10 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '8:00', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'time'= '18:30'}
+Q-280: i want a table here for 4 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-281: do they have any table left on august 16 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '16 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '16 jul'}
+Q-282: reserve for brian miller and specify bsmith@hotmail.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'bsmith@hotmail.com', 'first name': 'brian', 'last name': 'miller', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'email'= 'bsmith@hotmail.com', 'last name'= 'miller', 'first name'= 'brian'}
+Q-283: what's the avaiability on 25 dec 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '25 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '24 dec'}
+Q-284: what about a table here at 5:30 am time for 12 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '5:30', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'time'= '09:00'}
+Q-285: find me a table here for 6:45 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '21:00'}
+Q-286: get a table here for 7:00 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-287: finalize the reservation for 8:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-288: i want to reserve for 8 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-289: confirm my table for 5:30 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-290: confirm my table for 9:00 in the night
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-291: what's the availability on september 18 2019 for 4 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '18 sep', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'date'= '18 jul'}
+Q-292: can you reserve on december 19 2019 for a party of 7
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '19 dec', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 2', 'date'= '25 sep'}
+Q-293: how booked it is on 17 jul 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '17 jul'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '15 aug'}
+Q-294: i want to reserve for 20:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '20:30'}
+Q-295: heliot steak house at hippodrome casino restaurants
+gold path: /, [('/', '/->/search-listings/#search', {'restaurant name or location': 'heliot steak house at hippodrome casino'})]
+Pred PATH: /,/->/search-listings/#search{'restaurant name or location'= 'heliot steak house at hippodrome casino'}
+Q-296: can you reserve on july 8 2019 for about 11 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 jul', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 11', 'date'= '8 aug'}
+Q-297: find me a table here for 8:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-298: make the reservation now for 6 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-299: is it available on 20 sep 2019 at 16:30
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '16:30', 'date': '20 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30', 'date'= '20 sep'}
+Q-300: i would like for you to make this reservation for me for 7:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-301: i want to know more about hutong at the shard
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'hutong at the shard'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#location{'location'= 'the shard'}
+Q-302: book it at 8:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-303: yes reserve this resturant for 8 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-304: get a table here for 7:30 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-305: reserve it under brian johnson
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'brian', 'last name': 'johnson'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'last name'= 'johnson', 'first name'= 'brian'}
+Q-306: more on mber
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'mber'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'}
+Q-307: is 18:30 still available
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-308: can you reserve on 19 sep 2019 for me my wife and my daughter
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '19 sep', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '19 sep'}
+Q-309: show me some places to eat in oblix west at the shard
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'oblix west at the shard'})]
+Pred PATH: /,/->/city-restaurants#search{'search by name or location'= 'oblix west at the shard'}
+Q-310: is it available for 9:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-311: can they accomodate a party of 2 on 22 aug 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '22 aug', 'number of people': 'for 2'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 2', 'date'= '3 jul'}
+Q-312: book it at 5:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-313: reserve for joseph taylor and specify mark_taylor@outlook.com as email and 3122345786 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'mark_taylor@outlook.com', 'first name': 'joseph', 'last name': 'taylor', 'phone number': '3122345786'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3122345786', 'email'= 'mark_taylor@outlook.com', 'last name'= 'taylor', 'first name'= 'joseph'}
+Q-314: can they accomodate a group of 2 friends on 16 jul 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '16 jul', 'number of people': 'for 2'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '16 jul'}
+Q-315: reserve for tom johnson and specify mark_taylor@outlook.com as email and 3122345786 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'mark_taylor@outlook.com', 'first name': 'tom', 'last name': 'johnson', 'phone number': '3122345786'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3122345786', 'email'= 'mark_taylor@outlook.com', 'last name'= 'johnson', 'first name'= 'tom'}
+Q-316: confirm my table for 5 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-317: reserve it for me under brian johnson
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'brian', 'last name': 'johnson'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'last name'= 'johnson', 'first name'= 'brian'}
+Q-318: i want to reserve for 17:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-319: filter by asian
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'asian'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#location{'location'= 'city of london'}
+Q-320: reserve for tom johnson and specify bsmith@hotmail.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'bsmith@hotmail.com', 'first name': 'tom', 'last name': 'johnson', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'email'= 'bsmith@hotmail.com', 'last name'= 'johnson', 'first name'= 'tom'}
+Q-321: anything free at 8 o'clock
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '20:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '18:30'}
+Q-322: can i book on 23 sep 2019 at 6:30 in the evening for 3 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '18:30', 'date': '23 sep', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 3', 'time'= '12:30', 'date'= '23 sep'}
+Q-323: reserve for david fanet and specify david123@gmail.com as email and 7741234567 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'david123@gmail.com', 'first name': 'david', 'last name': 'fanet', 'phone number': '7741234567'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '7741234567', 'first name'= 'david'}
+Q-324: make the reservation now for 8:15 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-325: show me the menu for this place
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant#menu', {'menu': 'menu'})]
+Pred PATH: Restaurant,Restaurant->Restaurant#menu{'menu'= 'menu'}
+Q-326: i want to reserve for 8:30 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-327: yes reserve this resturant for 5 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-328: what about a table here at 5:00 evening time for 4 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '17:00', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '09:00'}
+Q-329: what are those with pizza cuisine
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'pizza'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'pizza'}
+Q-330: what about a table here at 1:00 morning time for a party of 9 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '1:00', 'number of people': 'for 9'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '18:00'}
+Q-331: i want a table here for 7:30 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-332: what are some good restaurants in oblix west at the shard
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'oblix west at the shard'})]
+Pred PATH: /,/->/search-listings/#search{'restaurant name or location'= 'oblix west'}
+Q-333: filter by chinese cuisine
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'chinese'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#location{'location'= 'south east london'}
+Q-334: is it available on december 18 2019 at 10:00 night time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:00', 'date': '18 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '18:30', 'date'= '26 nov'}
+Q-335: place the reservation for 5:30 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-336: can they accomodate just for 3 on november 8 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 nov', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '26 nov'}
+Q-337: what are those with burger cuisine
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'burger'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#location{'location'= 'borough'}
+Q-338: reserve for joseph johnson and specify joseph_234@outlook.com as email and 7741234567 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'joseph', 'last name': 'johnson', 'phone number': '7741234567'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '7741234567', 'last name'= 'johnson', 'first name'= 'joseph'}
+Q-339: can i book on december 27 2019 at 11:30 am in the morning for about 5 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '11:30', 'date': '27 dec', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '16:30', 'date'= '25 sep'}
+Q-340: i would like for you to make this reservation for me for 7 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-341: can i get a table here for 20:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '20:30'}
+Q-342: is the restaurant available at 5 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-343: do they have any table left on 8 aug 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '8 aug'}
+Q-344: make a reservation for this for 3:00 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-345: can i view more details on the real greek bankside
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'the real greek bankside'}), ('/', '/->/city-restaurants#search', {'search by name or location': 'the real greek bankside'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'oblix west at the shard'}
+Q-346: what about a table here at 9:30 for just for 8
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '9:30', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'time'= '09:00'}
+Q-347: can you reserve on december 13 2019 for a group of 10 friends
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '13 dec', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'date'= '28 aug'}
+Q-348: yes reserve this resturant for 6:45 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '21:00'}
+Q-349: find me a table here for 3:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-350: i would like for you to make this reservation for me for 6:15 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:00'}
+Q-351: i want a table here for 8:15 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-352: book it at 20:15
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '20:15'}
+Q-353: i would like for you to make this reservation for me for 8 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-354: what's the availability on 13 aug 2019 for a party of 11 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '13 aug', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '10 jul'}
+Q-355: some more information on mber
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'mber'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'}
+Q-356: anything free at 3:30 morning time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '3:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '02:00'}
+Q-357: can you reserve on november 14 2019 for a group of 11 friends
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '14 nov', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '14 nov'}
+Q-358: is it available on 15 oct 2019 at 10:30
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '10:30', 'date': '15 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '13:00', 'date'= '15 oct'}
+Q-359: can i get a table here for 6:45 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '21:00'}
+Q-360: how booked it is on september 3 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '3 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '7 nov'}
+Q-361: anything free at 18:30
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '18:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '18:30'}
+Q-362: filter by vegetarian cuisine
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'vegetarian'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#location{'location'= 'london bridge'}
+Q-363: some more information on london
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'london'})]
+Pred PATH: /,/->/search-listings/#search{'restaurant name or location'= 'london'}
+Q-364: reserve for james fanet and specify tom.fanet@gmail.com as email and 4401233624 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'tom.fanet@gmail.com', 'first name': 'james', 'last name': 'fanet', 'phone number': '4401233624'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '4401233624', 'email'= 'tom.fanet@gmail.com', 'last name'= 'james fanet', 'first name'= 'james'}
+Q-365: make the reservation now for 7:30 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-366: i need a reservation at this place at 8:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-367: place the reservation for 6:15 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-368: get a table here for 4 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-369: finalize the reservation for 4:00 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-370: can you reserve on september 12 2019 for 7 guests
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '12 sep', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '12 jul'}
+Q-371: anything with special offers
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#show restaurants with offer', {'show restaurants with offer': 'true'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'}
+Q-372: find me a table here for 6:45 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '21:00'}
+Q-373: what's the availability on 16 jul 2019 for 12 guests
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '16 jul', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'date'= '16 jul'}
+Q-374: is it available for 5:30 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-375: is the restaurant available at 3:30 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-376: confirm my table for 3:30 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-377: can they accomodate just for 7 on september 27 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '27 sep', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '27 sep'}
+Q-378: make the reservation now for 5:30 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-379: can i book on 31 dec 2019 at 11:30 in the morning for a party of 4 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '11:30', 'date': '31 dec', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '16:30', 'date'= '31 dec'}
+Q-380: i want a table here for 6:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-381: restaurants in birmingham
+gold path: /, [('/', '/->/city-restaurants#uk cities', {'uk cities': 'birmingham'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'birmingham'}
+Q-382: make a reservation for this for 8:30 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-383: finalize the reservation for 9 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-384: avaiability for 5:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-385: what's the availability on december 4 2019 for 12 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '4 dec', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'date'= '25 sep'}
+Q-386: what's the avaiability on december 19 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '19 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '25 sep'}
+Q-387: can you get me a table at this one at 16:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-388: i want to reserve for 8:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-389: make the reservation now for 8:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-390: book me this restaurant at 6:30 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-391: what's the availability on 4 sep 2019 for 9 guests
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '4 sep', 'number of people': 'for 9'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'date'= '4 sep'}
+Q-392: is the restaurant available at 6:15 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-393: can i book on august 28 2019 at 10 pm time for me and my friend
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:00', 'date': '28 aug', 'number of people': 'for 2'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '10:00', 'date'= '26 aug'}
+Q-394: find me a table here for 9 night time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-395: anything free at 11 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '11:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30'}
+Q-396: avaiability for 4:45 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-397: filter the results by french
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'french'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'french'}
+Q-398: what's the availability on 3 sep 2019 for me and 2 kids
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '3 sep', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '3 sep'}
+Q-399: can they accomodate just for 9 on october 25 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '25 oct', 'number of people': 'for 9'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'date'= '31 jul'}
+Q-400: what's the availability on 5 sep 2019 for 1
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '5 sep', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '4 sep'}
+Q-401: what's the availability on november 6 2019 for 11 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '6 nov', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 11', 'date'= '6 nov'}
+Q-402: is it available on november 27 2019 at 10:30 am in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '10:30', 'date': '27 nov'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30', 'date'= '27 nov'}
+Q-403: finalize the reservation for 3:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-404: can you show me the menu photos and reviews of edinburgh
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'edinburgh'})]
+Pred PATH: /,/->/city-restaurants#search{'search by name or location'= 'edinburgh'}
+Q-405: is it available on 30 dec 2019 at 7:30 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '7:30', 'date': '30 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '19:00', 'date'= '3 dec'}
+Q-406: restaurants in liverpool
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'liverpool'}), ('/', '/->/city-restaurants#uk cities', {'uk cities': 'liverpool'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'liverpool'}
+Q-407: get a table here for 6 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-408: confirm my table for 18:45
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-409: i would like for you to make this reservation for me for 8 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-410: what's the availability on november 28 2019 for a party of 6 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '28 nov', 'number of people': 'for 6'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '26 jul'}
+Q-411: how booked it is on 8 nov 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 nov'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '8 nov'}
+Q-412: yes reserve this resturant for 5:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-413: anything free at 3:00 afternoon time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '15:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '15:00'}
+Q-414: book me this restaurant at 3:00 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-415: i would like for you to make this reservation for me for 16:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-416: place the reservation for 3 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-417: can they accomodate a group of 12 friends on 21 aug 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '21 aug', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '21 aug'}
+Q-418: make the reservation now for 6:15 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-419: can they accomodate 10 guests on august 16 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '16 aug', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '16 jul'}
+Q-420: i want to know more about oblix east at the shard
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'oblix east at the shard'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'}
+Q-421: i want a table here for 3:30 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-422: place the reservation for 4:45 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-423: what's the avaiability on 19 jul 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '19 jul'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '19 jul'}
+Q-424: reserve for joseph fanet and specify joseph_234@outlook.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'joseph', 'last name': 'fanet', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'first name'= 'joseph'}
+Q-425: finalize the reservation for 6:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-426: do they have any table left on october 4 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '4 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '31 jul'}
+Q-427: is it available for 8:15 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-428: can i book on 15 nov 2019 at 6:30 pm in the evening for 1 person
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '18:30', 'date': '15 nov', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'time'= '12:30', 'date'= '15 nov'}
+Q-429: i would like for you to make this reservation for me for 4:00 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-430: i want to reserve for 8:00 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-431: reserve this one and give joseph taylor as contact person
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'joseph', 'last name': 'taylor'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'last name'= 'taylor', 'first name'= 'joseph'}
+Q-432: is it available on november 14 2019 at 5:00 am in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '5:00', 'date': '14 nov'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '09:00', 'date'= '14 nov'}
+Q-433: show only restaurants in south bank
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#location', {'location': 'south bank'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'the real greek bankside'}
+Q-434: can you reserve on 14 oct 2019 for a group of 11 friends
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '14 oct', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '3 oct'}
+Q-435: i would like for you to make this reservation for me for 9 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-436: what about a table here at 19:00 for a group of 4 friends
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '19:00', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '19:00'}
+Q-437: is it available on 14 oct 2019 at 00:00
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '12:00', 'date': '14 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '15:30', 'date'= '3 oct'}
+Q-438: confirm my table for 3:00 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-439: what's the availability on october 4 2019 for 4 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '4 oct', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 2', 'date'= '31 jul'}
+Q-440: find me a table here for 8:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-441: can you reserve on 4 jul 2019 for about 5 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '4 jul', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'date'= '4 jul'}
+Q-442: place the reservation for 8:30 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-443: what about a table here at 5:00 evening time for 8 guests
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '17:00', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'time'= '09:00'}
+Q-444: finalize the reservation for 6:45 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '21:00'}
+Q-445: is it available on 21 nov 2019 at 11:30
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '11:30', 'date': '21 nov'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30', 'date'= '21 nov'}
+Q-446: what's the avaiability on 29 aug 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '29 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '7 aug'}
+Q-447: how is aqua shard
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'aqua shard'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'aqua shard'}
+Q-448: finalize the reservation for 9:00 night time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-449: reserve for james fanet and specify bsmith@hotmail.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'bsmith@hotmail.com', 'first name': 'james', 'last name': 'fanet', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'email'= 'bsmith@hotmail.com', 'first name'= 'james'}
+Q-450: what's the avaiability on 31 dec 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '31 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '31 dec'}
+Q-451: is it available on september 17 2019 at 1:30 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '1:30', 'date': '17 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '18:30', 'date'= '27 nov'}
+Q-452: what about a table here at 11 in the night for a group of 12 friends
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '23:00', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'time'= '16:30'}
+Q-453: avaiability for 6:45 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '21:00'}
+Q-454: find me a table here for 7:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-455: do they have any table left on 31 oct 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '31 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '31 oct'}
+Q-456: what about a table here at 4:30 morning time for me and 2 others
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '4:30', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '19:00'}
+Q-457: what about a table here at 12:30 morning time for a party of 4 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '12:30', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '18:30'}
+Q-458: can i get a table here for 6 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-459: what's the availability on 9 jul 2019 for myself
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '9 jul', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '9 jul'}
+Q-460: what's the avaiability on september 27 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '27 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '27 sep'}
+Q-461: what about a table here at 19:30 for 8 guests
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '19:30', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'time'= '19:30'}
+Q-462: can i book on july 23 2019 at 5:00 am in the morning for 12 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '5:00', 'date': '23 jul', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'time'= '09:00', 'date'= '25 nov'}
+Q-463: can they accomodate about 6 people on november 5 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '5 nov', 'number of people': 'for 6'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'date'= '27 nov'}
+Q-464: what's the availability on july 11 2019 for me and 2 sons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '11 jul', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '11 sep'}
+Q-465: tell me more about the real greek bankside
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'the real greek bankside'}), ('/', '/->/city-restaurants#search', {'search by name or location': 'the real greek bankside'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'oblix west at the shard'}
+Q-466: what about a table here at 18:30 for about 12 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '18:30', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'time'= '18:30'}
+Q-467: can you get me a table at this one at 7:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-468: what's the availability on october 17 2019 for 12 guests
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '17 oct', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'date'= '31 jul'}
+Q-469: finalize the reservation for 4:30 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-470: can you get me a table at this one at 3:00 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-471: can i book on august 19 2019 at 13:30 for 3 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '13:30', 'date': '19 aug', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 3', 'time'= '06:30', 'date'= '19 dec'}
+Q-472: yes reserve this resturant for 6:30 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-473: can they accomodate me and 2 kids on july 23 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '23 jul', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '25 nov'}
+Q-474: make a reservation for this for 7 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-475: i need a reservation at this place at 3:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-476: make the reservation now for 4:45 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-477: place the reservation for 3:30 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-478: can they accomodate 7 people on 28 oct 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '28 oct', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '28 oct'}
+Q-479: can i view more details on london
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'london'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'london'}
+Q-480: reserve it for me under eric miller
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'eric', 'last name': 'miller'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'last name'= 'miller', 'first name'= 'eric'}
+Q-481: what about a table here at 2:00 pm time for just for 3
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '14:00', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'time'= '14:00'}
+Q-482: what's the avaiability on august 23 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '23 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '23 jul'}
+Q-483: i would like for you to make this reservation for me for 18:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-484: reserve for tom johnson and specify bsmith@hotmail.com as email and 7741234567 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'bsmith@hotmail.com', 'first name': 'tom', 'last name': 'johnson', 'phone number': '7741234567'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '7741234567', 'email'= 'bsmith@hotmail.com', 'last name'= 'johnson', 'first name'= 'tom'}
+Q-485: reserve for david taylor and specify joseph_234@outlook.com as email and 4401233624 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'david', 'last name': 'taylor', 'phone number': '4401233624'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '4401233624', 'email'= 'joseph_234@outlook.com', 'last name'= 'taylor', 'first name'= 'david'}
+Q-486: reserve for james johnson and specify mark_taylor@outlook.com as email and 4401233624 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'mark_taylor@outlook.com', 'first name': 'james', 'last name': 'johnson', 'phone number': '4401233624'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '4401233624', 'email'= 'mark_taylor@outlook.com', 'last name'= 'johnson', 'first name'= 'james'}
+Q-487: can i get a table here for 4:45 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-488: reserve for mark fanet and specify bsmith@hotmail.com as email and 3122345786 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'bsmith@hotmail.com', 'first name': 'mark', 'last name': 'fanet', 'phone number': '3122345786'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3122345786', 'email'= 'bsmith@hotmail.com', 'first name'= 'mark'}
+Q-489: reserve for james smith and specify mark_taylor@outlook.com as email and 3124569876 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'mark_taylor@outlook.com', 'first name': 'james', 'last name': 'smith', 'phone number': '3124569876'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '3124569876', 'email'= 'mark_taylor@outlook.com', 'last name'= 'smith', 'first name'= 'james'}
+Q-490: what's the avaiability on september 23 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '23 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '19 sep'}
+Q-491: find me a table here for 4 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-492: find me a table here for 8:15 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-493: yes reserve this resturant for 9:00 pm in the night
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-494: anything free at 12 in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '12:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30'}
+Q-495: i'm interested in offers
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#show restaurants with offer', {'show restaurants with offer': 'true'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'oblix west at the shard'}
+Q-496: book it at 6 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-497: what's the availability on 17 oct 2019 for just for 10
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '17 oct', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'date'= '17 oct'}
+Q-498: i need a reservation at this place at 7:00 pm in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-499: find me a table here for 18:45
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-500: can i book on 9 jul 2019 at 1:00 pm in the afternoon for 12 persons
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '13:00', 'date': '9 jul', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'time'= '16:30', 'date'= '9 jul'}
+Q-501: i'm interested in hutong at the shard
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'hutong at the shard'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'hutong at the shard'}
+Q-502: which are asian
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'asian'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'asian'}
+Q-503: i'm interested in manchester
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'manchester'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'manchester'}
+Q-504: book me this restaurant at 6:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-505: what's the avaiability on 20 aug 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '20 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '20 aug'}
+Q-506: is it available for 6:30 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-507: book it at 9:00 in the night
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-508: can i get a table here for 4 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-509: what about a table here at 5:30 pm time for about 5 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '17:30', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '09:00'}
+Q-510: i want liverpool
+gold path: /, [('/', '/->/city-restaurants#search', {'search by name or location': 'liverpool'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'liverpool'}
+Q-511: can they accomodate 5 people on 26 jul 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '26 jul', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'date'= '26 jul'}
+Q-512: is it available on august 21 2019 at 7:30 am time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '7:30', 'date': '21 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '19:00', 'date'= '12 sep'}
+Q-513: i want to reserve for 8:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-514: can you reserve on 8 jul 2019 for the 8 of us
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 jul', 'number of people': 'for 8'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 10', 'date'= '8 jul'}
+Q-515: which are chinese
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#cuisine', {'cuisine': 'chinese'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'chinese'}
+Q-516: can i book on november 13 2019 at 8:30 in the evening for the 5 of us
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '20:30', 'date': '13 nov', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '18:30', 'date'= '26 nov'}
+Q-517: i want a table here for 5:30 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-518: book me this restaurant at 18:15
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:30'}
+Q-519: confirm my table for 16:45
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:45'}
+Q-520: what about a table here at 21:30 for just for 5
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '21:30', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '21:30'}
+Q-521: can they accomodate 10 people on november 20 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '20 nov', 'number of people': 'for 10'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 8', 'date'= '20 nov'}
+Q-522: reserve this one and give brian taylor as contact person
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'brian', 'last name': 'taylor'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'last name'= 'taylor', 'first name'= 'brian'}
+Q-523: what's the availability on 18 sep 2019 for the 7 of us
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '18 sep', 'number of people': 'for 7'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '18 sep'}
+Q-524: what's the availability on 24 oct 2019 for the 12 of us
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '24 oct', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '24 oct'}
+Q-525: anything free at 2:30 am in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '2:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '02:00'}
+Q-526: is it available on december 18 2019 at 9:30 pm in the night
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '21:30', 'date': '18 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '09:00', 'date'= '26 nov'}
+Q-527: can they accomodate 5 persons on 11 oct 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '11 oct', 'number of people': 'for 5'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'date'= '11 oct'}
+Q-528: anything free at 11:30 night time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '23:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30'}
+Q-529: is it available for 4:00 afternoon time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-530: can i get a table here for 3:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-531: is it available on 19 aug 2019 at 7:30 evening time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '19:30', 'date': '19 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '19:00', 'date'= '19 sep'}
+Q-532: place the reservation for 8:00 evening time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-533: i would like for you to make this reservation for me for 3 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-534: can i book on 31 jul 2019 at 10:30 pm time for the 4 of us
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '22:30', 'date': '31 jul', 'number of people': 'for 4'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 4', 'time'= '13:00', 'date'= '31 jul'}
+Q-535: finalize the reservation for 8:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-536: avaiability for 6 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-537: anything free at 12:00 in the night
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '0:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '16:30'}
+Q-538: can they accomodate me and 2 sons on 26 sep 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '26 sep', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 7', 'date'= '26 sep'}
+Q-539: get a table here for 6:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-540: i need a reservation at this place at 4:00 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-541: is it available for 4:45 in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-542: do have availability for 11 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 11'}
+Q-543: find me a table here for 9:00 night time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-544: can they accomodate 6 persons on november 27 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '27 nov', 'number of people': 'for 6'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'date'= '27 nov'}
+Q-545: i would like for you to make this reservation for me for 17:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-546: how booked it is on 6 dec 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '6 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '12 jul'}
+Q-547: do have availability for just 2
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'number of people': 'for 2'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 2'}
+Q-548: how booked it is on 22 aug 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '22 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '3 jul'}
+Q-549: can you reserve on 8 aug 2019 for just 1
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '8 aug', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'date'= '8 aug'}
+Q-550: i want to reserve for 5:00 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '17:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:00'}
+Q-551: is it available on december 27 2019 at 2:30 am time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '2:30', 'date': '27 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '03:00', 'date'= '25 sep'}
+Q-552: what's the avaiability on september 30 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '30 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '7 nov'}
+Q-553: i want to reserve for 15:30
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+Q-554: more details on jamies st mary at hill
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'jamies st mary at hill'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'}
+Q-555: find me a table here for 4:45 pm in the afternoon
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '16:45'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-556: reserve for tom smith and specify joseph_234@outlook.com as email and 7741234567 as phone contact number
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'email': 'joseph_234@outlook.com', 'first name': 'tom', 'last name': 'smith', 'phone number': '7741234567'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'phone number'= '7741234567', 'email'= 'joseph_234@outlook.com', 'last name'= 'smith', 'first name'= 'tom'}
+Q-557: i would like for you to make this reservation for me for 6:15 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:15'}
+Q-558: what's the avaiability on 3 sep 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '3 sep'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '3 sep'}
+Q-559: is it available on 30 oct 2019 at 4:30 afternoon time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '16:30', 'date': '30 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '19:00', 'date'= '3 oct'}
+Q-560: anything free at 5:00 evening time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '17:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '09:00'}
+Q-561: is it available on 23 dec 2019 at 7:30 evening time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '19:30', 'date': '23 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '19:00', 'date'= '23 dec'}
+Q-562: can i book on july 31 2019 at 9:30 morning time for about 6 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '9:30', 'date': '31 jul', 'number of people': 'for 6'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'time'= '09:00', 'date'= '31 jul'}
+Q-563: what about a table here at 3:00 pm in the afternoon for 1
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '15:00', 'number of people': 'for 1'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 12', 'time'= '14:00'}
+Q-564: is it available on 7 aug 2019 at 12 am time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '12:00', 'date': '7 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '13:00', 'date'= '7 aug'}
+Q-565: anything free at 3:30 pm time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '15:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '00:30'}
+Q-566: anything free at 5:30 morning time
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '5:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '07:00'}
+Q-567: can i book on september 13 2019 at 2:30 am time for a party of 3 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '2:30', 'date': '13 sep', 'number of people': 'for 3'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 3', 'time'= '03:00', 'date'= '26 dec'}
+Q-568: i want to reserve for 7:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '19:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '19:00'}
+Q-569: reserve this one and give mark miller as contact person
+gold path: Reservation form, [('Reservation form', 'Reservation form->Reservation confirmation#continue reservation', {'first name': 'mark', 'last name': 'miller'})]
+Pred PATH: Reservation form,Reservation form->Reservation confirmation#continue reservation{'last name'= 'miller', 'first name'= 'mark'}
+Q-570: only south east london options
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->/search-listings/#location', {'location': 'south east london'})]
+Pred PATH: /search-listings/,/search-listings/->/search-listings/#cuisine{'cuisine'= 'chinese'}
+Q-571: complete the reservation for 20:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '20:00'}
+Q-572: can you reserve on october 29 2019 for about 11 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '29 oct', 'number of people': 'for 11'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 11', 'date'= '3 oct'}
+Q-573: list restaurants in cambridge
+gold path: /, [('/', '/->/city-restaurants#uk cities', {'uk cities': 'cambridge'})]
+Pred PATH: /,/->/city-restaurants#uk cities{'uk cities'= 'cambridge'}
+Q-574: anything free at 4 in the afternoon
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '16:00'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '04:00'}
+Q-575: is it available on august 26 2019 at 7 in the evening
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '19:00', 'date': '26 aug'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '19:00', 'date'= '26 jul'}
+Q-576: anything free at 6:30 in the evening
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '18:30'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '12:30'}
+Q-577: some more information on jamies st mary at hill
+gold path: /search-listings/, [('/search-listings/', '/search-listings/->Restaurant#restaurant name', {'restaurant name': 'jamies st mary at hill'})]
+Pred PATH: /search-listings/,/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'}
+Q-578: make a reservation for this for 3 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-579: can you reserve on november 14 2019 for 12 guests
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '14 nov', 'number of people': 'for 12'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 6', 'date'= '14 nov'}
+Q-580: make a reservation for this for 3:00 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:00'}
+Q-581: book me this restaurant at 9 o'clock
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '21:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '17:30'}
+Q-582: what's the avaiability on december 25 2019
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '25 dec'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'date'= '25 sep'}
+Q-583: is it available on 29 oct 2019 at 1:30 am in the morning
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'time': '1:30', 'date': '29 oct'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'time'= '18:30', 'date'= '7 oct'}
+Q-584: can you reserve on 19 aug 2019 for a party of 2 people
+gold path: Restaurant, [('Restaurant', 'Restaurant->Restaurant availability#find table', {'date': '19 aug', 'number of people': 'for 2'})]
+Pred PATH: Restaurant,Restaurant->Restaurant availability#find table{'number of people'= 'for 2', 'date'= '19 sep'}
+Q-585: can i get a table here for 8:15 in the evening
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '20:15'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '16:30'}
+Q-586: i would like for you to make this reservation for me for 18:00
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '18:00'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '18:00'}
+Q-587: book me this restaurant at 3:30 pm time
+gold path: Restaurant availability, [('Restaurant availability', 'Restaurant availability->Reservation form#booking time', {'booking time': '15:30'})]
+Pred PATH: Restaurant availability,Restaurant availability->Reservation form#booking time{'booking time'= '15:30'}
+
+ ======== 
+Overall act accuracy: 0.9540034071550255
+Overall parameter Prec: 0.41950596252129474
+Overall parameter rec: 0.411839863713799
+Overall parameter F1: 0.41563756737509433
+parameter EMA: 0.3185689948892675
+PA-100: 0.3390119250425894

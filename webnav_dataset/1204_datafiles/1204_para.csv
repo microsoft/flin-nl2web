@@ -1,0 +1,176 @@
+/->/search-listings/#search,restaurant name or location,ask italian edinburgh,OPEN
+/->/search-listings/#search,restaurant name or location,covent garden,OPEN
+/->/search-listings/#search,restaurant name or location,the tower restaurant,OPEN
+/->/search-listings/#search,restaurant name or location,west london,OPEN
+/->/search-listings/#search,restaurant name or location,bristol,OPEN
+/->/search-listings/#search,restaurant name or location,liverpool,OPEN
+/->/search-listings/#search,restaurant name or location,osteria romana,OPEN
+/->/search-listings/#search,restaurant name or location,frankie & benny's omni centre,OPEN
+/->/search-listings/#search,restaurant name or location,heliot steak house at hippodrome casino,OPEN
+/->/search-listings/#search,restaurant name or location,edinburgh,OPEN
+/->/search-listings/#search,restaurant name or location,the romney at mote house,OPEN
+/city-restaurants->/search-listings/#city area,city area,restaurants near me,CLOSED
+/city-restaurants->/search-listings/#city area,city area,edinburgh old town,CLOSED
+/city-restaurants->/search-listings/#city area,city area,covent garden,CLOSED
+/city-restaurants->/search-listings/#city area,city area,london bridge,CLOSED
+/city-restaurants->/search-listings/#city area,city area,leith,CLOSED
+/city-restaurants->/search-listings/#city area,city area,edinburgh city center,CLOSED
+/city-restaurants->/search-listings/#city area,city area,soho,CLOSED
+/city-restaurants->/search-listings/#city area,city area,edinburgh new town,CLOSED
+/->/city-restaurants#uk cities,uk cities,london,CLOSED
+/->/city-restaurants#uk cities,uk cities,cambridge,CLOSED
+/->/city-restaurants#uk cities,uk cities,bristol,CLOSED
+/->/city-restaurants#uk cities,uk cities,leeds,CLOSED
+/->/city-restaurants#uk cities,uk cities,liverpool,CLOSED
+/->/city-restaurants#uk cities,uk cities,manchester,CLOSED
+/->/city-restaurants#uk cities,uk cities,birmingham,CLOSED
+/->/city-restaurants#uk cities,uk cities,glasgow,CLOSED
+/->/city-restaurants#uk cities,uk cities,edinburgh,CLOSED
+/->/city-restaurants#search,search by name or location,edinburgh,OPEN
+/->/city-restaurants#search,search by name or location,manchester,OPEN
+/->/city-restaurants#search,search by name or location,oblix west at the shard,OPEN
+/->/city-restaurants#search,search by name or location,liverpool,OPEN
+/->/city-restaurants#search,search by name or location,the real greek bankside,OPEN
+/->/city-restaurants#search,search by name or location,london,OPEN
+/search-listings/->Restaurant#restaurant name,restaurant name,mber,CLOSED
+/search-listings/->Restaurant#restaurant name,restaurant name,aqua shard,CLOSED
+/search-listings/->Restaurant#restaurant name,restaurant name,hutong at the shard,CLOSED
+/search-listings/->Restaurant#restaurant name,restaurant name,oblix west at the shard,CLOSED
+/search-listings/->Restaurant#restaurant name,restaurant name,jamies st mary at hill,CLOSED
+/search-listings/->Restaurant#restaurant name,restaurant name,the real greek bankside,CLOSED
+/search-listings/->Restaurant#restaurant name,restaurant name,oblix east at the shard,CLOSED
+/search-listings/->/search-listings/#location,location,bank & st. paul's,CLOSED
+/search-listings/->/search-listings/#location,location,city of london,CLOSED
+/search-listings/->/search-listings/#location,location,london bridge,CLOSED
+/search-listings/->/search-listings/#location,location,borough,CLOSED
+/search-listings/->/search-listings/#location,location,the shard,CLOSED
+/search-listings/->/search-listings/#location,location,south east london,CLOSED
+/search-listings/->/search-listings/#location,location,south bank,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,afternoon tea,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,european,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,italian,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,french,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,vegan,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,burger,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,vegetarian,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,steaks & grills,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,chinese,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,pizza,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,british,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,asian,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,gourmet,CLOSED
+/search-listings/->/search-listings/#cuisine,cuisine,greek,CLOSED
+/search-listings/->/search-listings/#show restaurants with offer,show restaurants with offer,TRUE,CLOSED
+/search-listings/->/search-listings/#show restaurants with offer,show restaurants with offer,FALSE,CLOSED
+Restaurant->Restaurant#location,location,location,CLOSED
+Restaurant->Restaurant#menu,menu,menu,CLOSED
+Restaurant->Restaurant#reviews,reviews,reviews,CLOSED
+Restaurant->Restaurant availability#find table,date,24-Oct,CLOSED
+Restaurant->Restaurant availability#find table,date,27-Nov,CLOSED
+Restaurant->Restaurant availability#find table,date,7-Nov,CLOSED
+Restaurant->Restaurant availability#find table,date,18-Dec,CLOSED
+Restaurant->Restaurant availability#find table,date,2-Jul,CLOSED
+Restaurant->Restaurant availability#find table,date,26-Jul,CLOSED
+Restaurant->Restaurant availability#find table,date,29-Aug,CLOSED
+Restaurant->Restaurant availability#find table,date,23-Sep,CLOSED
+Restaurant->Restaurant availability#find table,date,19-Nov,CLOSED
+Restaurant->Restaurant availability#find table,date,15-Oct,CLOSED
+Restaurant->Restaurant availability#find table,date,16-Jul,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 1,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 2,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 3,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 4,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 5,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 6,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 7,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 8,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 9,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 10,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 11,CLOSED
+Restaurant->Restaurant availability#find table,number of people,for 12,CLOSED
+Restaurant->Restaurant availability#find table,time,1:30,CLOSED
+Restaurant->Restaurant availability#find table,time,1:00,CLOSED
+Restaurant->Restaurant availability#find table,time,2:30,CLOSED
+Restaurant->Restaurant availability#find table,time,2:00,CLOSED
+Restaurant->Restaurant availability#find table,time,3:30,CLOSED
+Restaurant->Restaurant availability#find table,time,3:00,CLOSED
+Restaurant->Restaurant availability#find table,time,4:30,CLOSED
+Restaurant->Restaurant availability#find table,time,4:00,CLOSED
+Restaurant->Restaurant availability#find table,time,5:30,CLOSED
+Restaurant->Restaurant availability#find table,time,5:00,CLOSED
+Restaurant->Restaurant availability#find table,time,6:30,CLOSED
+Restaurant->Restaurant availability#find table,time,6:00,CLOSED
+Restaurant->Restaurant availability#find table,time,7:30,CLOSED
+Restaurant->Restaurant availability#find table,time,7:00,CLOSED
+Restaurant->Restaurant availability#find table,time,8:30,CLOSED
+Restaurant->Restaurant availability#find table,time,8:00,CLOSED
+Restaurant->Restaurant availability#find table,time,9:30,CLOSED
+Restaurant->Restaurant availability#find table,time,9:00,CLOSED
+Restaurant->Restaurant availability#find table,time,10:30,CLOSED
+Restaurant->Restaurant availability#find table,time,10:00,CLOSED
+Restaurant->Restaurant availability#find table,time,11:30,CLOSED
+Restaurant->Restaurant availability#find table,time,11:00,CLOSED
+Restaurant->Restaurant availability#find table,time,12:30,CLOSED
+Restaurant->Restaurant availability#find table,time,12:00,CLOSED
+Restaurant->Restaurant availability#find table,time,13:30,CLOSED
+Restaurant->Restaurant availability#find table,time,13:00,CLOSED
+Restaurant->Restaurant availability#find table,time,14:30,CLOSED
+Restaurant->Restaurant availability#find table,time,14:00,CLOSED
+Restaurant->Restaurant availability#find table,time,15:30,CLOSED
+Restaurant->Restaurant availability#find table,time,15:00,CLOSED
+Restaurant->Restaurant availability#find table,time,16:30,CLOSED
+Restaurant->Restaurant availability#find table,time,16:00,CLOSED
+Restaurant->Restaurant availability#find table,time,17:30,CLOSED
+Restaurant->Restaurant availability#find table,time,17:00,CLOSED
+Restaurant->Restaurant availability#find table,time,18:30,CLOSED
+Restaurant->Restaurant availability#find table,time,18:00,CLOSED
+Restaurant->Restaurant availability#find table,time,19:30,CLOSED
+Restaurant->Restaurant availability#find table,time,19:00,CLOSED
+Restaurant->Restaurant availability#find table,time,20:30,CLOSED
+Restaurant->Restaurant availability#find table,time,20:00,CLOSED
+Restaurant->Restaurant availability#find table,time,21:30,CLOSED
+Restaurant->Restaurant availability#find table,time,21:00,CLOSED
+Restaurant->Restaurant availability#find table,time,22:30,CLOSED
+Restaurant->Restaurant availability#find table,time,22:00,CLOSED
+Restaurant->Restaurant availability#find table,time,23:30,CLOSED
+Restaurant->Restaurant availability#find table,time,23:00,CLOSED
+Restaurant->Restaurant availability#find table,time,0:30,CLOSED
+Restaurant->Restaurant availability#find table,time,0:00,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,15:30,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,15:00,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,16:30,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,16:00,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,16:45,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,17:30,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,17:00,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,18:30,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,18:00,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,18:15,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,18:45,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,19:30,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,19:00,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,20:30,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,20:00,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,20:15,CLOSED
+Restaurant availability->Reservation form#booking time,booking time,21:00,CLOSED
+Reservation form->Reservation confirmation#continue reservation,last name,miller,OPEN
+Reservation form->Reservation confirmation#continue reservation,last name,fanet,OPEN
+Reservation form->Reservation confirmation#continue reservation,last name,smith,OPEN
+Reservation form->Reservation confirmation#continue reservation,last name,taylor,OPEN
+Reservation form->Reservation confirmation#continue reservation,last name,johnson,OPEN
+Reservation form->Reservation confirmation#continue reservation,email,joseph_234@outlook.com,OPEN
+Reservation form->Reservation confirmation#continue reservation,email,tom.fanet@gmail.com,OPEN
+Reservation form->Reservation confirmation#continue reservation,email,bsmith@hotmail.com,OPEN
+Reservation form->Reservation confirmation#continue reservation,email,david123@gmail.com,OPEN
+Reservation form->Reservation confirmation#continue reservation,email,mark_taylor@outlook.com,OPEN
+Reservation form->Reservation confirmation#continue reservation,phone number,4401233624,OPEN
+Reservation form->Reservation confirmation#continue reservation,phone number,7741234567,OPEN
+Reservation form->Reservation confirmation#continue reservation,phone number,3124569876,OPEN
+Reservation form->Reservation confirmation#continue reservation,phone number,3122345786,OPEN
+Reservation form->Reservation confirmation#continue reservation,first name,david,OPEN
+Reservation form->Reservation confirmation#continue reservation,first name,tom,OPEN
+Reservation form->Reservation confirmation#continue reservation,first name,brian,OPEN
+Reservation form->Reservation confirmation#continue reservation,first name,joseph,OPEN
+Reservation form->Reservation confirmation#continue reservation,first name,eric,OPEN
+Reservation form->Reservation confirmation#continue reservation,first name,mark,OPEN
+Reservation form->Reservation confirmation#continue reservation,first name,james,OPEN

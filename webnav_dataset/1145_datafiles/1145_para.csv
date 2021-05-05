@@ -1,0 +1,208 @@
+Checkout options->Checkout-contact-information#check out as guest,check out as guest,check out as guest,CLOSED
+Checkout options->Checkout-contact-information#check out as guest,check out as guest,sign in to check out,CLOSED
+Checkout-contact-information->Checkout-contact-information#remove item,remove item,remove,CLOSED
+Checkout-contact-information->Checkout-contact-information#change quantity,change quantity,1,CLOSED
+Checkout-contact-information->Checkout-contact-information#change quantity,change quantity,2,CLOSED
+Checkout-contact-information->Checkout-contact-information#change quantity,change quantity,3,CLOSED
+Checkout-contact-information->Checkout-contact-information#change quantity,change quantity,4,CLOSED
+Checkout-contact-information->Checkout-contact-information#change quantity,change quantity,5,CLOSED
+Checkout-contact-information->Checkout-contact-information#change quantity,change quantity,6,CLOSED
+Checkout-contact-information->Checkout-contact-information#change delivery type,change delivery type,deliver at home address,CLOSED
+Checkout-contact-information->Checkout-contact-information#change delivery type,change delivery type,pick up in store,CLOSED
+Add to cart confirmation->Checkout options#checkout,checkout,go to cart,CLOSED
+Add to cart confirmation->Checkout options#checkout,checkout,checkout 3 items,CLOSED
+/search-results->/search-results#filter by country of manufacture,filter by country of manufacture,indonesia,CLOSED
+/search-results->/search-results#filter by country of manufacture,filter by country of manufacture,spain,CLOSED
+/search-results->/search-results#filter by country of manufacture,filter by country of manufacture,italy,CLOSED
+/search-results->/search-results#filter by country of manufacture,filter by country of manufacture,india,CLOSED
+/search-results->/search-results#filter by country of manufacture,filter by country of manufacture,usa,CLOSED
+/search-results->/search-results#filter by country of manufacture,filter by country of manufacture,china,CLOSED
+/search-results->/search-results#filter by maximum price,filter by maximum price,300$,CLOSED
+/search-results->/search-results#filter by maximum price,filter by maximum price,200$,CLOSED
+/search-results->/search-results#filter by maximum price,filter by maximum price,50$,CLOSED
+/search-results->/search-results#filter by maximum price,filter by maximum price,100$,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,champion,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,bench urbanwear,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,greg norman,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,original penguin,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,the north face,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,columbia,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,brooks brothers,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,puma,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,adidas,CLOSED
+/search-results->/search-results#filter by brand,filter by brand,nautica,CLOSED
+/search-results->/search-results#filter by style,filter by style,color,CLOSED
+/search-results->/search-results#filter by style,filter by style,puffer,CLOSED
+/search-results->/search-results#filter by style,filter by style,rain jacket,CLOSED
+/search-results->/search-results#filter by style,filter by style,zip up,CLOSED
+/search-results->/search-results#filter by style,filter by style,coat weight,CLOSED
+/search-results->/search-results#filter by style,filter by style,fleece,CLOSED
+/search-results->/search-results#sort,sort,price: high to low,CLOSED
+/search-results->/search-results#sort,sort,price: low to high,CLOSED
+/search-results->/search-results#sort,sort,customers' top rated,CLOSED
+/search-results->/search-results#sort,sort,new arrivals,CLOSED
+/search-results->/search-results#filter by minimum price,filter by minimum price,20$,CLOSED
+/search-results->/search-results#filter by minimum price,filter by minimum price,50$,CLOSED
+/search-results->/search-results#filter by minimum price,filter by minimum price,100$,CLOSED
+/search-results->/search-results#filter by minimum price,filter by minimum price,30$,CLOSED
+/search-results->/search-results#filter by color,filter by color,beige,CLOSED
+/search-results->/search-results#filter by color,filter by color,brown,CLOSED
+/search-results->/search-results#filter by color,filter by color,black,CLOSED
+/search-results->/search-results#filter by color,filter by color,green,CLOSED
+/search-results->/search-results#filter by color,filter by color,gray,CLOSED
+/search-results->/search-results#filter by color,filter by color,blue,CLOSED
+/search-results->/search-results#filter by upper material,filter by upper material,wool blend,CLOSED
+/search-results->/search-results#filter by upper material,filter by upper material,cotton,CLOSED
+/search-results->/search-results#filter by size,filter by size,6.5,CLOSED
+/search-results->/search-results#filter by size,filter by size,7,CLOSED
+/search-results->/search-results#filter by size,filter by size,7.5,CLOSED
+/search-results->/search-results#filter by size,filter by size,8,CLOSED
+/search-results->/search-results#filter by size,filter by size,8.5,CLOSED
+/search-results->/search-results#filter by size,filter by size,9,CLOSED
+/search-results->/search-results#filter by size,filter by size,9.5,CLOSED
+/search-results->/search-results#filter by size,filter by size,10,CLOSED
+/search-results->/search-results#filter by size,filter by size,l,CLOSED
+/search-results->/search-results#filter by size,filter by size,m,CLOSED
+/search-results->/search-results#filter by size,filter by size,s,CLOSED
+/search-results->/search-results#filter by size,filter by size,xl,CLOSED
+/search-results->/search-results#filter by size,filter by size,xs,CLOSED
+/search-results->/search-results#filter by condition,filter by condition,used,CLOSED
+/search-results->/search-results#filter by condition,filter by condition,unused,CLOSED
+/search-results->/search-results#filter by condition,filter by condition,new,CLOSED
+/search-results->/search-results#filter by condition,filter by condition,refurvished,CLOSED
+/search-results->/search-results#filter by item location,filter by item location,boston,CLOSED
+/search-results->/search-results#filter by item location,filter by item location,new york,CLOSED
+/search-results->/search-results#filter by item location,filter by item location,chicago,CLOSED
+/search-results->/search-results#filter by item location,filter by item location,seattle,CLOSED
+/search-results->/search-results#filter by item location,filter by item location,london,CLOSED
+/product->Checkout options#buy it now,buy it now,buy it now,CLOSED
+/product->Checkout options#buy it now,buy it now,make offer,CLOSED
+/->Cart#view cart,view cart,view cart,CLOSED
+Cart->Checkout options#go to checkout,go to checkout,go to checkout,CLOSED
+Checkout-payment->Confirmation/error#done,security code,334,OPEN
+Checkout-payment->Confirmation/error#done,security code,567,OPEN
+Checkout-payment->Confirmation/error#done,security code,677,OPEN
+Checkout-payment->Confirmation/error#done,security code,123,OPEN
+Checkout-payment->Confirmation/error#done,credit card type,visa,CLOSED
+Checkout-payment->Confirmation/error#done,credit card type,mastercard,CLOSED
+Checkout-payment->Confirmation/error#done,credit card type,gift card,CLOSED
+Checkout-payment->Confirmation/error#done,credit card type,american express,CLOSED
+Checkout-payment->Confirmation/error#done,expiration date,21-Jun,OPEN
+Checkout-payment->Confirmation/error#done,expiration date,22-Jul,OPEN
+Checkout-payment->Confirmation/error#done,expiration date,24-Mar,OPEN
+Checkout-payment->Confirmation/error#done,expiration date,22-May,OPEN
+Checkout-payment->Confirmation/error#done,expiration date,24-Aug,OPEN
+Checkout-payment->Confirmation/error#done,card number,1234120000000000,OPEN
+Checkout-payment->Confirmation/error#done,card number,2345680000000000,OPEN
+Checkout-payment->Confirmation/error#done,card number,3456770000000000,OPEN
+Checkout-payment->Confirmation/error#done,card number,3125660000000000,OPEN
+/product->Add to cart confirmation#add to cart,change quantity,1,CLOSED
+/product->Add to cart confirmation#add to cart,change quantity,2,CLOSED
+/product->Add to cart confirmation#add to cart,change quantity,3,CLOSED
+/product->Add to cart confirmation#add to cart,change quantity,4,CLOSED
+/product->Add to cart confirmation#add to cart,change quantity,5,CLOSED
+/product->Add to cart confirmation#add to cart,change quantity,6,CLOSED
+/product->Add to cart confirmation#add to cart,select size,s,CLOSED
+/product->Add to cart confirmation#add to cart,select size,m,CLOSED
+/product->Add to cart confirmation#add to cart,select size,l,CLOSED
+/product->Add to cart confirmation#add to cart,select size,xxl,CLOSED
+/product->Add to cart confirmation#add to cart,select size,xs,CLOSED
+/product->Add to cart confirmation#add to cart,select color,bue,CLOSED
+/product->Add to cart confirmation#add to cart,select color,yellow,CLOSED
+/product->Add to cart confirmation#add to cart,select color,black,CLOSED
+/product->Add to cart confirmation#add to cart,select color,red,CLOSED
+/product->Add to cart confirmation#add to cart,select color,green,CLOSED
+/->/search-results#search,category,books,CLOSED
+/->/search-results#search,category,dvds & movies,CLOSED
+/->/search-results#search,category,collectibles,CLOSED
+/->/search-results#search,category,dolls & bears,CLOSED
+/->/search-results#search,category,computers/tablets & networking,CLOSED
+/->/search-results#search,category,antiques,CLOSED
+/->/search-results#search,category,cameras & photo,CLOSED
+/->/search-results#search,category,gift cards & coupons,CLOSED
+/->/search-results#search,category,crafts,CLOSED
+/->/search-results#search,category,coins & paper money,CLOSED
+/->/search-results#search,category,baby,CLOSED
+/->/search-results#search,category,art,CLOSED
+/->/search-results#search,category,clothing shoes & accessories,CLOSED
+/->/search-results#search,category,ebay motors,CLOSED
+/->/search-results#search,category,entertainment memorabilia,CLOSED
+/->/search-results#search,category,consumer electronics,CLOSED
+/->/search-results#search,category,cell phones & accessories,CLOSED
+/->/search-results#search,category,business & industrial,CLOSED
+/->/search-results#search,enter your search keyword,monitor,OPEN
+/->/search-results#search,enter your search keyword,keyboard,OPEN
+/->/search-results#search,enter your search keyword,kayak,OPEN
+/->/search-results#search,enter your search keyword,boots,OPEN
+/->/search-results#search,enter your search keyword,portable air conditioner,OPEN
+/->/search-results#search,enter your search keyword,hd tv,OPEN
+/->/search-results#search,enter your search keyword,sound system,OPEN
+/search-results->/product#select product,select product,timberland men's long sleeve crew waffle shirt,CLOSED
+/search-results->/product#select product,select product,adidas men's flyloft insulated black/utility black winter jacket,CLOSED
+/search-results->/product#select product,select product,durango crush womens black chelsea booties size 9 leather boots,CLOSED
+/search-results->/product#select product,select product,pikolinos boots black leather pikolinos bayona,CLOSED
+/search-results->/product#select product,select product,mens m mountain hardwear super chockstone full zip softshell jacket,CLOSED
+/search-results->/product#select product,select product,timberland men's long sleeve crew neck waffle henley shirt,CLOSED
+/search-results->/product#select product,select product,marc fisher womens zimra leather round toe knee high dress boots,CLOSED
+/search-results->/product#select product,select product,mens m mountain hardwear super chockstone hooded softshell jacket,CLOSED
+/search-results->/product#select product,select product,vince camuto womens fenyia suede block heel booties ankle boots,CLOSED
+/search-results->/product#select product,select product,vince camuto ezabelle leath mid calf cone heel boots,CLOSED
+/search-results->/product#select product,select product,men's marmot lightweight accelerator 1/2 zip long sleeve,CLOSED
+/search-results->/product#select product,select product,new ocean kayak,CLOSED
+/search-results->/product#select product,select product,nib women's harley davidson black distressed lifestyle motorcycle boots,CLOSED
+/search-results->/product#select product,select product,coach women's alexis camel leather side zip ankle boots,CLOSED
+/search-results->/product#select product,select product,stuart weitzman women's viale,CLOSED
+/search-results->/product#select product,select product,vintage north face mens sz m 600 down packable hiking travel puffer coat jacket,CLOSED
+/search-results->/product#select product,select product,timberland women's premium 6 boots limited holiday edition,CLOSED
+/search-results->/product#select product,select product,nwt mens columbia s m l xl lmtd ibex coaches waterproof jacket,CLOSED
+/search-results->/product#select product,select product,mountain hardwear mhw womens medium black full zip hooded urbanite jacket,CLOSED
+/search-results->/product#select product,select product,cat caterpillar bemuse wedge boots,CLOSED
+Checkout-contact-information->Checkout-payment#done,phone number required,425 452 1145,OPEN
+Checkout-contact-information->Checkout-payment#done,phone number required,312 654 2345,OPEN
+Checkout-contact-information->Checkout-payment#done,phone number required,312 776 5467,OPEN
+Checkout-contact-information->Checkout-payment#done,street address,1933 1st ave,OPEN
+Checkout-contact-information->Checkout-payment#done,street address,2345 s oakley blvd,OPEN
+Checkout-contact-information->Checkout-payment#done,street address,3825 140th ave ne,OPEN
+Checkout-contact-information->Checkout-payment#done,street address,1203 n morgan st,OPEN
+Checkout-contact-information->Checkout-payment#done,city,seatle,CLOSED
+Checkout-contact-information->Checkout-payment#done,city,new york,CLOSED
+Checkout-contact-information->Checkout-payment#done,city,chicago,CLOSED
+Checkout-contact-information->Checkout-payment#done,city,san fransisco,CLOSED
+Checkout-contact-information->Checkout-payment#done,city,london,CLOSED
+Checkout-contact-information->Checkout-payment#done,confirm email,david_10@hotmail.com,OPEN
+Checkout-contact-information->Checkout-payment#done,confirm email,mark@outlook.com,OPEN
+Checkout-contact-information->Checkout-payment#done,confirm email,bob.adams@hotmail.com,OPEN
+Checkout-contact-information->Checkout-payment#done,zip code,98101,OPEN
+Checkout-contact-information->Checkout-payment#done,zip code,70745,OPEN
+Checkout-contact-information->Checkout-payment#done,zip code,23678,OPEN
+Checkout-contact-information->Checkout-payment#done,zip code,60612,OPEN
+Checkout-contact-information->Checkout-payment#done,first name,mark,OPEN
+Checkout-contact-information->Checkout-payment#done,first name,bob,OPEN
+Checkout-contact-information->Checkout-payment#done,first name,david,OPEN
+Checkout-contact-information->Checkout-payment#done,email,david_10@hotmail.com,OPEN
+Checkout-contact-information->Checkout-payment#done,email,mark@outlook.com,OPEN
+Checkout-contact-information->Checkout-payment#done,email,bob.adams@hotmail.com,OPEN
+Checkout-contact-information->Checkout-payment#done,last name,adams,OPEN
+Checkout-contact-information->Checkout-payment#done,last name,brown,OPEN
+Checkout-contact-information->Checkout-payment#done,last name,johnson,OPEN
+Checkout-contact-information->Checkout-payment#done,last name,smith,OPEN
+Checkout-contact-information->Checkout-payment#done,state,kansas,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,delaware,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,indiana,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,arkansas,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,kentucky,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,illinois,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,district of columbia,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,alaska,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,louisiana,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,florida,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,arizona,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,select,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,hawaii,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,alabama,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,iowa,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,california,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,connecticut,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,idaho,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,colorado,CLOSED
+Checkout-contact-information->Checkout-payment#done,state,georgia,CLOSED

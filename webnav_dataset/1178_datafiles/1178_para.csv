@@ -1,0 +1,233 @@
+/shop/categories->/shop/products#sub category,sub category,jeans,CLOSED
+/shop/categories->/shop/products#sub category,sub category,t shirts,CLOSED
+/shop/categories->/shop/products#sub category,sub category,swimwear,CLOSED
+/shop/categories->/shop/products#sub category,sub category,dress shirts,CLOSED
+/shop/categories->/shop/products#sub category,sub category,hoodies & sweatshirts,CLOSED
+/shop/categories->/shop/products#sub category,sub category,coats & jackets,CLOSED
+/shop/categories->/shop/products#sub category,sub category,vests,CLOSED
+/shop/categories->/shop/products#sub category,sub category,pajamas lounge & sleepwear,CLOSED
+/shop/categories->/shop/products#sub category,sub category,big & tall,CLOSED
+/shop/categories->/shop/products#sub category,sub category,underwear & socks,CLOSED
+/shop/categories->/shop/products#sub category,sub category,all men's clothing,CLOSED
+/shop/categories->/shop/products#sub category,sub category,pants,CLOSED
+/shop/categories->/shop/products#sub category,sub category,shorts,CLOSED
+/shop/categories->/shop/products#sub category,sub category,polos,CLOSED
+/shop/categories->/shop/products#sub category,sub category,suits & tuxedos,CLOSED
+/shop/categories->/shop/products#sub category,sub category,blazers & sport coats,CLOSED
+/shop/categories->/shop/products#sub category,sub category,sweaters,CLOSED
+/shop/categories->/shop/products#sub category,sub category,activewear,CLOSED
+/shop/categories->/shop/products#sub category,sub category,shirts,CLOSED
+/->/shop/categories#category,category,plus size,CLOSED
+/->/shop/categories#category,category,holiday lane,CLOSED
+/->/shop/categories#category,category,the edit,CLOSED
+/->/shop/categories#category,category,women,CLOSED
+/->/shop/categories#category,category,home,CLOSED
+/->/shop/categories#category,category,shoes,CLOSED
+/->/shop/categories#category,category,bed & bath,CLOSED
+/->/shop/categories#category,category,juniors,CLOSED
+/->/shop/categories#category,category,jewelry,CLOSED
+/->/shop/categories#category,category,sale & clearance,CLOSED
+/->/shop/categories#category,category,men,CLOSED
+/->/shop/categories#category,category,beauty,CLOSED
+/->/shop/categories#category,category,watches,CLOSED
+/->/shop/categories#category,category,sports fan shop,CLOSED
+/->/shop/categories#category,category,holiday gifts & toys,CLOSED
+/->/shop/categories#category,category,kids & baby,CLOSED
+/->/shop/categories#category,category,furniture,CLOSED
+/->/shop/categories#category,category,handbags & accessories,CLOSED
+/shop/products->/shop/products#filter by color,filter by color,blue,CLOSED
+/shop/products->/shop/products#filter by color,filter by color,green,CLOSED
+/shop/products->/shop/products#filter by color,filter by color,yellow,CLOSED
+/shop/products->/shop/products#filter by color,filter by color,black,CLOSED
+/shop/products->/shop/products#filter by color,filter by color,multi,CLOSED
+/shop/products->/shop/products#filter by color,filter by color,tan/beige,CLOSED
+/shop/products->/shop/products#filter by color,filter by color,gray,CLOSED
+/shop/products->/shop/products#filter by color,filter by color,red,CLOSED
+/shop/products->/shop/products#filter by color,filter by color,brown,CLOSED
+/shop/products->/shop/products#filter by price,filter by price,$40 to $50,CLOSED
+/shop/products->/shop/products#filter by price,filter by price,$20 to $30,CLOSED
+/shop/products->/shop/products#filter by price,filter by price,$30 to $40,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,color,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,coat weight,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,vest,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,quilted,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,zip up,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,bomber,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,rain jacket,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,fleece,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,active,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,anorak,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,blazer,CLOSED
+/shop/products->/shop/products#filter by style,filter by style,puffer,CLOSED
+/shop/products->/shop/products#filter by size range,filter by size range,xl,CLOSED
+/shop/products->/shop/products#filter by size range,filter by size range,xs,CLOSED
+/shop/products->/shop/products#filter by size range,filter by size range,xxl,CLOSED
+/shop/products->/shop/products#filter by size range,filter by size range,m,CLOSED
+/shop/products->/shop/products#filter by size range,filter by size range,s,CLOSED
+/shop/products->/shop/products#filter by customer rating,filter by customer rating,1 star,CLOSED
+/shop/products->/shop/products#filter by customer rating,filter by customer rating,2 star,CLOSED
+/shop/products->/shop/products#filter by customer rating,filter by customer rating,3 star,CLOSED
+/shop/products->/shop/products#filter by customer rating,filter by customer rating,4 star,CLOSED
+/shop/products->/shop/products#filter by customer rating,filter by customer rating,5 star,CLOSED
+/shop/products->/shop/products#filter by fabric,filter by fabric,wool & wool blend,CLOSED
+/shop/products->/shop/products#filter by fabric,filter by fabric,cotton & cotton blend,CLOSED
+/shop/products->/shop/products#sort results,sort results,best sellers,CLOSED
+/shop/products->/shop/products#sort results,sort results,customers' top rated,CLOSED
+/shop/products->/shop/products#sort results,sort results,featured items,CLOSED
+/shop/products->/shop/products#sort results,sort results,price: low to high,CLOSED
+/shop/products->/shop/products#sort results,sort results,new arrivals,CLOSED
+/shop/products->/shop/products#sort results,sort results,price: high to low,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,columbia,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,puma,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,marc new york,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,nautica,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,levi's,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,cotton on,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,brooks brothers,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,greg norman,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,the north face,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,born fly,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,galaxy by harvic,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,nike,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,jgv apparel,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,avirex,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,disney,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,bench urbanwear,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,lacoste,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,champion,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,adidas,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,club room,CLOSED
+/shop/products->/shop/products#filter by brand,filter by brand,original penguin,CLOSED
+/shop/products->/shop/products#filter by discount range,filter by discount range,30% off & more,CLOSED
+/shop/products->/shop/products#filter by discount range,filter by discount range,20% off & more,CLOSED
+/shop/products->/shop/products#filter by discount range,filter by discount range,40% off & more,CLOSED
+/shop/products->/shop/products#filter by gender,filter by gender,unisex,CLOSED
+/shop/products->/shop/products#filter by gender,filter by gender,women,CLOSED
+/shop/products->/shop/products#filter by gender,filter by gender,men,CLOSED
+/my-bag->/my-bag#remove item,remove item,remove,CLOSED
+/my-bag->/my-bag#update quantity,update quantity,1,CLOSED
+/my-bag->/my-bag#update quantity,update quantity,2,CLOSED
+/my-bag->/my-bag#update quantity,update quantity,3,CLOSED
+/my-bag->/my-bag#update quantity,update quantity,4,CLOSED
+/my-bag->/my-bag#update quantity,update quantity,5,CLOSED
+/my-bag->/my-bag#update quantity,update quantity,6,CLOSED
+/checkout/complete->shipping confirmation or error#place order,place order,place order,CLOSED
+/checkout/payment->/checkout/complete#continue,credit card type,discover,CLOSED
+/checkout/payment->/checkout/complete#continue,credit card type,visa,CLOSED
+/checkout/payment->/checkout/complete#continue,credit card type,employee card,CLOSED
+/checkout/payment->/checkout/complete#continue,credit card type,mastercard,CLOSED
+/checkout/payment->/checkout/complete#continue,credit card type,macy's,CLOSED
+/checkout/payment->/checkout/complete#continue,credit card type,american express,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2020,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2026,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2025,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2019,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2023,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2021,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2024,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2022,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2028,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration year,2027,CLOSED
+/checkout/payment->/checkout/complete#continue,billing email address,mark12@gmail.com,OPEN
+/checkout/payment->/checkout/complete#continue,billing email address,marryw20@outlook.com,OPEN
+/checkout/payment->/checkout/complete#continue,billing email address,amy@gmail.com,OPEN
+/checkout/payment->/checkout/complete#continue,billing email address,david_1@outlook.com,OPEN
+/checkout/payment->/checkout/complete#continue,card expiration month,1,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,2,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,3,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,4,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,5,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,6,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,7,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,8,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,9,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,10,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,11,CLOSED
+/checkout/payment->/checkout/complete#continue,card expiration month,12,CLOSED
+/checkout/payment->/checkout/complete#continue,card number,3460000000000000,OPEN
+/checkout/payment->/checkout/complete#continue,card number,2350000000000000,OPEN
+/checkout/payment->/checkout/complete#continue,card number,1230000000000000,OPEN
+/checkout/payment->/checkout/complete#continue,card number,3130000000000000,OPEN
+/checkout/payment->/checkout/complete#continue,card security code,654,OPEN
+/checkout/payment->/checkout/complete#continue,card security code,767,OPEN
+/checkout/payment->/checkout/complete#continue,card security code,234,OPEN
+/checkout/payment->/checkout/complete#continue,card security code,111,OPEN
+/shop/cart->/my-bag#view bag and checkout,view bag and checkout,view bag and checkout,CLOSED
+/my-bag->/account/signin#proceed to checkout,proceed to checkout,proceed to checkout,CLOSED
+/account/signin->/checkout/shipping-information#checkout as guest,checkout as guest,checkout as guest,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,first name,david,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,first name,bob,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,first name,amy,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,first name,mark,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,phone number,312 654 2345,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,phone number,312 776 5467,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,phone number,425 452 1145,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,address line,1203 n morgan st,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,address line,3825 140th ave ne,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,address line,2345 s oakley blvd,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,last name,marron,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,last name,smith,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,last name,johnson,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,last name,brown,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,zip code,60612,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,zip code,70745,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,zip code,98005,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,zip code,23678,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,il,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,tx,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,md,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,ks,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,pa,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,ma,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,wa,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,nj,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,oh,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,nc,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,ny,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,va,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,az,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,mn,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,fl,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address state,ca,CLOSED
+/checkout/shipping-information->/checkout/shipping-options#continue,address city,london,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,address city,new york,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,address city,bellevue,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,address city,chicago,OPEN
+/checkout/shipping-information->/checkout/shipping-options#continue,address city,los angeles,OPEN
+/checkout/shipping-options->/checkout/payment#continue,shipping option,pick up in store,CLOSED
+/checkout/shipping-options->/checkout/payment#continue,shipping option,free shipping,CLOSED
+/checkout/shipping-options->/checkout/payment#continue,shipping option,ship in 3 business days,CLOSED
+/->/my-bag#open bag,open bag,open bag,CLOSED
+/shop/product/->/shop/cart#add to bag,quantity,1,CLOSED
+/shop/product/->/shop/cart#add to bag,quantity,2,CLOSED
+/shop/product/->/shop/cart#add to bag,quantity,6,CLOSED
+/shop/product/->/shop/cart#add to bag,quantity,5,CLOSED
+/shop/product/->/shop/cart#add to bag,quantity,3,CLOSED
+/shop/product/->/shop/cart#add to bag,quantity,4,CLOSED
+/shop/product/->/shop/cart#add to bag,size,xl,CLOSED
+/shop/product/->/shop/cart#add to bag,size,s,CLOSED
+/shop/product/->/shop/cart#add to bag,size,xxl,CLOSED
+/shop/product/->/shop/cart#add to bag,size,m,CLOSED
+/shop/product/->/shop/cart#add to bag,color,violet,CLOSED
+/shop/product/->/shop/cart#add to bag,color,blue,CLOSED
+/shop/product/->/shop/cart#add to bag,color,green,CLOSED
+/shop/product/->/shop/cart#add to bag,color,skyblue,CLOSED
+/shop/product/->/shop/cart#add to bag,color,red,CLOSED
+/shop/product/->/shop/cart#add to bag,color,brown,CLOSED
+/shop/products->/shop/product/#select product item,select product item,tommy hilfiger men's classic fit ivy polo,CLOSED
+/shop/products->/shop/product/#select product item,select product item,men's horizon waterproof low hiking shoes from eastern mountain sports,CLOSED
+/shop/products->/shop/product/#select product item,select product item,nautica men's classic fit performance deck polo,CLOSED
+/shop/products->/shop/product/#select product item,select product item,men's mount low waterproof hiking shoes from eastern mountain sports,CLOSED
+/shop/products->/shop/product/#select product item,select product item,style & co cargo capri pants in regular and petite,CLOSED
+/shop/categories->/shop/products#go,search keyword,hiking shoes,OPEN
+/shop/categories->/shop/products#go,search keyword,jacket for men,OPEN
+/shop/categories->/shop/products#go,search keyword,snow shoes,OPEN
+/shop/categories->/shop/products#go,search keyword,swimwear,OPEN
+/shop/categories->/shop/products#go,search keyword,backpacks,OPEN
+/->/shop/products#go,search keyword,jacket for men,OPEN
+/->/shop/products#go,search keyword,sweter,OPEN
+/->/shop/products#go,search keyword,t shirts,OPEN
+/->/shop/products#go,search keyword,snow shoes,OPEN
+/->/shop/products#go,search keyword,backpacks,OPEN
+/->/shop/products#go,search keyword,swimwear,OPEN
+/->/shop/products#go,search keyword,hiking boots,OPEN

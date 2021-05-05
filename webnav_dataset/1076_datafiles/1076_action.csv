@@ -1,0 +1,17 @@
+SD: /###available hotels,PL: 1,PATH: /->available hotels#find hotels[city address landmark airport hotel:children:adults:use points:check out date:special rates:rooms:check in date];
+SD: available hotels###hotel-info,PL: 1,PATH: available hotels->hotel-info#visit hotel website[];
+SD: payment###payment confirmation/error,PL: 1,PATH: payment->payment confirmation/error#book my stay[expiry year yyyy:card type:expiry month mm:credit card number];
+SD: hotel-rates###reservation form,PL: 1,PATH: hotel-rates->reservation form#select room[];
+SD: hotel-info###hotel-rates,PL: 1,PATH: hotel-info->hotel-rates#book now[age of children:accessible:adults:check out date:rooms:children:check in date];
+SD: hotel-info###hotel-info,PL: 1,PATH: hotel-info->hotel-info#photos and reviews[];
+SD: hotel-info###hotel-info,PL: 1,PATH: hotel-info->hotel-info#rooms[];
+SD: hotel-info###hotel-info,PL: 1,PATH: hotel-info->hotel-info#offers[];
+SD: hotel-info###hotel-info,PL: 1,PATH: hotel-info->hotel-info#dining[];
+SD: hotel-info###hotel-info,PL: 1,PATH: hotel-info->hotel-info#area attractions[];
+SD: hotel-info###hotel-info,PL: 1,PATH: hotel-info->hotel-info#special events[];
+SD: reservation form###payment,PL: 1,PATH: reservation form->payment#proceed to payment[email:world of hyatt or username:zip code:state:last name:country region:given first name:prefix:phone number:surname last name:password];
+SD: /###/hotels-location,PL: 1,PATH: /->/hotels-location#view hotels by location[];
+SD: available hotels###hotel-rates,PL: 1,PATH: available hotels->hotel-rates#select hotel[];
+SD: available hotels###available hotels,PL: 1,PATH: available hotels->available hotels#sort results[];
+SD: hotel-rates###hotel-rates,PL: 1,PATH: hotel-rates->hotel-rates#select rate[];
+SD: /hotels-location###available hotels,PL: 1,PATH: /hotels-location->available hotels#find hotels[adults:check out date:rooms:special rates:children:check in date];

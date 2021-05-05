@@ -1,0 +1,587 @@
+D:I, Q: what about a table here at 23:30 for 3 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '23:30'|1|'23:30'; 'number of people'= 'for 3'|1|'3 people')}
+D:I, Q: make the reservation now for 7 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7 evening time')}
+D:I, Q: can you reserve on november 26 2019 for just for me, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '26 nov'|1|'november 26  2019'; 'number of people'= 'for 1'|1|'just for me')}
+D:I, Q: make the reservation now for 7 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7 pm time')}
+D:I, Q: what about a table here at 10:30 pm time for me and 2 others, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:30'|1|'10:30 pm time'; 'number of people'= 'for 3'|1|'me and 2 others')}
+D:I, Q: is 5 in the evening still available, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5 in the evening')}
+D:I, Q: list restaurants in edinburgh new town, P1: /city-restaurants;/city-restaurants->/search-listings/#city area{'city area'= 'edinburgh new town'|1|'edinburgh new town')}
+D:I, Q: details on mber, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'|1|'mber')}
+D:I, Q: finalize the reservation for 5 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5 evening time')}
+D:I, Q: is it available on 23 dec 2019 at 2:30 pm time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '14:30'|1|'2:30 pm time'; 'date'= '23 dec'|1|'23 dec 2019')}
+D:I, Q: more info on jamies st mary at hill, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'|1|'jamies st mary at hill')}
+D:I, Q: get a table here for 4:30 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:30'|1|'4:30 afternoon time')}
+D:I, Q: can I book on october 29 2019 at 3:00 pm time for 4 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '15:00'|1|'3:00 pm time'; 'date'= '29 oct'|1|'october 29  2019'; 'number of people'= 'for 4'|1|'4 people')}
+D:I, Q: reserve for tom johnson and specify tom.fanet@gmail.com as email and 7741234567 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'tom.fanet@gmail.com'|0|'tom.fanet@gmail.com'; 'first name'= 'tom'|0|'tom'; 'last name'= 'johnson'|0|'johnson'; 'phone number'= '7741234567'|0|'7741234567')}
+D:I, Q: Is the restaurant available at 3 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 pm time')}
+D:I, Q: complete the reservation for 8:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 pm in the evening')}
+D:I, Q: is it available on december 19 2019 at 6:30 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '6:30'|1|'6:30 in the morning'; 'date'= '19 dec'|1|'december 19  2019')}
+D:I, Q: is it available on 21 oct 2019 at 6:30 am time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '6:30'|1|'6:30 am time'; 'date'= '21 oct'|1|'21 oct 2019')}
+D:I, Q: show me london, P1: /;/->/city-restaurants#search{'search by name or location'= 'london'|0|'london')}
+D:I, Q: can I get a table here for 6 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6 evening time')}
+D:I, Q: find me a table here for 16:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'16:00')}
+D:I, Q: I want a table here for 18:15, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'18:15')}
+D:I, Q: reserve it for me under mark johnson, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'mark'|0|'mark'; 'last name'= 'johnson'|0|'johnson')}
+D:I, Q: some heliot steak house at hippodrome casino places where I can go, P1: /;/->/search-listings/#search{'restaurant name or location'= 'heliot steak house at hippodrome casino'|0|'heliot steak house at hippodrome casino')}
+D:I, Q: what about a table here at 8:00 for 7 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '8:00'|1|'8:00'; 'number of people'= 'for 7'|1|'7 persons')}
+D:I, Q: find me a table here for 8:15 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 pm in the evening')}
+D:I, Q: reserve for mark smith and specify joseph_234@outlook.com as email and 7741234567 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'mark'|0|'mark'; 'last name'= 'smith'|0|'smith'; 'phone number'= '7741234567'|0|'7741234567')}
+D:I, Q: anything free at 5:30 pm time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '17:30'|1|'5:30 pm time')}
+D:I, Q: do have availability for 7 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'number of people'= 'for 7'|1|'7 people')}
+D:I, Q: is it available on november 11 2019 at 3  o'clock, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '15:00'|1|"3  o'clock"; 'date'= '11 nov'|1|'november 11  2019')}
+D:I, Q: avaiability for 18:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:30'|1|'18:30')}
+D:I, Q: can I book on 18 jul 2019 at 1:00 in the morning for a party of 4 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '1:00'|1|'1:00 in the morning'; 'date'= '18 jul'|1|'18 jul 2019'; 'number of people'= 'for 4'|1|'a party of 4 people')}
+D:I, Q: is 4:45 in the afternoon still available, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 in the afternoon')}
+D:I, Q: anything free at 10 night time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:00'|1|'10 night time')}
+D:I, Q: I want a table here for 20:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'20:30')}
+D:I, Q: is it available for 4:45 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 pm time')}
+D:I, Q: tell me more about london, P1: /;/->/city-restaurants#search{'search by name or location'= 'london'|0|'london')}
+D:I, Q: can I book on 28 oct 2019 at 10:30 in the night for 4 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:30'|1|'10:30 in the night'; 'date'= '28 oct'|1|'28 oct 2019'; 'number of people'= 'for 4'|1|'4 persons')}
+D:I, Q: book me this restaurant at 5:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5:00 pm time')}
+D:I, Q: make the reservation now for 9:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 pm time')}
+D:I, Q: is it available on 1 oct 2019 at 4 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '4:00'|1|'4 in the morning'; 'date'= '1 oct'|1|'1 oct 2019')}
+D:I, Q: places where to eat in bristol, P1: /;/->/city-restaurants#uk cities{'uk cities'= 'bristol'|1|'bristol')}
+D:I, Q: get a table here for 8:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 in the evening')}
+D:I, Q: list restaurants in edinburgh, P1: /;/->/city-restaurants#search{'search by name or location'= 'edinburgh'|0|'edinburgh')}||/->/city-restaurants#uk cities{'uk cities'= 'edinburgh'|1|'edinburgh')}
+D:I, Q: anything free at 11 pm time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '23:00'|1|'11 pm time')}
+D:I, Q: is 9 o'clock still available, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|"9 o'clock")}
+D:I, Q: reserve for brian johnson and specify david123@gmail.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'david123@gmail.com'|0|'david123@gmail.com'; 'first name'= 'brian'|0|'brian'; 'last name'= 'johnson'|0|'johnson'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: is it available on 22 aug 2019 at 1:00, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '1:00'|1|'1:00'; 'date'= '22 aug'|1|'22 aug 2019')}
+D:I, Q: how is hutong at the shard, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'hutong at the shard'|1|'hutong at the shard')}
+D:I, Q: what about a table here at 10:00 am in the morning for a party of 7 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '10:00'|1|'10:00 am in the morning'; 'number of people'= 'for 7'|1|'a party of 7 people')}
+D:I, Q: book it at 7:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:30'|1|'7:30 pm time')}
+D:I, Q: avaiability for 15:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'15:30')}
+D:I, Q: what's the avaiability on september 11 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '11 sep'|1|'september 11  2019')}
+D:I, Q: is 8 pm time still available, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8 pm time')}
+D:I, Q: can I book on november 27 2019 at 10:30 morning time for just for 4, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '10:30'|1|'10:30 morning time'; 'date'= '27 nov'|1|'november 27  2019'; 'number of people'= 'for 4'|1|'just for 4')}
+D:I, Q: can you get me a table at this one at 5:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5:00 pm in the evening')}
+D:I, Q: go to edinburgh, P1: /;/->/city-restaurants#search{'search by name or location'= 'edinburgh'|0|'edinburgh')}
+D:I, Q: show me more information for jamies st mary at hill, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'|1|'jamies st mary at hill')}
+D:I, Q: how booked it is on 11 sep 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '11 sep'|1|'11 sep 2019')}
+D:I, Q: is it available on 3 jul 2019 at 10 am time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '10:00'|1|'10 am time'; 'date'= '3 jul'|1|'3 jul 2019')}
+D:I, Q: can I get a table here for 7 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|"7 o'clock")}
+D:I, Q: how booked it is on 24 oct 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '24 oct'|1|'24 oct 2019')}
+D:I, Q: anything free at 5:30 pm in the evening, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '17:30'|1|'5:30 pm in the evening')}
+D:I, Q: yes reserve this resturant for 9 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9 pm time')}
+D:I, Q: I want to reserve for 4:30 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:30'|1|'4:30 in the afternoon')}
+D:I, Q: anything free at 4:30 pm time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '16:30'|1|'4:30 pm time')}
+D:I, Q: make a reservation for this for 8:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 in the evening')}
+D:I, Q: what's the availability on july 24 2019 for 5 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '24 jul'|1|'july 24  2019'; 'number of people'= 'for 5'|1|'5 people')}
+D:I, Q: book it at 6:30 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:30'|1|'6:30 pm in the evening')}
+D:I, Q: can you reserve on 8 oct 2019 for 7 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 oct'|1|'8 oct 2019'; 'number of people'= 'for 7'|1|'7 people')}
+D:I, Q: can you get me a table at this one at 8:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 pm in the evening')}
+D:I, Q: what's the avaiability on july 26 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '26 jul'|1|'july 26  2019')}
+D:I, Q: I want to reserve for 3:30 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 pm in the afternoon')}
+D:I, Q: is it available on august 27 2019 at 12:30, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '0:30'|1|'12:30'; 'date'= '27 aug'|1|'august 27  2019')}
+D:I, Q: anything free at 10:30 in the night, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:30'|1|'10:30 in the night')}
+D:I, Q: Is the restaurant available at 16:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:30'|1|'16:30')}
+D:I, Q: can they accomodate the 12 of us on 27 dec 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '27 dec'|1|'27 dec 2019'; 'number of people'= 'for 12'|1|'the 12 of us')}
+D:I, Q: can I book on 30 oct 2019 at 3 in the morning for 5 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '3:00'|1|'3 in the morning'; 'date'= '30 oct'|1|'30 oct 2019'; 'number of people'= 'for 5'|1|'5 people')}
+D:I, Q: is 8 evening time still available, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8 evening time')}
+D:I, Q: find me a table here for 3 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 pm time')}
+D:I, Q: is it available for 7:30 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:30'|1|'7:30 in the evening')}
+D:I, Q: book it at 8:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'8:30 pm time')}
+D:I, Q: make the reservation now for 7:30 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:30'|1|'7:30 pm in the evening')}
+D:I, Q: book me this restaurant at 5:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5:00 pm in the evening')}
+D:I, Q: can they accomodate 10 guests on 23 sep 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '23 sep'|1|'23 sep 2019'; 'number of people'= 'for 10'|1|'10 guests')}
+D:I, Q: show me some restaurants in edinburgh new town, P1: /city-restaurants;/city-restaurants->/search-listings/#city area{'city area'= 'edinburgh new town'|1|'edinburgh new town')}
+D:I, Q: what about a table here at 10:30 pm time for the 9 of us, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:30'|1|'10:30 pm time'; 'number of people'= 'for 9'|1|'the 9 of us')}
+D:I, Q: I'm interested in oblix west at the shard, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'oblix west at the shard'|1|'oblix west at the shard')}||/->/city-restaurants#search{'search by name or location'= 'oblix west at the shard'|0|'oblix west at the shard')}
+D:I, Q: show me only the shard options, P1: /search-listings/;/search-listings/->/search-listings/#location{'location'= 'the shard'|1|'the shard')}
+D:I, Q: find me a table here for 9:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 pm time')}
+D:I, Q: do they have any table left on 27 aug 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '27 aug'|1|'27 aug 2019')}
+D:I, Q: do they have any table left on 25 sep 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '25 sep'|1|'25 sep 2019')}
+D:I, Q: reserve for james smith and specify joseph_234@outlook.com as email and 7741234567 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'james'|0|'james'; 'last name'= 'smith'|0|'smith'; 'phone number'= '7741234567'|0|'7741234567')}
+D:I, Q: make a reservation for this for 9:00 night time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 night time')}
+D:I, Q: how booked it is on july 8 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 jul'|1|'july 8  2019')}
+D:I, Q: can they accomodate about 8 people on july 24 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '24 jul'|1|'july 24  2019'; 'number of people'= 'for 8'|1|'about 8 people')}
+D:I, Q: can I book on 29 aug 2019 at 4 o'clock for 11 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '16:00'|1|"4 o'clock"; 'date'= '29 aug'|1|'29 aug 2019'; 'number of people'= 'for 11'|1|'11 people')}
+D:I, Q: anything free at 5:00 am in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '5:00'|1|'5:00 am in the morning')}
+D:I, Q: can I book on 2 sep 2019 at 6:30 pm time for about 11 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '18:30'|1|'6:30 pm time'; 'date'= '2 sep'|1|'2 sep 2019'; 'number of people'= 'for 11'|1|'about 11 people')}
+D:I, Q: is it available on 19 nov 2019 at 10:30, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '10:30'|1|'10:30'; 'date'= '19 nov'|1|'19 nov 2019')}
+D:I, Q: can you reserve on november 20 2019 for a party of 5 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '20 nov'|1|'november 20  2019'; 'number of people'= 'for 5'|1|'a party of 5 people')}
+D:I, Q: find me a table here for 17:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'17:30')}
+D:I, Q: what about a table here at 8:30 am in the morning for about 4 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '8:30'|1|'8:30 am in the morning'; 'number of people'= 'for 4'|1|'about 4 people')}
+D:I, Q: reserve this one and give eric johnson as contact person, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'eric'|0|'eric'; 'last name'= 'johnson'|0|'johnson')}
+D:I, Q: yes reserve this resturant for 6:15 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 pm in the evening')}
+D:I, Q: what's the availability on 2 aug 2019 for a group of 8 friends, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '2 aug'|1|'2 aug 2019'; 'number of people'= 'for 8'|1|'a group of 8 friends')}
+D:I, Q: finalize the reservation for 8:15 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 pm in the evening')}
+D:I, Q: which are french, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'french'|1|'french')}
+D:I, Q: is it available on october 1 2019 at 4:00 pm time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '16:00'|1|'4:00 pm time'; 'date'= '1 oct'|1|'october 1  2019')}
+D:I, Q: reserve for james taylor and specify joseph_234@outlook.com as email and 4401233624 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'james'|0|'james'; 'last name'= 'taylor'|0|'taylor'; 'phone number'= '4401233624'|0|'4401233624')}
+D:I, Q: anything free at 21:30, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '21:30'|1|'21:30')}
+D:I, Q: can I book on 16 dec 2019 at 11:00 in the morning for me my wife and my daughter, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '11:00'|1|'11:00 in the morning'; 'date'= '16 dec'|1|'16 dec 2019'; 'number of people'= 'for 3'|1|'me my wife and my daughter')}
+D:I, Q: yes reserve this resturant for 6:15 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 in the evening')}
+D:I, Q: can they accomodate a party of 8 people on 10 dec 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '10 dec'|1|'10 dec 2019'; 'number of people'= 'for 8'|1|'a party of 8 people')}
+D:I, Q: show me some liverpool restaurants, P1: /;/->/search-listings/#search{'restaurant name or location'= 'liverpool'|0|'liverpool')}
+D:I, Q: I want a table here for 6:15 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 in the evening')}
+D:I, Q: can I book on july 26 2019 at 4:00 afternoon time for a party of 10 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '16:00'|1|'4:00 afternoon time'; 'date'= '26 jul'|1|'july 26  2019'; 'number of people'= 'for 10'|1|'a party of 10 people')}
+D:I, Q: place the reservation for 7:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7:00 pm in the evening')}
+D:I, Q: what about a table here at 1:30 pm time for 4 guests, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '13:30'|1|'1:30 pm time'; 'number of people'= 'for 4'|1|'4 guests')}
+D:I, Q: is it available on 23 dec 2019 at 9:30 in the night, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '21:30'|1|'9:30 in the night'; 'date'= '23 dec'|1|'23 dec 2019')}
+D:I, Q: what's the avaiability on august 26 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '26 aug'|1|'august 26  2019')}
+D:I, Q: filter by british, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'british'|1|'british')}
+D:I, Q: how booked it is on 29 aug 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '29 aug'|1|'29 aug 2019')}
+D:I, Q: can you reserve on august 2 2019 for just 1, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '2 aug'|1|'august 2  2019'; 'number of people'= 'for 1'|1|'just 1')}
+D:I, Q: more info about the restaurant aqua shard, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'aqua shard'|1|'aqua shard')}
+D:I, Q: what's the availability on 14 oct 2019 for 3 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '14 oct'|1|'14 oct 2019'; 'number of people'= 'for 3'|1|'3 people')}
+D:I, Q: show me some restaurants in covent garden, P1: /city-restaurants;/city-restaurants->/search-listings/#city area{'city area'= 'covent garden'|1|'covent garden')}
+D:I, Q: avaiability for 15:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'15:00')}
+D:I, Q: can they accomodate a group of 12 friends on july 17 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '17 jul'|1|'july 17  2019'; 'number of people'= 'for 12'|1|'a group of 12 friends')}
+D:I, Q: reserve for david miller and specify bsmith@hotmail.com as email and 3122345786 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'bsmith@hotmail.com'|0|'bsmith@hotmail.com'; 'first name'= 'david'|0|'david'; 'last name'= 'miller'|0|'miller'; 'phone number'= '3122345786'|0|'3122345786')}
+D:I, Q: can I book on 28 oct 2019 at 1:30 in the afternoon for 8 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '13:30'|1|'1:30 in the afternoon'; 'date'= '28 oct'|1|'28 oct 2019'; 'number of people'= 'for 8'|1|'8 persons')}
+D:I, Q: can you reserve on october 31 2019 for about 8 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '31 oct'|1|'october 31  2019'; 'number of people'= 'for 8'|1|'about 8 people')}
+D:I, Q: can they accomodate just for 8 on december 30 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '30 dec'|1|'december 30  2019'; 'number of people'= 'for 8'|1|'just for 8')}
+D:I, Q: how booked it is on 11 dec 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '11 dec'|1|'11 dec 2019')}
+D:I, Q: what about a table here at 19:00 for about 11 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '19:00'|1|'19:00'; 'number of people'= 'for 11'|1|'about 11 people')}
+D:I, Q: which are italian, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'italian'|1|'italian')}
+D:I, Q: book it at 8:15 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 evening time')}
+D:I, Q: what about a table here at 6:30 pm time for 3 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '18:30'|1|'6:30 pm time'; 'number of people'= 'for 3'|1|'3 people')}
+D:I, Q: show me hutong at the shard, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'hutong at the shard'|1|'hutong at the shard')}
+D:I, Q: place the reservation for 4:30 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:30'|1|'4:30 pm in the afternoon')}
+D:I, Q: can they accomodate a group of 11 friends on 6 nov 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '6 nov'|1|'6 nov 2019'; 'number of people'= 'for 11'|1|'a group of 11 friends')}
+D:I, Q: anything free at 5:00 pm in the evening, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '17:00'|1|'5:00 pm in the evening')}
+D:I, Q: can you reserve on 11 nov 2019 for a group of 8 friends, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '11 nov'|1|'11 nov 2019'; 'number of people'= 'for 8'|1|'a group of 8 friends')}
+D:I, Q: what about a table here at 10:30 am in the morning for 8 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '10:30'|1|'10:30 am in the morning'; 'number of people'= 'for 8'|1|'8 people')}
+D:I, Q: anything free at 6:30 am time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '6:30'|1|'6:30 am time')}
+D:I, Q: get a table here for 8 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8 evening time')}
+D:I, Q: can you reserve on 27 sep 2019 for 8 guests, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '27 sep'|1|'27 sep 2019'; 'number of people'= 'for 8'|1|'8 guests')}
+D:I, Q: can you reserve on 31 dec 2019 for 9 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '31 dec'|1|'31 dec 2019'; 'number of people'= 'for 9'|1|'9 people')}
+D:I, Q: reviews please, P1: Restaurant;Restaurant->Restaurant#reviews{'reviews'= 'reviews'|1|'reviews please')}
+D:I, Q: I want a table here for 7 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7 pm time')}
+D:I, Q: book me this restaurant at 7:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7:00 in the evening')}
+D:I, Q: can they accomodate a party of 11 people on 13 nov 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '13 nov'|1|'13 nov 2019'; 'number of people'= 'for 11'|1|'a party of 11 people')}
+D:I, Q: details on edinburgh, P1: /;/->/city-restaurants#search{'search by name or location'= 'edinburgh'|0|'edinburgh')}
+D:I, Q: finalize the reservation for 5:30 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 pm in the evening')}
+D:I, Q: reserve for david smith and specify joseph_234@outlook.com as email and 4401233624 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'david'|0|'david'; 'last name'= 'smith'|0|'smith'; 'phone number'= '4401233624'|0|'4401233624')}
+D:I, Q: book it at 3 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 pm time')}
+D:I, Q: yes reserve this resturant for 6:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6:00 in the evening')}
+D:I, Q: I would like for you to make this reservation for me for 5:30 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 in the evening')}
+D:I, Q: can you get me a table at this one at 6 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6 pm time')}
+D:I, Q: what's the availability on august 20 2019 for a party of 1, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '20 aug'|1|'august 20  2019'; 'number of people'= 'for 1'|1|'a party of 1')}
+D:I, Q: which are vegan, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'vegan'|1|'vegan')}
+D:I, Q: yes reserve this resturant for 4:45 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 afternoon time')}
+D:I, Q: finalize the reservation for 9 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9 pm time')}
+D:I, Q: yes reserve this resturant for 9:00 night time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 night time')}
+D:I, Q: anything free at 8:30 evening time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '20:30'|1|'8:30 evening time')}
+D:I, Q: which are in borough, P1: /search-listings/;/search-listings/->/search-listings/#location{'location'= 'borough'|1|'borough')}
+D:I, Q: is it available on 10 dec 2019 at 1 pm time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '13:00'|1|'1 pm time'; 'date'= '10 dec'|1|'10 dec 2019')}
+D:I, Q: reserve for brian smith and specify joseph_234@outlook.com as email and 4401233624 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'brian'|0|'brian'; 'last name'= 'smith'|0|'smith'; 'phone number'= '4401233624'|0|'4401233624')}
+D:I, Q: reserve it under david123@gmail.com, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'david123@gmail.com'|0|'david123@gmail.com')}
+D:I, Q: what's the availability on 13 aug 2019 for just for me, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '13 aug'|1|'13 aug 2019'; 'number of people'= 'for 1'|1|'just for me')}
+D:I, Q: yes reserve this resturant for 3:30 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 pm in the afternoon')}
+D:I, Q: is it available for 15:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'15:00')}
+D:I, Q: book it at 19:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'19:00')}
+D:I, Q: anything free at 2:30 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '2:30'|1|'2:30 in the morning')}
+D:I, Q: reserve for david johnson and specify joseph_234@outlook.com as email and 3122345786 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'david'|0|'david'; 'last name'= 'johnson'|0|'johnson'; 'phone number'= '3122345786'|0|'3122345786')}
+D:I, Q: complete the reservation for 6:15 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 evening time')}
+D:I, Q: can you get me a table at this one at 3:30 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 in the afternoon')}
+D:I, Q: make a reservation for this for 4:00 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4:00 pm in the afternoon')}
+D:I, Q: show me restaurants in ask italian edinburgh, P1: /;/->/search-listings/#search{'restaurant name or location'= 'ask italian edinburgh'|0|'ask italian edinburgh')}
+D:I, Q: reserve it for me under tom taylor, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'tom'|0|'tom'; 'last name'= 'taylor'|0|'taylor')}
+D:I, Q: book me this restaurant at 20:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'20:30')}
+D:I, Q: I would like for you to make this reservation for me for 5 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|"5 o'clock")}
+D:I, Q: do they have any table left on 28 oct 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '28 oct'|1|'28 oct 2019')}
+D:I, Q: can I book on july 4 2019 at 10:30 for 6 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '10:30'|1|'10:30'; 'date'= '4 jul'|1|'july 4  2019'; 'number of people'= 'for 6'|1|'6 persons')}
+D:I, Q: reserve for tom smith and specify tom.fanet@gmail.com as email and 4401233624 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'tom.fanet@gmail.com'|0|'tom.fanet@gmail.com'; 'first name'= 'tom'|0|'tom'; 'last name'= 'smith'|0|'smith'; 'phone number'= '4401233624'|0|'4401233624')}
+D:I, Q: I need a reservation at this place at 6 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6 evening time')}
+D:I, Q: is it available on october 23 2019 at 9:30 pm in the night, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '21:30'|1|'9:30 pm in the night'; 'date'= '23 oct'|1|'october 23  2019')}
+D:I, Q: reserve it under eric fanet, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'eric'|0|'eric'; 'last name'= 'fanet'|0|'fanet')}
+D:I, Q: find me a table here for 7 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7 pm time')}
+D:I, Q: filter the results by london bridge, P1: /search-listings/;/search-listings/->/search-listings/#location{'location'= 'london bridge'|1|'london bridge')}
+D:I, Q: is it available on august 19 2019 at 6:30 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '6:30'|1|'6:30 in the morning'; 'date'= '19 aug'|1|'august 19  2019')}
+D:I, Q: confirm my table for 8 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8 in the evening')}
+D:I, Q: what's the availability on 5 aug 2019 for the 3 of us, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '5 aug'|1|'5 aug 2019'; 'number of people'= 'for 3'|1|'the 3 of us')}
+D:I, Q: can they accomodate me my wife and my daughter on august 15 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '15 aug'|1|'august 15  2019'; 'number of people'= 'for 3'|1|'me my wife and my daughter')}
+D:I, Q: book it at 8:15 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 pm time')}
+D:I, Q: make a reservation for this for 3 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 in the afternoon')}
+D:I, Q: can I book on 17 dec 2019 at 2:00 for just for 7, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '2:00'|1|'2:00'; 'date'= '17 dec'|1|'17 dec 2019'; 'number of people'= 'for 7'|1|'just for 7')}
+D:I, Q: reserve for joseph smith and specify joseph_234@outlook.com as email and 3122345786 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'joseph'|0|'joseph'; 'last name'= 'smith'|0|'smith'; 'phone number'= '3122345786'|0|'3122345786')}
+D:I, Q: can they accomodate a party of 1 on august 12 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '12 aug'|1|'august 12  2019'; 'number of people'= 'for 1'|1|'a party of 1')}
+D:I, Q: show me restaurants in covent garden, P1: /;/->/search-listings/#search{'restaurant name or location'= 'covent garden'|0|'covent garden')}
+D:I, Q: confirm my table for 8:15 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 pm time')}
+D:I, Q: reserve for eric smith and specify mark_taylor@outlook.com as email and 3122345786 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'mark_taylor@outlook.com'|0|'mark_taylor@outlook.com'; 'first name'= 'eric'|0|'eric'; 'last name'= 'smith'|0|'smith'; 'phone number'= '3122345786'|0|'3122345786')}
+D:I, Q: is it available on 24 dec 2019 at 1:00 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '1:00'|1|'1:00 in the morning'; 'date'= '24 dec'|1|'24 dec 2019')}
+D:I, Q: display only the afternoon tea options, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'afternoon tea'|1|'afternoon tea')}
+D:I, Q: do have availability for 1 person, P1: Restaurant;Restaurant->Restaurant availability#find table{'number of people'= 'for 1'|1|'1 person')}
+D:I, Q: yes reserve this resturant for 4 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4 in the afternoon')}
+D:I, Q: reserve for joseph johnson and specify mark_taylor@outlook.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'mark_taylor@outlook.com'|0|'mark_taylor@outlook.com'; 'first name'= 'joseph'|0|'joseph'; 'last name'= 'johnson'|0|'johnson'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: reserve for mark taylor and specify joseph_234@outlook.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'mark'|0|'mark'; 'last name'= 'taylor'|0|'taylor'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: can I book on 5 jul 2019 at noon for about 10 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '0:00'|1|'noon'; 'date'= '5 jul'|1|'5 jul 2019'; 'number of people'= 'for 10'|1|'about 10 people')}
+D:I, Q: anything free at 11:00 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '11:00'|1|'11:00 in the morning')}
+D:I, Q: make the reservation now for 5 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|"5 o'clock")}
+D:I, Q: I want to reserve for 4:00 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4:00 afternoon time')}
+D:I, Q: do they have any table left on 17 dec 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '17 dec'|1|'17 dec 2019')}
+D:I, Q: can I book on december 27 2019 at 10:00 am in the morning for 8 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '10:00'|1|'10:00 am in the morning'; 'date'= '27 dec'|1|'december 27  2019'; 'number of people'= 'for 8'|1|'8 persons')}
+D:I, Q: complete the reservation for 17:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'17:30')}
+D:I, Q: anything free at 8:00, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '8:00'|1|'8:00')}
+D:I, Q: can you reserve on 3 sep 2019 for just me and 2 friends so 3 total, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '3 sep'|1|'3 sep 2019'; 'number of people'= 'for 3'|1|'just me and 2 friends so 3 total')}
+D:I, Q: can they accomodate just for 7 on 22 oct 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '22 oct'|1|'22 oct 2019'; 'number of people'= 'for 7'|1|'just for 7')}
+D:I, Q: do they have any table left on 30 sep 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '30 sep'|1|'30 sep 2019')}
+D:I, Q: how booked it is on december 13 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '13 dec'|1|'december 13  2019')}
+D:I, Q: how booked it is on 19 sep 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '19 sep'|1|'19 sep 2019')}
+D:I, Q: confirm my table for 5:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5:00 in the evening')}
+D:I, Q: I want to reserve for 6:15 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 in the evening')}
+D:I, Q: Is the restaurant available at 5 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5 evening time')}
+D:I, Q: can you reserve on 8 oct 2019 for about 10 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 oct'|1|'8 oct 2019'; 'number of people'= 'for 10'|1|'about 10 people')}
+D:I, Q: what's the availability on 1 nov 2019 for a party of 7, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '1 nov'|1|'1 nov 2019'; 'number of people'= 'for 7'|1|'a party of 7')}
+D:I, Q: reserve for brian taylor and specify joseph_234@outlook.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'brian'|0|'brian'; 'last name'= 'taylor'|0|'taylor'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: can they accomodate a party of 10 people on august 1 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '1 aug'|1|'august 1  2019'; 'number of people'= 'for 10'|1|'a party of 10 people')}
+D:I, Q: make a reservation for this for 3 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 afternoon time')}
+D:I, Q: book it at 17:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'17:00')}
+D:I, Q: I want to reserve for 4:00 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4:00 pm in the afternoon')}
+D:I, Q: what about a table here at 6:30 in the evening for 8 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '18:30'|1|'6:30 in the evening'; 'number of people'= 'for 8'|1|'8 people')}
+D:I, Q: I need a reservation at this place at 6 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|"6 o'clock")}
+D:I, Q: I want a table here for 7:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7:00 pm in the evening')}
+D:I, Q: do they have any table left on 21 oct 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '21 oct'|1|'21 oct 2019')}
+D:I, Q: make a reservation for this for 4:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:30'|1|'4:30 pm time')}
+D:I, Q: reserve for david taylor and specify mark_taylor@outlook.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'mark_taylor@outlook.com'|0|'mark_taylor@outlook.com'; 'first name'= 'david'|0|'david'; 'last name'= 'taylor'|0|'taylor'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: how is edinburgh, P1: /;/->/city-restaurants#search{'search by name or location'= 'edinburgh'|0|'edinburgh')}
+D:I, Q: avaiability for 4:00 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4:00 in the afternoon')}
+D:I, Q: what about a table here at 4 am time for me and my husband, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '4:00'|1|'4 am time'; 'number of people'= 'for 2'|1|'me and my husband')}
+D:I, Q: what about a table here at 2:30 pm in the afternoon for a party of 2 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '14:30'|1|'2:30 pm in the afternoon'; 'number of people'= 'for 2'|1|'a party of 2 people')}
+D:I, Q: what about a table here at 4:30 in the morning for a party of 7, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '4:30'|1|'4:30 in the morning'; 'number of people'= 'for 7'|1|'a party of 7')}
+D:I, Q: select mber, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'|1|'mber')}
+D:I, Q: can I book on 1 oct 2019 at 3:30 am time for a party of 8 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '3:30'|1|'3:30 am time'; 'date'= '1 oct'|1|'1 oct 2019'; 'number of people'= 'for 8'|1|'a party of 8 people')}
+D:I, Q: is there anything in south bank, P1: /search-listings/;/search-listings/->/search-listings/#location{'location'= 'south bank'|1|'south bank')}
+D:I, Q: anything free at 2:30 in the afternoon, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '14:30'|1|'2:30 in the afternoon')}
+D:I, Q: Is the restaurant available at 16:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'16:00')}
+D:I, Q: I would like for you to make this reservation for me for 7 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7 pm time')}
+D:I, Q: avaiability for 4:00 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4:00 pm in the afternoon')}
+D:I, Q: finalize the reservation for 9:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 pm time')}
+D:I, Q: I would like for you to make this reservation for me for 4:45 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 pm time')}
+D:I, Q: can you reserve on 25 oct 2019 for just me and 2 friends so 3 total, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '25 oct'|1|'25 oct 2019'; 'number of people'= 'for 3'|1|'just me and 2 friends so 3 total')}
+D:I, Q: reserve for brian taylor and specify bsmith@hotmail.com as email and 3122345786 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'bsmith@hotmail.com'|0|'bsmith@hotmail.com'; 'first name'= 'brian'|0|'brian'; 'last name'= 'taylor'|0|'taylor'; 'phone number'= '3122345786'|0|'3122345786')}
+D:I, Q: I need a reservation at this place at 7 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7 in the evening')}
+D:I, Q: some more information on edinburgh, P1: /;/->/city-restaurants#search{'search by name or location'= 'edinburgh'|0|'edinburgh')}
+D:I, Q: is it available for 5:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 pm time')}
+D:I, Q: I want to reserve for 3 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 pm time')}
+D:I, Q: can you get me a table at this one at 5:00 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5:00 evening time')}
+D:I, Q: anything free at 22:00, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:00'|1|'22:00')}
+D:I, Q: can you show me the menu photos and reviews of jamies st mary at hill, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'|1|'jamies st mary at hill')}
+D:I, Q: I need a reservation at this place at 9 night time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9 night time')}
+D:I, Q: finalize the reservation for 3 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 in the afternoon')}
+D:I, Q: can you reserve on november 8 2019 for about 3 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 nov'|1|'november 8  2019'; 'number of people'= 'for 3'|1|'about 3 people')}
+D:I, Q: can you get me a table at this one at 6:30 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:30'|1|'6:30 evening time')}
+D:I, Q: what about a table here at 10:30 pm in the night for about 6 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:30'|1|'10:30 pm in the night'; 'number of people'= 'for 6'|1|'about 6 people')}
+D:I, Q: can you reserve on september 17 2019 for a party of 10 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '17 sep'|1|'september 17  2019'; 'number of people'= 'for 10'|1|'a party of 10 people')}
+D:I, Q: do have availability for just for 12, P1: Restaurant;Restaurant->Restaurant availability#find table{'number of people'= 'for 12'|1|'just for 12')}
+D:I, Q: can you reserve on october 1 2019 for a group of 8 friends, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '1 oct'|1|'october 1  2019'; 'number of people'= 'for 8'|1|'a group of 8 friends')}
+D:I, Q: yes reserve this resturant for 4:30 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:30'|1|'4:30 pm in the afternoon')}
+D:I, Q: is it available for 5:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5:00 pm in the evening')}
+D:I, Q: I want a table here for 7 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7 in the evening')}
+D:I, Q: finalize the reservation for 7:30 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:30'|1|'7:30 pm in the evening')}
+D:I, Q: complete the reservation for 3:30 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 afternoon time')}
+D:I, Q: book it at 8:15 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 pm in the evening')}
+D:I, Q: what's the availability on 15 jul 2019 for me, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '15 jul'|1|'15 jul 2019'; 'number of people'= 'for 1'|1|'me')}
+D:I, Q: do they have any table left on 2 sep 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '2 sep'|1|'2 sep 2019')}
+D:I, Q: reserve for james smith and specify joseph_234@outlook.com as email and 4401233624 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'james'|0|'james'; 'last name'= 'smith'|0|'smith'; 'phone number'= '4401233624'|0|'4401233624')}
+D:I, Q: can I get a table here for 5:30 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 evening time')}
+D:I, Q: what about a table here at 8:00 morning time for a party of 10 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '8:00'|1|'8:00 morning time'; 'number of people'= 'for 10'|1|'a party of 10 people')}
+D:I, Q: I want a table here for 4 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|"4 o'clock")}
+D:I, Q: do they have any table left on august 16 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '16 aug'|1|'august 16  2019')}
+D:I, Q: reserve for brian miller and specify bsmith@hotmail.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'bsmith@hotmail.com'|0|'bsmith@hotmail.com'; 'first name'= 'brian'|0|'brian'; 'last name'= 'miller'|0|'miller'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: what's the avaiability on 25 dec 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '25 dec'|1|'25 dec 2019')}
+D:I, Q: what about a table here at 5:30 am time for 12 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '5:30'|1|'5:30 am time'; 'number of people'= 'for 12'|1|'12 people')}
+D:I, Q: find me a table here for 6:45 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:45'|1|'6:45 pm in the evening')}
+D:I, Q: get a table here for 7:00 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7:00 evening time')}
+D:I, Q: finalize the reservation for 8:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 pm time')}
+D:I, Q: I want to reserve for 8 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8 evening time')}
+D:I, Q: confirm my table for 5:30 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 in the evening')}
+D:I, Q: confirm my table for 9:00 in the night, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 in the night')}
+D:I, Q: what's the availability on september 18 2019 for 4 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '18 sep'|1|'september 18  2019'; 'number of people'= 'for 4'|1|'4 persons')}
+D:I, Q: can you reserve on december 19 2019 for a party of 7, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '19 dec'|1|'december 19  2019'; 'number of people'= 'for 7'|1|'a party of 7')}
+D:I, Q: how booked it is on 17 jul 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '17 jul'|1|'17 jul 2019')}
+D:I, Q: I want to reserve for 20:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'20:30')}
+D:I, Q: heliot steak house at hippodrome casino restaurants, P1: /;/->/search-listings/#search{'restaurant name or location'= 'heliot steak house at hippodrome casino'|0|'heliot steak house at hippodrome casino')}
+D:I, Q: can you reserve on july 8 2019 for about 11 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 jul'|1|'july 8  2019'; 'number of people'= 'for 11'|1|'about 11 people')}
+D:I, Q: find me a table here for 8:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 pm time')}
+D:I, Q: make the reservation now for 6 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6 in the evening')}
+D:I, Q: is it available on 20 sep 2019 at 16:30, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '16:30'|1|'16:30'; 'date'= '20 sep'|1|'20 sep 2019')}
+D:I, Q: I would like for you to make this reservation for me for 7:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7:00 pm time')}
+D:I, Q: I want to know more about hutong at the shard, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'hutong at the shard'|1|'hutong at the shard')}
+D:I, Q: book it at 8:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 in the evening')}
+D:I, Q: yes reserve this resturant for 8 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8 evening time')}
+D:I, Q: get a table here for 7:30 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:30'|1|'7:30 in the evening')}
+D:I, Q: reserve it under brian johnson, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'brian'|0|'brian'; 'last name'= 'johnson'|0|'johnson')}
+D:I, Q: more on mber, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'|1|'mber')}
+D:I, Q: is 18:30 still available, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:30'|1|'18:30')}
+D:I, Q: can you reserve on 19 sep 2019 for me my wife and my daughter, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '19 sep'|1|'19 sep 2019'; 'number of people'= 'for 3'|1|'me my wife and my daughter')}
+D:I, Q: show me some places to eat in oblix west at the shard, P1: /;/->/city-restaurants#search{'search by name or location'= 'oblix west at the shard'|0|'oblix west at the shard')}
+D:I, Q: is it available for 9:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 pm time')}
+D:I, Q: can they accomodate a party of 2 on 22 aug 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '22 aug'|1|'22 aug 2019'; 'number of people'= 'for 2'|1|'a party of 2')}
+D:I, Q: book it at 5:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5:00 pm time')}
+D:I, Q: reserve for joseph taylor and specify mark_taylor@outlook.com as email and 3122345786 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'mark_taylor@outlook.com'|0|'mark_taylor@outlook.com'; 'first name'= 'joseph'|0|'joseph'; 'last name'= 'taylor'|0|'taylor'; 'phone number'= '3122345786'|0|'3122345786')}
+D:I, Q: can they accomodate a group of 2 friends on 16 jul 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '16 jul'|1|'16 jul 2019'; 'number of people'= 'for 2'|1|'a group of 2 friends')}
+D:I, Q: reserve for tom johnson and specify mark_taylor@outlook.com as email and 3122345786 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'mark_taylor@outlook.com'|0|'mark_taylor@outlook.com'; 'first name'= 'tom'|0|'tom'; 'last name'= 'johnson'|0|'johnson'; 'phone number'= '3122345786'|0|'3122345786')}
+D:I, Q: confirm my table for 5 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5 evening time')}
+D:I, Q: reserve it for me under brian johnson, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'brian'|0|'brian'; 'last name'= 'johnson'|0|'johnson')}
+D:I, Q: I want to reserve for 17:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'17:00')}
+D:I, Q: filter by asian, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'asian'|1|'asian')}
+D:I, Q: reserve for tom johnson and specify bsmith@hotmail.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'bsmith@hotmail.com'|0|'bsmith@hotmail.com'; 'first name'= 'tom'|0|'tom'; 'last name'= 'johnson'|0|'johnson'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: anything free at 8 o'clock, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '20:00'|1|"8 o'clock")}
+D:I, Q: can I book on 23 sep 2019 at 6:30 in the evening for 3 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '18:30'|1|'6:30 in the evening'; 'date'= '23 sep'|1|'23 sep 2019'; 'number of people'= 'for 3'|1|'3 persons')}
+D:I, Q: reserve for david fanet and specify david123@gmail.com as email and 7741234567 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'david123@gmail.com'|0|'david123@gmail.com'; 'first name'= 'david'|0|'david'; 'last name'= 'fanet'|0|'fanet'; 'phone number'= '7741234567'|0|'7741234567')}
+D:I, Q: make the reservation now for 8:15 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 pm in the evening')}
+D:I, Q: show me the menu for this place, P1: Restaurant;Restaurant->Restaurant#menu{'menu'= 'menu'|1|'show me the menu for this place')}
+D:I, Q: I want to reserve for 8:30 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'8:30 evening time')}
+D:I, Q: yes reserve this resturant for 5 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5 in the evening')}
+D:I, Q: what about a table here at 5:00 evening time for 4 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '17:00'|1|'5:00 evening time'; 'number of people'= 'for 4'|1|'4 persons')}
+D:I, Q: what are those with pizza cuisine, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'pizza'|1|'pizza')}
+D:I, Q: what about a table here at 1:00 morning time for a party of 9 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '1:00'|1|'1:00 morning time'; 'number of people'= 'for 9'|1|'a party of 9 people')}
+D:I, Q: I want a table here for 7:30 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:30'|1|'7:30 in the evening')}
+D:I, Q: what are some good restaurants in oblix west at the shard, P1: /;/->/city-restaurants#search{'search by name or location'= 'oblix west at the shard'|0|'oblix west at the shard')}
+D:I, Q: filter by chinese cuisine, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'chinese'|1|'chinese')}
+D:I, Q: is it available on december 18 2019 at 10:00 night time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:00'|1|'10:00 night time'; 'date'= '18 dec'|1|'december 18  2019')}
+D:I, Q: place the reservation for 5:30 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 pm in the evening')}
+D:I, Q: can they accomodate just for 3 on november 8 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 nov'|1|'november 8  2019'; 'number of people'= 'for 3'|1|'just for 3')}
+D:I, Q: what are those with burger cuisine, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'burger'|1|'burger')}
+D:I, Q: reserve for joseph johnson and specify joseph_234@outlook.com as email and 7741234567 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'joseph'|0|'joseph'; 'last name'= 'johnson'|0|'johnson'; 'phone number'= '7741234567'|0|'7741234567')}
+D:I, Q: can I book on december 27 2019 at 11:30 am in the morning for about 5 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '11:30'|1|'11:30 am in the morning'; 'date'= '27 dec'|1|'december 27  2019'; 'number of people'= 'for 5'|1|'about 5 people')}
+D:I, Q: I would like for you to make this reservation for me for 7 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|"7 o'clock")}
+D:I, Q: can I get a table here for 20:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'20:30')}
+D:I, Q: Is the restaurant available at 5 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5 in the evening')}
+D:I, Q: do they have any table left on 8 aug 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 aug'|1|'8 aug 2019')}
+D:I, Q: make a reservation for this for 3:00 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3:00 pm in the afternoon')}
+D:I, Q: can I view more details on the real greek bankside, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'the real greek bankside'|1|'the real greek bankside')}||/->/city-restaurants#search{'search by name or location'= 'the real greek bankside'|0|'the real greek bankside')}
+D:I, Q: what about a table here at 9:30 for just for 8, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '9:30'|1|'9:30'; 'number of people'= 'for 8'|1|'just for 8')}
+D:I, Q: can you reserve on december 13 2019 for a group of 10 friends, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '13 dec'|1|'december 13  2019'; 'number of people'= 'for 10'|1|'a group of 10 friends')}
+D:I, Q: yes reserve this resturant for 6:45 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:45'|1|'6:45 pm time')}
+D:I, Q: find me a table here for 3:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 pm time')}
+D:I, Q: I would like for you to make this reservation for me for 6:15 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 in the evening')}
+D:I, Q: I want a table here for 8:15 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 evening time')}
+D:I, Q: book it at 20:15, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'20:15')}
+D:I, Q: I would like for you to make this reservation for me for 8 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8 evening time')}
+D:I, Q: what's the availability on 13 aug 2019 for a party of 11 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '13 aug'|1|'13 aug 2019'; 'number of people'= 'for 11'|1|'a party of 11 people')}
+D:I, Q: some more information on mber, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'mber'|1|'mber')}
+D:I, Q: anything free at 3:30 morning time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '3:30'|1|'3:30 morning time')}
+D:I, Q: can you reserve on november 14 2019 for a group of 11 friends, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '14 nov'|1|'november 14  2019'; 'number of people'= 'for 11'|1|'a group of 11 friends')}
+D:I, Q: is it available on 15 oct 2019 at 10:30, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '10:30'|1|'10:30'; 'date'= '15 oct'|1|'15 oct 2019')}
+D:I, Q: can I get a table here for 6:45 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:45'|1|'6:45 in the evening')}
+D:I, Q: how booked it is on september 3 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '3 sep'|1|'september 3  2019')}
+D:I, Q: anything free at 18:30, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '18:30'|1|'18:30')}
+D:I, Q: filter by vegetarian cuisine, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'vegetarian'|1|'vegetarian')}
+D:I, Q: some more information on london, P1: /;/->/city-restaurants#search{'search by name or location'= 'london'|0|'london')}
+D:I, Q: reserve for james fanet and specify tom.fanet@gmail.com as email and 4401233624 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'tom.fanet@gmail.com'|0|'tom.fanet@gmail.com'; 'first name'= 'james'|0|'james'; 'last name'= 'fanet'|0|'fanet'; 'phone number'= '4401233624'|0|'4401233624')}
+D:I, Q: make the reservation now for 7:30 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:30'|1|'7:30 evening time')}
+D:I, Q: I need a reservation at this place at 8:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 in the evening')}
+D:I, Q: place the reservation for 6:15 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 evening time')}
+D:I, Q: get a table here for 4 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|"4 o'clock")}
+D:I, Q: finalize the reservation for 4:00 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4:00 in the afternoon')}
+D:I, Q: can you reserve on september 12 2019 for 7 guests, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '12 sep'|1|'september 12  2019'; 'number of people'= 'for 7'|1|'7 guests')}
+D:I, Q: anything with special offers, P1: /search-listings/;/search-listings/->/search-listings/#show restaurants with offer{'show restaurants with offer'= 'true'|1|'anything with special offers')}
+D:I, Q: find me a table here for 6:45 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:45'|1|'6:45 in the evening')}
+D:I, Q: what's the availability on 16 jul 2019 for 12 guests, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '16 jul'|1|'16 jul 2019'; 'number of people'= 'for 12'|1|'12 guests')}
+D:I, Q: is it available for 5:30 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 in the evening')}
+D:I, Q: Is the restaurant available at 3:30 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 in the afternoon')}
+D:I, Q: confirm my table for 3:30 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 afternoon time')}
+D:I, Q: can they accomodate just for 7 on september 27 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '27 sep'|1|'september 27  2019'; 'number of people'= 'for 7'|1|'just for 7')}
+D:I, Q: make the reservation now for 5:30 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 pm in the evening')}
+D:I, Q: can I book on 31 dec 2019 at 11:30 in the morning for a party of 4 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '11:30'|1|'11:30 in the morning'; 'date'= '31 dec'|1|'31 dec 2019'; 'number of people'= 'for 4'|1|'a party of 4 people')}
+D:I, Q: I want a table here for 6:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:30'|1|'6:30 pm time')}
+D:I, Q: restaurants in birmingham, P1: /;/->/city-restaurants#uk cities{'uk cities'= 'birmingham'|1|'birmingham')}
+D:I, Q: make a reservation for this for 8:30 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'8:30 pm in the evening')}
+D:I, Q: finalize the reservation for 9 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|"9 o'clock")}
+D:I, Q: avaiability for 5:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 pm time')}
+D:I, Q: what's the availability on december 4 2019 for 12 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '4 dec'|1|'december 4  2019'; 'number of people'= 'for 12'|1|'12 persons')}
+D:I, Q: what's the avaiability on december 19 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '19 dec'|1|'december 19  2019')}
+D:I, Q: can you get me a table at this one at 16:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'16:00')}
+D:I, Q: I want to reserve for 8:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 pm in the evening')}
+D:I, Q: make the reservation now for 8:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 pm in the evening')}
+D:I, Q: book me this restaurant at 6:30 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:30'|1|'6:30 evening time')}
+D:I, Q: what's the availability on 4 sep 2019 for 9 guests, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '4 sep'|1|'4 sep 2019'; 'number of people'= 'for 9'|1|'9 guests')}
+D:I, Q: Is the restaurant available at 6:15 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 pm time')}
+D:I, Q: can I book on august 28 2019 at 10 pm time for me and my friend, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:00'|1|'10 pm time'; 'date'= '28 aug'|1|'august 28  2019'; 'number of people'= 'for 2'|1|'me and my friend')}
+D:I, Q: find me a table here for 9 night time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9 night time')}
+D:I, Q: anything free at 11 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '11:00'|1|'11 in the morning')}
+D:I, Q: avaiability for 4:45 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 pm time')}
+D:I, Q: filter the results by french, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'french'|1|'french')}
+D:I, Q: what's the availability on 3 sep 2019 for me and 2 kids, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '3 sep'|1|'3 sep 2019'; 'number of people'= 'for 3'|1|'me and 2 kids')}
+D:I, Q: can they accomodate just for 9 on october 25 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '25 oct'|1|'october 25  2019'; 'number of people'= 'for 9'|1|'just for 9')}
+D:I, Q: what's the availability on 5 sep 2019 for 1, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '5 sep'|1|'5 sep 2019'; 'number of people'= 'for 1'|1|'1')}
+D:I, Q: what's the availability on november 6 2019 for 11 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '6 nov'|1|'november 6  2019'; 'number of people'= 'for 11'|1|'11 persons')}
+D:I, Q: is it available on november 27 2019 at 10:30 am in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '10:30'|1|'10:30 am in the morning'; 'date'= '27 nov'|1|'november 27  2019')}
+D:I, Q: finalize the reservation for 3:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3:00 pm time')}
+D:I, Q: can you show me the menu photos and reviews of edinburgh, P1: /;/->/city-restaurants#search{'search by name or location'= 'edinburgh'|0|'edinburgh')}
+D:I, Q: is it available on 30 dec 2019 at 7:30 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '7:30'|1|'7:30 in the morning'; 'date'= '30 dec'|1|'30 dec 2019')}
+D:I, Q: restaurants in liverpool, P1: /;/->/city-restaurants#search{'search by name or location'= 'liverpool'|0|'liverpool')}||/->/city-restaurants#uk cities{'uk cities'= 'liverpool'|1|'liverpool')}
+D:I, Q: get a table here for 6 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6 pm time')}
+D:I, Q: confirm my table for 18:45, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:45'|1|'18:45')}
+D:I, Q: I would like for you to make this reservation for me for 8 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|"8 o'clock")}
+D:I, Q: what's the availability on november 28 2019 for a party of 6 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '28 nov'|1|'november 28  2019'; 'number of people'= 'for 6'|1|'a party of 6 people')}
+D:I, Q: how booked it is on 8 nov 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 nov'|1|'8 nov 2019')}
+D:I, Q: yes reserve this resturant for 5:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 pm time')}
+D:I, Q: anything free at 3:00 afternoon time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '15:00'|1|'3:00 afternoon time')}
+D:I, Q: book me this restaurant at 3:00 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3:00 afternoon time')}
+D:I, Q: I would like for you to make this reservation for me for 16:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:30'|1|'16:30')}
+D:I, Q: place the reservation for 3 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 afternoon time')}
+D:I, Q: can they accomodate a group of 12 friends on 21 aug 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '21 aug'|1|'21 aug 2019'; 'number of people'= 'for 12'|1|'a group of 12 friends')}
+D:I, Q: make the reservation now for 6:15 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 pm time')}
+D:I, Q: can they accomodate 10 guests on august 16 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '16 aug'|1|'august 16  2019'; 'number of people'= 'for 10'|1|'10 guests')}
+D:I, Q: I want to know more about oblix east at the shard, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'oblix east at the shard'|1|'oblix east at the shard')}
+D:I, Q: I want a table here for 3:30 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 in the afternoon')}
+D:I, Q: place the reservation for 4:45 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 afternoon time')}
+D:I, Q: what's the avaiability on 19 jul 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '19 jul'|1|'19 jul 2019')}
+D:I, Q: reserve for joseph fanet and specify joseph_234@outlook.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'joseph'|0|'joseph'; 'last name'= 'fanet'|0|'fanet'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: finalize the reservation for 6:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6:00 pm time')}
+D:I, Q: do they have any table left on october 4 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '4 oct'|1|'october 4  2019')}
+D:I, Q: is it available for 8:15 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 pm time')}
+D:I, Q: can I book on 15 nov 2019 at 6:30 pm in the evening for 1 person, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '18:30'|1|'6:30 pm in the evening'; 'date'= '15 nov'|1|'15 nov 2019'; 'number of people'= 'for 1'|1|'1 person')}
+D:I, Q: I would like for you to make this reservation for me for 4:00 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4:00 afternoon time')}
+D:I, Q: I want to reserve for 8:00 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 evening time')}
+D:I, Q: reserve this one and give joseph taylor as contact person, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'joseph'|0|'joseph'; 'last name'= 'taylor'|0|'taylor')}
+D:I, Q: is it available on november 14 2019 at 5:00 am in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '5:00'|1|'5:00 am in the morning'; 'date'= '14 nov'|1|'november 14  2019')}
+D:I, Q: show only restaurants in south bank, P1: /search-listings/;/search-listings/->/search-listings/#location{'location'= 'south bank'|1|'south bank')}
+D:I, Q: can you reserve on 14 oct 2019 for a group of 11 friends, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '14 oct'|1|'14 oct 2019'; 'number of people'= 'for 11'|1|'a group of 11 friends')}
+D:I, Q: I would like for you to make this reservation for me for 9 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9 pm time')}
+D:I, Q: what about a table here at 19:00 for a group of 4 friends, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '19:00'|1|'19:00'; 'number of people'= 'for 4'|1|'a group of 4 friends')}
+D:I, Q: is it available on 14 oct 2019 at 00:00, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '12:00'|1|'00:00'; 'date'= '14 oct'|1|'14 oct 2019')}
+D:I, Q: confirm my table for 3:00 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3:00 pm in the afternoon')}
+D:I, Q: what's the availability on october 4 2019 for 4 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '4 oct'|1|'october 4  2019'; 'number of people'= 'for 4'|1|'4 people')}
+D:I, Q: find me a table here for 8:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'8:30 pm time')}
+D:I, Q: can you reserve on 4 jul 2019 for about 5 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '4 jul'|1|'4 jul 2019'; 'number of people'= 'for 5'|1|'about 5 people')}
+D:I, Q: place the reservation for 8:30 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'8:30 pm in the evening')}
+D:I, Q: what about a table here at 5:00 evening time for 8 guests, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '17:00'|1|'5:00 evening time'; 'number of people'= 'for 8'|1|'8 guests')}
+D:I, Q: finalize the reservation for 6:45 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:45'|1|'6:45 pm time')}
+D:I, Q: is it available on 21 nov 2019 at 11:30, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '11:30'|1|'11:30'; 'date'= '21 nov'|1|'21 nov 2019')}
+D:I, Q: what's the avaiability on 29 aug 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '29 aug'|1|'29 aug 2019')}
+D:I, Q: how is aqua shard, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'aqua shard'|1|'aqua shard')}
+D:I, Q: finalize the reservation for 9:00 night time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 night time')}
+D:I, Q: reserve for james fanet and specify bsmith@hotmail.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'bsmith@hotmail.com'|0|'bsmith@hotmail.com'; 'first name'= 'james'|0|'james'; 'last name'= 'fanet'|0|'fanet'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: what's the avaiability on 31 dec 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '31 dec'|1|'31 dec 2019')}
+D:I, Q: is it available on september 17 2019 at 1:30 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '1:30'|1|'1:30 in the morning'; 'date'= '17 sep'|1|'september 17  2019')}
+D:I, Q: what about a table here at 11 in the night for a group of 12 friends, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '23:00'|1|'11 in the night'; 'number of people'= 'for 12'|1|'a group of 12 friends')}
+D:I, Q: avaiability for 6:45 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:45'|1|'6:45 evening time')}
+D:I, Q: find me a table here for 7:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7:00 pm in the evening')}
+D:I, Q: do they have any table left on 31 oct 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '31 oct'|1|'31 oct 2019')}
+D:I, Q: what about a table here at 4:30 morning time for me and 2 others, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '4:30'|1|'4:30 morning time'; 'number of people'= 'for 3'|1|'me and 2 others')}
+D:I, Q: what about a table here at 12:30 morning time for a party of 4 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '12:30'|1|'12:30 morning time'; 'number of people'= 'for 4'|1|'a party of 4 people')}
+D:I, Q: can I get a table here for 6 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6 in the evening')}
+D:I, Q: what's the availability on 9 jul 2019 for myself, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '9 jul'|1|'9 jul 2019'; 'number of people'= 'for 1'|1|'myself')}
+D:I, Q: what's the avaiability on september 27 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '27 sep'|1|'september 27  2019')}
+D:I, Q: what about a table here at 19:30 for 8 guests, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '19:30'|1|'19:30'; 'number of people'= 'for 8'|1|'8 guests')}
+D:I, Q: can I book on july 23 2019 at 5:00 am in the morning for 12 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '5:00'|1|'5:00 am in the morning'; 'date'= '23 jul'|1|'july 23  2019'; 'number of people'= 'for 12'|1|'12 persons')}
+D:I, Q: can they accomodate about 6 people on november 5 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '5 nov'|1|'november 5  2019'; 'number of people'= 'for 6'|1|'about 6 people')}
+D:I, Q: what's the availability on july 11 2019 for me and 2 sons, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '11 jul'|1|'july 11  2019'; 'number of people'= 'for 3'|1|'me and 2 sons')}
+D:I, Q: tell me more about the real greek bankside, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'the real greek bankside'|1|'the real greek bankside')}||/->/city-restaurants#search{'search by name or location'= 'the real greek bankside'|0|'the real greek bankside')}
+D:I, Q: what about a table here at 18:30 for about 12 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '18:30'|1|'18:30'; 'number of people'= 'for 12'|1|'about 12 people')}
+D:I, Q: can you get me a table at this one at 7:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7:00 pm time')}
+D:I, Q: what's the availability on october 17 2019 for 12 guests, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '17 oct'|1|'october 17  2019'; 'number of people'= 'for 12'|1|'12 guests')}
+D:I, Q: finalize the reservation for 4:30 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:30'|1|'4:30 afternoon time')}
+D:I, Q: can you get me a table at this one at 3:00 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3:00 pm in the afternoon')}
+D:I, Q: can I book on august 19 2019 at 13:30 for 3 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '13:30'|1|'13:30'; 'date'= '19 aug'|1|'august 19  2019'; 'number of people'= 'for 3'|1|'3 people')}
+D:I, Q: yes reserve this resturant for 6:30 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:30'|1|'6:30 evening time')}
+D:I, Q: can they accomodate me and 2 kids on july 23 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '23 jul'|1|'july 23  2019'; 'number of people'= 'for 3'|1|'me and 2 kids')}
+D:I, Q: make a reservation for this for 7 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|"7 o'clock")}
+D:I, Q: I need a reservation at this place at 3:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3:00 pm time')}
+D:I, Q: make the reservation now for 4:45 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 afternoon time')}
+D:I, Q: place the reservation for 3:30 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 pm in the afternoon')}
+D:I, Q: can they accomodate 7 people on 28 oct 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '28 oct'|1|'28 oct 2019'; 'number of people'= 'for 7'|1|'7 people')}
+D:I, Q: can I view more details on london, P1: /;/->/city-restaurants#search{'search by name or location'= 'london'|0|'london')}
+D:I, Q: reserve it for me under eric miller, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'eric'|0|'eric'; 'last name'= 'miller'|0|'miller')}
+D:I, Q: what about a table here at 2:00 pm time for just for 3, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '14:00'|1|'2:00 pm time'; 'number of people'= 'for 3'|1|'just for 3')}
+D:I, Q: what's the avaiability on august 23 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '23 aug'|1|'august 23  2019')}
+D:I, Q: I would like for you to make this reservation for me for 18:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:30'|1|'18:30')}
+D:I, Q: reserve for tom johnson and specify bsmith@hotmail.com as email and 7741234567 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'bsmith@hotmail.com'|0|'bsmith@hotmail.com'; 'first name'= 'tom'|0|'tom'; 'last name'= 'johnson'|0|'johnson'; 'phone number'= '7741234567'|0|'7741234567')}
+D:I, Q: reserve for david taylor and specify joseph_234@outlook.com as email and 4401233624 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'david'|0|'david'; 'last name'= 'taylor'|0|'taylor'; 'phone number'= '4401233624'|0|'4401233624')}
+D:I, Q: reserve for james johnson and specify mark_taylor@outlook.com as email and 4401233624 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'mark_taylor@outlook.com'|0|'mark_taylor@outlook.com'; 'first name'= 'james'|0|'james'; 'last name'= 'johnson'|0|'johnson'; 'phone number'= '4401233624'|0|'4401233624')}
+D:I, Q: can I get a table here for 4:45 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 afternoon time')}
+D:I, Q: reserve for mark fanet and specify bsmith@hotmail.com as email and 3122345786 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'bsmith@hotmail.com'|0|'bsmith@hotmail.com'; 'first name'= 'mark'|0|'mark'; 'last name'= 'fanet'|0|'fanet'; 'phone number'= '3122345786'|0|'3122345786')}
+D:I, Q: reserve for james smith and specify mark_taylor@outlook.com as email and 3124569876 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'mark_taylor@outlook.com'|0|'mark_taylor@outlook.com'; 'first name'= 'james'|0|'james'; 'last name'= 'smith'|0|'smith'; 'phone number'= '3124569876'|0|'3124569876')}
+D:I, Q: what's the avaiability on september 23 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '23 sep'|1|'september 23  2019')}
+D:I, Q: find me a table here for 4 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4 afternoon time')}
+D:I, Q: find me a table here for 8:15 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 pm time')}
+D:I, Q: yes reserve this resturant for 9:00 pm in the night, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 pm in the night')}
+D:I, Q: anything free at 12 in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '12:00'|1|'12 in the morning')}
+D:I, Q: i'm interested in offers, P1: /search-listings/;/search-listings/->/search-listings/#show restaurants with offer{'show restaurants with offer'= 'true'|1|"i'm interested in offers")}
+D:I, Q: book it at 6 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6 evening time')}
+D:I, Q: what's the availability on 17 oct 2019 for just for 10, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '17 oct'|1|'17 oct 2019'; 'number of people'= 'for 10'|1|'just for 10')}
+D:I, Q: I need a reservation at this place at 7:00 pm in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7:00 pm in the evening')}
+D:I, Q: find me a table here for 18:45, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:45'|1|'18:45')}
+D:I, Q: can I book on 9 jul 2019 at 1:00 pm in the afternoon for 12 persons, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '13:00'|1|'1:00 pm in the afternoon'; 'date'= '9 jul'|1|'9 jul 2019'; 'number of people'= 'for 12'|1|'12 persons')}
+D:I, Q: I'm interested in hutong at the shard, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'hutong at the shard'|1|'hutong at the shard')}
+D:I, Q: which are asian, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'asian'|1|'asian')}
+D:I, Q: I'm interested in manchester, P1: /;/->/city-restaurants#search{'search by name or location'= 'manchester'|0|'manchester')}
+D:I, Q: book me this restaurant at 6:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6:00 in the evening')}
+D:I, Q: what's the avaiability on 20 aug 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '20 aug'|1|'20 aug 2019')}
+D:I, Q: is it available for 6:30 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:30'|1|'6:30 evening time')}
+D:I, Q: book it at 9:00 in the night, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 in the night')}
+D:I, Q: can I get a table here for 4 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|"4 o'clock")}
+D:I, Q: what about a table here at 5:30 pm time for about 5 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '17:30'|1|'5:30 pm time'; 'number of people'= 'for 5'|1|'about 5 people')}
+D:I, Q: I want liverpool, P1: /;/->/city-restaurants#search{'search by name or location'= 'liverpool'|0|'liverpool')}
+D:I, Q: can they accomodate 5 people on 26 jul 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '26 jul'|1|'26 jul 2019'; 'number of people'= 'for 5'|1|'5 people')}
+D:I, Q: is it available on august 21 2019 at 7:30 am time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '7:30'|1|'7:30 am time'; 'date'= '21 aug'|1|'august 21  2019')}
+D:I, Q: I want to reserve for 8:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 in the evening')}
+D:I, Q: can you reserve on 8 jul 2019 for the 8 of us, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 jul'|1|'8 jul 2019'; 'number of people'= 'for 8'|1|'the 8 of us')}
+D:I, Q: which are chinese, P1: /search-listings/;/search-listings/->/search-listings/#cuisine{'cuisine'= 'chinese'|1|'chinese')}
+D:I, Q: can I book on november 13 2019 at 8:30 in the evening for the 5 of us, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '20:30'|1|'8:30 in the evening'; 'date'= '13 nov'|1|'november 13  2019'; 'number of people'= 'for 5'|1|'the 5 of us')}
+D:I, Q: I want a table here for 5:30 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'5:30 in the evening')}
+D:I, Q: book me this restaurant at 18:15, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'18:15')}
+D:I, Q: confirm my table for 16:45, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'16:45')}
+D:I, Q: what about a table here at 21:30 for just for 5, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '21:30'|1|'21:30'; 'number of people'= 'for 5'|1|'just for 5')}
+D:I, Q: can they accomodate 10 people on november 20 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '20 nov'|1|'november 20  2019'; 'number of people'= 'for 10'|1|'10 people')}
+D:I, Q: reserve this one and give brian taylor as contact person, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'brian'|0|'brian'; 'last name'= 'taylor'|0|'taylor')}
+D:I, Q: what's the availability on 18 sep 2019 for the 7 of us, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '18 sep'|1|'18 sep 2019'; 'number of people'= 'for 7'|1|'the 7 of us')}
+D:I, Q: what's the availability on 24 oct 2019 for the 12 of us, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '24 oct'|1|'24 oct 2019'; 'number of people'= 'for 12'|1|'the 12 of us')}
+D:I, Q: anything free at 2:30 am in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '2:30'|1|'2:30 am in the morning')}
+D:I, Q: is it available on december 18 2019 at 9:30 pm in the night, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '21:30'|1|'9:30 pm in the night'; 'date'= '18 dec'|1|'december 18  2019')}
+D:I, Q: can they accomodate 5 persons on 11 oct 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '11 oct'|1|'11 oct 2019'; 'number of people'= 'for 5'|1|'5 persons')}
+D:I, Q: anything free at 11:30 night time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '23:30'|1|'11:30 night time')}
+D:I, Q: is it available for 4:00 afternoon time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4:00 afternoon time')}
+D:I, Q: can I get a table here for 3:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3:00 pm time')}
+D:I, Q: is it available on 19 aug 2019 at 7:30 evening time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '19:30'|1|'7:30 evening time'; 'date'= '19 aug'|1|'19 aug 2019')}
+D:I, Q: place the reservation for 8:00 evening time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'8:00 evening time')}
+D:I, Q: I would like for you to make this reservation for me for 3 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 in the afternoon')}
+D:I, Q: can I book on 31 jul 2019 at 10:30 pm time for the 4 of us, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '22:30'|1|'10:30 pm time'; 'date'= '31 jul'|1|'31 jul 2019'; 'number of people'= 'for 4'|1|'the 4 of us')}
+D:I, Q: finalize the reservation for 8:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:30'|1|'8:30 pm time')}
+D:I, Q: avaiability for 6 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|"6 o'clock")}
+D:I, Q: anything free at 12:00 in the night, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '0:00'|1|'12:00 in the night')}
+D:I, Q: can they accomodate me and 2 sons on 26 sep 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '26 sep'|1|'26 sep 2019'; 'number of people'= 'for 3'|1|'me and 2 sons')}
+D:I, Q: get a table here for 6:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'6:00 in the evening')}
+D:I, Q: I need a reservation at this place at 4:00 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:00'|1|'4:00 pm in the afternoon')}
+D:I, Q: is it available for 4:45 in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 in the afternoon')}
+D:I, Q: do have availability for 11 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'number of people'= 'for 11'|1|'11 people')}
+D:I, Q: find me a table here for 9:00 night time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|'9:00 night time')}
+D:I, Q: can they accomodate 6 persons on november 27 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '27 nov'|1|'november 27  2019'; 'number of people'= 'for 6'|1|'6 persons')}
+D:I, Q: I would like for you to make this reservation for me for 17:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:30'|1|'17:30')}
+D:I, Q: how booked it is on 6 dec 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '6 dec'|1|'6 dec 2019')}
+D:I, Q: do have availability for just 2, P1: Restaurant;Restaurant->Restaurant availability#find table{'number of people'= 'for 2'|1|'just 2')}
+D:I, Q: how booked it is on 22 aug 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '22 aug'|1|'22 aug 2019')}
+D:I, Q: can you reserve on 8 aug 2019 for just 1, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '8 aug'|1|'8 aug 2019'; 'number of people'= 'for 1'|1|'just 1')}
+D:I, Q: I want to reserve for 5:00 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '17:00'|1|'5:00 in the evening')}
+D:I, Q: is it available on december 27 2019 at 2:30 am time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '2:30'|1|'2:30 am time'; 'date'= '27 dec'|1|'december 27  2019')}
+D:I, Q: what's the avaiability on september 30 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '30 sep'|1|'september 30  2019')}
+D:I, Q: I want to reserve for 15:30, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'15:30')}
+D:I, Q: more details on jamies st mary at hill, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'|1|'jamies st mary at hill')}
+D:I, Q: find me a table here for 4:45 pm in the afternoon, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '16:45'|1|'4:45 pm in the afternoon')}
+D:I, Q: reserve for tom smith and specify joseph_234@outlook.com as email and 7741234567 as phone contact number, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'email'= 'joseph_234@outlook.com'|0|'joseph_234@outlook.com'; 'first name'= 'tom'|0|'tom'; 'last name'= 'smith'|0|'smith'; 'phone number'= '7741234567'|0|'7741234567')}
+D:I, Q: I would like for you to make this reservation for me for 6:15 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:15'|1|'6:15 pm time')}
+D:I, Q: what's the avaiability on 3 sep 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '3 sep'|1|'3 sep 2019')}
+D:I, Q: is it available on 30 oct 2019 at 4:30 afternoon time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '16:30'|1|'4:30 afternoon time'; 'date'= '30 oct'|1|'30 oct 2019')}
+D:I, Q: anything free at 5:00 evening time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '17:00'|1|'5:00 evening time')}
+D:I, Q: is it available on 23 dec 2019 at 7:30 evening time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '19:30'|1|'7:30 evening time'; 'date'= '23 dec'|1|'23 dec 2019')}
+D:I, Q: can I book on july 31 2019 at 9:30 morning time for about 6 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '9:30'|1|'9:30 morning time'; 'date'= '31 jul'|1|'july 31  2019'; 'number of people'= 'for 6'|1|'about 6 people')}
+D:I, Q: what about a table here at 3:00 pm in the afternoon for 1, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '15:00'|1|'3:00 pm in the afternoon'; 'number of people'= 'for 1'|1|'1')}
+D:I, Q: is it available on 7 aug 2019 at 12 am time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '12:00'|1|'12 am time'; 'date'= '7 aug'|1|'7 aug 2019')}
+D:I, Q: anything free at 3:30 pm time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '15:30'|1|'3:30 pm time')}
+D:I, Q: anything free at 5:30 morning time, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '5:30'|1|'5:30 morning time')}
+D:I, Q: can I book on september 13 2019 at 2:30 am time for a party of 3 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '2:30'|1|'2:30 am time'; 'date'= '13 sep'|1|'september 13  2019'; 'number of people'= 'for 3'|1|'a party of 3 people')}
+D:I, Q: I want to reserve for 7:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '19:00'|1|'7:00 pm time')}
+D:I, Q: reserve this one and give mark miller as contact person, P1: Reservation form;Reservation form->Reservation confirmation#continue reservation{'first name'= 'mark'|0|'mark'; 'last name'= 'miller'|0|'miller')}
+D:I, Q: only south east london options, P1: /search-listings/;/search-listings/->/search-listings/#location{'location'= 'south east london'|1|'south east london')}
+D:I, Q: complete the reservation for 20:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:00'|1|'20:00')}
+D:I, Q: can you reserve on october 29 2019 for about 11 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '29 oct'|1|'october 29  2019'; 'number of people'= 'for 11'|1|'about 11 people')}
+D:I, Q: list restaurants in cambridge, P1: /;/->/city-restaurants#uk cities{'uk cities'= 'cambridge'|1|'cambridge')}
+D:I, Q: anything free at 4 in the afternoon, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '16:00'|1|'4 in the afternoon')}
+D:I, Q: is it available on august 26 2019 at 7 in the evening, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '19:00'|1|'7 in the evening'; 'date'= '26 aug'|1|'august 26  2019')}
+D:I, Q: anything free at 6:30 in the evening, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '18:30'|1|'6:30 in the evening')}
+D:I, Q: some more information on jamies st mary at hill, P1: /search-listings/;/search-listings/->Restaurant#restaurant name{'restaurant name'= 'jamies st mary at hill'|1|'jamies st mary at hill')}
+D:I, Q: make a reservation for this for 3 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3 pm time')}
+D:I, Q: can you reserve on november 14 2019 for 12 guests, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '14 nov'|1|'november 14  2019'; 'number of people'= 'for 12'|1|'12 guests')}
+D:I, Q: make a reservation for this for 3:00 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:00'|1|'3:00 pm time')}
+D:I, Q: book me this restaurant at 9 o'clock, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '21:00'|1|"9 o'clock")}
+D:I, Q: what's the avaiability on december 25 2019, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '25 dec'|1|'december 25  2019')}
+D:I, Q: is it available on 29 oct 2019 at 1:30 am in the morning, P1: Restaurant;Restaurant->Restaurant availability#find table{'time'= '1:30'|1|'1:30 am in the morning'; 'date'= '29 oct'|1|'29 oct 2019')}
+D:I, Q: can you reserve on 19 aug 2019 for a party of 2 people, P1: Restaurant;Restaurant->Restaurant availability#find table{'date'= '19 aug'|1|'19 aug 2019'; 'number of people'= 'for 2'|1|'a party of 2 people')}
+D:I, Q: can I get a table here for 8:15 in the evening, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '20:15'|1|'8:15 in the evening')}
+D:I, Q: I would like for you to make this reservation for me for 18:00, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '18:00'|1|'18:00')}
+D:I, Q: book me this restaurant at 3:30 pm time, P1: Restaurant availability;Restaurant availability->Reservation form#booking time{'booking time'= '15:30'|1|'3:30 pm time')}

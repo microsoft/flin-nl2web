@@ -1,0 +1,12 @@
+===========================
+ websiteID --> websiteURL
+===========================
+925  --> opentable.com
+958  -->  yelp.com
+1204 -->  bookatable.co.uk
+1086 -->  hotels.com
+1076 -->  hyatt.com
+1074 -->  radissonhotels.com
+1202 -->  rei.com
+1145 -->  ebay.com
+1178 -->  macys.com

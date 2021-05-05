@@ -1,0 +1,303 @@
+available hotels->available hotels#sort results,sort results,sort by brand,CLOSED
+available hotels->available hotels#sort results,sort results,sort by price,CLOSED
+available hotels->available hotels#sort results,sort results,sort by distance,CLOSED
+available hotels->available hotels#sort results,sort results,sort by business,CLOSED
+available hotels->available hotels#sort results,sort results,sort by leisure,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,1,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,2,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,3,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,4,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,5,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,6,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,7,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,8,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,9,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,10,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,11,CLOSED
+payment->payment confirmation/error#book my stay,expiry month mm,12,CLOSED
+payment->payment confirmation/error#book my stay,card type,diners club,CLOSED
+payment->payment confirmation/error#book my stay,card type,discover,CLOSED
+payment->payment confirmation/error#book my stay,card type,jcb card,CLOSED
+payment->payment confirmation/error#book my stay,card type,world bank,CLOSED
+payment->payment confirmation/error#book my stay,card type,american express,CLOSED
+payment->payment confirmation/error#book my stay,card type,mastercard,CLOSED
+payment->payment confirmation/error#book my stay,card type,visa,CLOSED
+payment->payment confirmation/error#book my stay,card type,hyatt visa card,CLOSED
+payment->payment confirmation/error#book my stay,card type,unionpay,CLOSED
+payment->payment confirmation/error#book my stay,credit card number,234567000000000,OPEN
+payment->payment confirmation/error#book my stay,credit card number,123457000000000,OPEN
+payment->payment confirmation/error#book my stay,credit card number,543336000000000,OPEN
+payment->payment confirmation/error#book my stay,credit card number,313457000000000,OPEN
+payment->payment confirmation/error#book my stay,credit card number,123457000000000,OPEN
+payment->payment confirmation/error#book my stay,expiry year yyyy,2023,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2024,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2022,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2026,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2029,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2019,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2020,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2027,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2028,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2025,CLOSED
+payment->payment confirmation/error#book my stay,expiry year yyyy,2021,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,gallery / rooms,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,reviews / highest ratings,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,gallery / hotel,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,gallery / fitness,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,gallery / activities,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,reviews / 1 star,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,gallery / pool,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,gallery / dining,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,reviews / 5 stars,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,gallery / meetings,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,reviews / 4 stars,CLOSED
+hotel-info->hotel-info#photos and reviews,photos and reviews,reviews / most recent,CLOSED
+hotel-info->hotel-info#rooms,rooms,view king with sofa bed,CLOSED
+hotel-info->hotel-info#rooms,rooms,king bed with sofa bed,CLOSED
+hotel-info->hotel-info#rooms,rooms,accessible specialty king/roll in shower with sofa bed,CLOSED
+hotel-info->hotel-info#rooms,rooms,accessible king bed/tub with sofa bed,CLOSED
+hotel-info->hotel-info#rooms,rooms,specialty king with sofa bed,CLOSED
+hotel-info->hotel-info#rooms,rooms,accessible two queen beds/roll in shower with sofa bed,CLOSED
+hotel-info->hotel-info#rooms,rooms,view 2 queens with sofa bed,CLOSED
+hotel-info->hotel-info#rooms,rooms,accessible two queen beds/tub with sofa bed,CLOSED
+hotel-info->hotel-info#rooms,rooms,two queen beds with sofa bed,CLOSED
+hotel-info->hotel-info#offers,offers,double your points,CLOSED
+hotel-info->hotel-info#offers,offers,member rate,CLOSED
+hotel-info->hotel-info#special events,special events,special events,CLOSED
+hotel-info->hotel-info#dining,dining,the market,CLOSED
+hotel-info->hotel-info#dining,dining,the bar,CLOSED
+hotel-info->hotel-info#dining,dining,breakfast bar,CLOSED
+hotel-info->hotel-info#area attractions,area attractions,sports entertainment,CLOSED
+hotel-info->hotel-info#area attractions,area attractions,outdoor attractions,CLOSED
+hotel-info->hotel-info#area attractions,area attractions,arts & culture,CLOSED
+hotel-info->hotel-info#area attractions,area attractions,shopping,CLOSED
+hotel-info->hotel-info#area attractions,area attractions,local attractions,CLOSED
+hotel-info->hotel-info#area attractions,area attractions,food drink,CLOSED
+hotel-info->hotel-rates#book now,adults,1,CLOSED
+hotel-info->hotel-rates#book now,adults,2,CLOSED
+hotel-info->hotel-rates#book now,adults,3,CLOSED
+hotel-info->hotel-rates#book now,adults,4,CLOSED
+hotel-info->hotel-rates#book now,adults,5,CLOSED
+hotel-info->hotel-rates#book now,adults,6,CLOSED
+hotel-info->hotel-rates#book now,check out date,20,CLOSED
+hotel-info->hotel-rates#book now,check out date,24,CLOSED
+hotel-info->hotel-rates#book now,check out date,25,CLOSED
+hotel-info->hotel-rates#book now,check out date,23,CLOSED
+hotel-info->hotel-rates#book now,check out date,22,CLOSED
+hotel-info->hotel-rates#book now,check out date,26,CLOSED
+hotel-info->hotel-rates#book now,check out date,21,CLOSED
+hotel-info->hotel-rates#book now,accessible,TRUE,CLOSED
+hotel-info->hotel-rates#book now,age of children,1,CLOSED
+hotel-info->hotel-rates#book now,age of children,2,CLOSED
+hotel-info->hotel-rates#book now,age of children,3,CLOSED
+hotel-info->hotel-rates#book now,age of children,4,CLOSED
+hotel-info->hotel-rates#book now,age of children,5,CLOSED
+hotel-info->hotel-rates#book now,age of children,6,CLOSED
+hotel-info->hotel-rates#book now,age of children,7,CLOSED
+hotel-info->hotel-rates#book now,age of children,8,CLOSED
+hotel-info->hotel-rates#book now,age of children,9,CLOSED
+hotel-info->hotel-rates#book now,age of children,10,CLOSED
+hotel-info->hotel-rates#book now,age of children,11,CLOSED
+hotel-info->hotel-rates#book now,age of children,12,CLOSED
+hotel-info->hotel-rates#book now,age of children,13,CLOSED
+hotel-info->hotel-rates#book now,age of children,14,CLOSED
+hotel-info->hotel-rates#book now,age of children,15,CLOSED
+hotel-info->hotel-rates#book now,age of children,16,CLOSED
+hotel-info->hotel-rates#book now,age of children,17,CLOSED
+hotel-info->hotel-rates#book now,age of children,18,CLOSED
+hotel-info->hotel-rates#book now,age of children,<1,CLOSED
+hotel-info->hotel-rates#book now,children,1,CLOSED
+hotel-info->hotel-rates#book now,children,2,CLOSED
+hotel-info->hotel-rates#book now,children,3,CLOSED
+hotel-info->hotel-rates#book now,children,4,CLOSED
+hotel-info->hotel-rates#book now,check in date,20,CLOSED
+hotel-info->hotel-rates#book now,check in date,24,CLOSED
+hotel-info->hotel-rates#book now,check in date,25,CLOSED
+hotel-info->hotel-rates#book now,check in date,23,CLOSED
+hotel-info->hotel-rates#book now,check in date,22,CLOSED
+hotel-info->hotel-rates#book now,check in date,26,CLOSED
+hotel-info->hotel-rates#book now,check in date,21,CLOSED
+hotel-info->hotel-rates#book now,rooms,1,CLOSED
+hotel-info->hotel-rates#book now,rooms,2,CLOSED
+hotel-info->hotel-rates#book now,rooms,3,CLOSED
+hotel-info->hotel-rates#book now,rooms,4,CLOSED
+hotel-rates->hotel-rates#select rate,select rate,standard rate from $161 usd,CLOSED
+hotel-rates->hotel-rates#select rate,select rate,parking package from $196 usd,CLOSED
+hotel-rates->hotel-rates#select rate,select rate,bed and breakfast from $174 usd,CLOSED
+hotel-rates->hotel-rates#select rate,select rate,member rate from $155 usd,CLOSED
+hotel-rates->hotel-rates#select rate,select rate,skydeck chicago package from $201 usd,CLOSED
+hotel-rates->reservation form#select room,select room,accesible king bed / tub with sofa bed $161 avg/night usd,CLOSED
+hotel-rates->reservation form#select room,select room,speciality king with sofa bed $181 avg/night usd,CLOSED
+hotel-rates->reservation form#select room,select room,view king with sofa bed $170 avg/night usd,CLOSED
+hotel-rates->reservation form#select room,select room,two queen beds with sofa bed $155 avg/night usd,CLOSED
+hotel-rates->reservation form#select room,select room,king bed with sofa bed $161 avg/night usd,CLOSED
+hotel-rates->reservation form#select room,select room,view two queen with sofa bed $164 avg/night usd,CLOSED
+reservation form->payment#proceed to payment,given first name,david,OPEN
+reservation form->payment#proceed to payment,given first name,mark,OPEN
+reservation form->payment#proceed to payment,given first name,jason,OPEN
+reservation form->payment#proceed to payment,given first name,tom,OPEN
+reservation form->payment#proceed to payment,surname last name,taylor,OPEN
+reservation form->payment#proceed to payment,surname last name,johnson,OPEN
+reservation form->payment#proceed to payment,surname last name,brown,OPEN
+reservation form->payment#proceed to payment,surname last name,smith,OPEN
+reservation form->payment#proceed to payment,prefix,mr.,CLOSED
+reservation form->payment#proceed to payment,prefix,dr.,CLOSED
+reservation form->payment#proceed to payment,prefix,miss,CLOSED
+reservation form->payment#proceed to payment,prefix,ms.,CLOSED
+reservation form->payment#proceed to payment,prefix,mrs.,CLOSED
+reservation form->payment#proceed to payment,zip code,24566,OPEN
+reservation form->payment#proceed to payment,zip code,32467,OPEN
+reservation form->payment#proceed to payment,zip code,54667,OPEN
+reservation form->payment#proceed to payment,zip code,98003,OPEN
+reservation form->payment#proceed to payment,country region,sweden,CLOSED
+reservation form->payment#proceed to payment,country region,germany,CLOSED
+reservation form->payment#proceed to payment,country region,united kingdom,CLOSED
+reservation form->payment#proceed to payment,country region,india,CLOSED
+reservation form->payment#proceed to payment,country region,australia,CLOSED
+reservation form->payment#proceed to payment,country region,china,CLOSED
+reservation form->payment#proceed to payment,country region,italy,CLOSED
+reservation form->payment#proceed to payment,country region,denmark,CLOSED
+reservation form->payment#proceed to payment,country region,singapore,CLOSED
+reservation form->payment#proceed to payment,country region,japan,CLOSED
+reservation form->payment#proceed to payment,country region,united states,CLOSED
+reservation form->payment#proceed to payment,country region,spain,CLOSED
+reservation form->payment#proceed to payment,last name,taylor,OPEN
+reservation form->payment#proceed to payment,last name,johnson,OPEN
+reservation form->payment#proceed to payment,last name,brown,OPEN
+reservation form->payment#proceed to payment,last name,smith,OPEN
+reservation form->payment#proceed to payment,state,alaska,CLOSED
+reservation form->payment#proceed to payment,state,illinois,CLOSED
+reservation form->payment#proceed to payment,state,washington,CLOSED
+reservation form->payment#proceed to payment,state,idaho,CLOSED
+reservation form->payment#proceed to payment,state,california,CLOSED
+reservation form->payment#proceed to payment,state,indiana,CLOSED
+reservation form->payment#proceed to payment,state,texas,CLOSED
+reservation form->payment#proceed to payment,state,florida,CLOSED
+reservation form->payment#proceed to payment,state,hawaii,CLOSED
+reservation form->payment#proceed to payment,state,north carolina,CLOSED
+reservation form->payment#proceed to payment,phone number,3124556347,OPEN
+reservation form->payment#proceed to payment,phone number,7732345467,OPEN
+reservation form->payment#proceed to payment,phone number,5462342567,OPEN
+reservation form->payment#proceed to payment,phone number,4323345679,OPEN
+reservation form->payment#proceed to payment,world of hyatt or username,mark5,OPEN
+reservation form->payment#proceed to payment,world of hyatt or username,david_10,OPEN
+reservation form->payment#proceed to payment,world of hyatt or username,smith_1,OPEN
+reservation form->payment#proceed to payment,email,mtaylor@gmail.com,OPEN
+reservation form->payment#proceed to payment,email,david234@outlook.com,OPEN
+reservation form->payment#proceed to payment,email,dbrown@hotmail.com,OPEN
+reservation form->payment#proceed to payment,email,smith@gmail.com,OPEN
+reservation form->payment#proceed to payment,password,23#84675_10,OPEN
+reservation form->payment#proceed to payment,password,4567sa_234$,OPEN
+reservation form->payment#proceed to payment,password,david_234$90,OPEN
+reservation form->payment#proceed to payment,password,4893eewww@,OPEN
+/->available hotels#find hotels,check out date,10,CLOSED
+/->available hotels#find hotels,check out date,14,CLOSED
+/->available hotels#find hotels,check out date,13,CLOSED
+/->available hotels#find hotels,check out date,16,CLOSED
+/->available hotels#find hotels,check out date,11,CLOSED
+/->available hotels#find hotels,check out date,15,CLOSED
+/->available hotels#find hotels,check out date,12,CLOSED
+/->available hotels#find hotels,children,1,CLOSED
+/->available hotels#find hotels,children,2,CLOSED
+/->available hotels#find hotels,children,3,CLOSED
+/->available hotels#find hotels,children,4,CLOSED
+/->available hotels#find hotels,check in date,10,CLOSED
+/->available hotels#find hotels,check in date,14,CLOSED
+/->available hotels#find hotels,check in date,13,CLOSED
+/->available hotels#find hotels,check in date,16,CLOSED
+/->available hotels#find hotels,check in date,11,CLOSED
+/->available hotels#find hotels,check in date,15,CLOSED
+/->available hotels#find hotels,check in date,12,CLOSED
+/->available hotels#find hotels,adults,1,CLOSED
+/->available hotels#find hotels,adults,2,CLOSED
+/->available hotels#find hotels,adults,3,CLOSED
+/->available hotels#find hotels,adults,4,CLOSED
+/->available hotels#find hotels,adults,5,CLOSED
+/->available hotels#find hotels,adults,6,CLOSED
+/->available hotels#find hotels,special rates,government,CLOSED
+/->available hotels#find hotels,special rates,veteran,CLOSED
+/->available hotels#find hotels,special rates,corporate or group code,CLOSED
+/->available hotels#find hotels,special rates,aaa / caa member,CLOSED
+/->available hotels#find hotels,special rates,senior,CLOSED
+/->available hotels#find hotels,special rates,special offer code,CLOSED
+/->available hotels#find hotels,rooms,1,CLOSED
+/->available hotels#find hotels,rooms,2,CLOSED
+/->available hotels#find hotels,rooms,3,CLOSED
+/->available hotels#find hotels,rooms,4,CLOSED
+/->available hotels#find hotels,use points,TRUE,CLOSED
+/->available hotels#find hotels,city address landmark airport hotel,chicago river,OPEN
+/->available hotels#find hotels,city address landmark airport hotel,seattle space needle,OPEN
+/->available hotels#find hotels,city address landmark airport hotel,brooklyn bride ny,OPEN
+/->available hotels#find hotels,city address landmark airport hotel,san fransisco,OPEN
+/->available hotels#find hotels,city address landmark airport hotel,boston,OPEN
+available hotels->hotel-rates#select hotel,select hotel,park hyatt chicago,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt centric the loop chicago,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,chicago athletic association,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hotel lincoln,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt place chicago/midway airport,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt rosemont,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt centric chicago magnificent mile,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,the talbott hotel,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt place chicago/downtown the loop,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt place chicago/river north,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt regency mccormick place,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,ambassador chicago,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,thompson chicago,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt house chicago / west loop fulton market,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt place chicago south/university medical center,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt regency o'hare chicago,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt regency lisle near naperville,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt house chicago/evanston,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt regency chicago,CLOSED
+available hotels->hotel-rates#select hotel,select hotel,hyatt lodge,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,park hyatt chicago,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt centric the loop chicago,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hotel lincoln,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt place chicago/midway airport,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt rosemont,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt centric chicago magnificent mile,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt place chicago/downtown the loop,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt place chicago/river north,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt place chicago south/university medical center,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt regency o'hare chicago,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,thompson chicago,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt house chicago / west loop fulton market,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,view photos hyatt place chicago/o'hare airport,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt house chicago/evanston,CLOSED
+available hotels->hotel-info#visit hotel website,visit hotel website,hyatt regency chicago,CLOSED
+/hotels-location->available hotels#find hotels,rooms,1,CLOSED
+/hotels-location->available hotels#find hotels,rooms,2,CLOSED
+/hotels-location->available hotels#find hotels,rooms,3,CLOSED
+/hotels-location->available hotels#find hotels,rooms,4,CLOSED
+/hotels-location->available hotels#find hotels,adults,1,CLOSED
+/hotels-location->available hotels#find hotels,adults,2,CLOSED
+/hotels-location->available hotels#find hotels,adults,3,CLOSED
+/hotels-location->available hotels#find hotels,adults,4,CLOSED
+/hotels-location->available hotels#find hotels,adults,5,CLOSED
+/hotels-location->available hotels#find hotels,adults,6,CLOSED
+/hotels-location->available hotels#find hotels,check in date,2,CLOSED
+/hotels-location->available hotels#find hotels,check in date,1,CLOSED
+/hotels-location->available hotels#find hotels,check out date,2,CLOSED
+/hotels-location->available hotels#find hotels,check out date,1,CLOSED
+/hotels-location->available hotels#find hotels,special rates,government,CLOSED
+/hotels-location->available hotels#find hotels,special rates,veteran,CLOSED
+/hotels-location->available hotels#find hotels,special rates,corporate or group code,CLOSED
+/hotels-location->available hotels#find hotels,special rates,aaa / caa member,CLOSED
+/hotels-location->available hotels#find hotels,special rates,senior,CLOSED
+/hotels-location->available hotels#find hotels,special rates,special offer code,CLOSED
+/hotels-location->available hotels#find hotels,children,1,CLOSED
+/hotels-location->available hotels#find hotels,children,2,CLOSED
+/hotels-location->available hotels#find hotels,children,3,CLOSED
+/hotels-location->available hotels#find hotels,children,4,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,seattle,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,sydney,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,new york,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,san fransisco,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,melbourne,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,los angeles,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,boston,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,dubai,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,london,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,chicago,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,new delhi,CLOSED
+/->/hotels-location#view hotels by location,view hotels by location,las vegas,CLOSED

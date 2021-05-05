@@ -1,0 +1,415 @@
+/bookingInitialise.do->confirmation#book stay,phone number,3125347689,OPEN
+/bookingInitialise.do->confirmation#book stay,phone number,3245689801,OPEN
+/bookingInitialise.do->confirmation#book stay,phone number,3125671987,OPEN
+/bookingInitialise.do->confirmation#book stay,phone number,3156789098,OPEN
+/bookingInitialise.do->confirmation#book stay,first name,tim,OPEN
+/bookingInitialise.do->confirmation#book stay,first name,adam,OPEN
+/bookingInitialise.do->confirmation#book stay,first name,sarah,OPEN
+/bookingInitialise.do->confirmation#book stay,first name,ida,OPEN
+/bookingInitialise.do->confirmation#book stay,first name,liviu,OPEN
+/bookingInitialise.do->confirmation#book stay,first name,bob,OPEN
+/bookingInitialise.do->confirmation#book stay,first name,john,OPEN
+/bookingInitialise.do->confirmation#book stay,last name,johnson,OPEN
+/bookingInitialise.do->confirmation#book stay,last name,smith,OPEN
+/bookingInitialise.do->confirmation#book stay,last name,burger,OPEN
+/bookingInitialise.do->confirmation#book stay,last name,whitaker,OPEN
+/bookingInitialise.do->confirmation#book stay,last name,whitaker,OPEN
+/bookingInitialise.do->confirmation#book stay,last name,lee,OPEN
+/bookingInitialise.do->confirmation#book stay,last name,weeds,OPEN
+/bookingInitialise.do->confirmation#book stay,email address,adam@gmail.com,OPEN
+/bookingInitialise.do->confirmation#book stay,email address,sarah@hotmail.com,OPEN
+/bookingInitialise.do->confirmation#book stay,email address, liviu@microsoft.com,OPEN
+/bookingInitialise.do->confirmation#book stay,email address,jason@gmail.com,OPEN
+/bookingInitialise.do->confirmation#book stay,email address,bob@hotmail.com,OPEN
+/bookingInitialise.do->confirmation#book stay,email address,johnuser@test.com,OPEN
+/bookingInitialise.do->confirmation#book stay,email address,weeds@gmail com,OPEN
+/bookingInitialise.do->confirmation#book stay,card number,1.11E+015,OPEN
+/bookingInitialise.do->confirmation#book stay,card number,3460000000000000,OPEN
+/bookingInitialise.do->confirmation#book stay,card number,1.11E+015,OPEN
+/bookingInitialise.do->confirmation#book stay,card number,3460000000000000,OPEN
+/bookingInitialise.do->confirmation#book stay,billing country,USA,CLOSED
+/bookingInitialise.do->confirmation#book stay,billing country,Canada,CLOSED
+/bookingInitialise.do->confirmation#book stay,billing country,UK,CLOSED
+/bookingInitialise.do->confirmation#book stay,billing country,India,CLOSED
+/bookingInitialise.do->confirmation#book stay,billing country,France,CLOSED
+/bookingInitialise.do->confirmation#book stay,billing country,Italy,CLOSED
+/bookingInitialise.do->confirmation#book stay,card expiration year,20,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration year,21,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration year,22,OPEN
+/bookingInitialise.do->confirmation#book stay,billing postal code,98001,OPEN
+/bookingInitialise.do->confirmation#book stay,billing postal code,12366,OPEN
+/bookingInitialise.do->confirmation#book stay,billing postal code,23084,OPEN
+/bookingInitialise.do->confirmation#book stay,billing postal code,56002,OPEN
+/bookingInitialise.do->confirmation#book stay,card type,apple pay,CLOSED
+/bookingInitialise.do->confirmation#book stay,card type,credit/debit card,CLOSED
+/bookingInitialise.do->confirmation#book stay,card type,paypal,CLOSED
+/bookingInitialise.do->confirmation#book stay,card type,gift card,CLOSED
+/bookingInitialise.do->confirmation#book stay,security code,111,OPEN
+/bookingInitialise.do->confirmation#book stay,security code,760,OPEN
+/bookingInitialise.do->confirmation#book stay,security code,139,OPEN
+/bookingInitialise.do->confirmation#book stay,security code,875,OPEN
+/bookingInitialise.do->confirmation#book stay,security code,226,OPEN
+/bookingInitialise.do->confirmation#book stay,security code,182,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,1,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,2,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,3,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,4,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,5,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,6,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,7,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,8,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,9,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,10,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,11,OPEN
+/bookingInitialise.do->confirmation#book stay,card expiration month,12,OPEN
+/->/search.do#search,check out,28/9/2019,CLOSED
+/->/search.do#search,check out,10/9/20,CLOSED
+/->/search.do#search,check out,12/7/21,CLOSED
+/->/search.do#search,check out,14/6/2022,CLOSED
+/->/search.do#search,check out,17/9/2023,CLOSED
+/->/search.do#search,check in,28/9/2024,CLOSED
+/->/search.do#search,check in,22/6/2025,CLOSED
+/->/search.do#search,check in,25/8/2026,CLOSED
+/->/search.do#search,check in,26/9/2027,CLOSED
+/->/search.do#search,check in,14/7/2028,CLOSED
+/->/search.do#top destination,top destination,san antonio,CLOSED
+/->/search.do#top destination,top destination,houston,CLOSED
+/->/search.do#top destination,top destination,los angeles,CLOSED
+/->/search.do#top destination,top destination,seattle,CLOSED
+/->/search.do#top destination,top destination,san francisco,CLOSED
+/->/search.do#top destination,top destination,new york,CLOSED
+/->/search.do#search,number of rooms,1,CLOSED
+/->/search.do#search,number of rooms,2,CLOSED
+/->/search.do#search,number of rooms,3,CLOSED
+/->/search.do#search,number of rooms,4,CLOSED
+/->/search.do#search,number of rooms,5,CLOSED
+/->/search.do#search,number of rooms,6,CLOSED
+/->/search.do#search,number of rooms,7,CLOSED
+/->/search.do#search,number of rooms,8,CLOSED
+/->/search.do#search,number of rooms,9+,CLOSED
+/->/search.do#search,number of children,1,CLOSED
+/->/search.do#search,number of children,2,CLOSED
+/->/search.do#search,number of children,3,CLOSED
+/->/search.do#search,number of children,4,CLOSED
+/->/search.do#search,number of children,5,CLOSED
+/->/search.do#search,number of children,6,CLOSED
+/->/search.do#search,number of children,0,CLOSED
+/->/search.do#search,children age in months,<1,CLOSED
+/->/search.do#search,children age in months,1,CLOSED
+/->/search.do#search,children age in months,2,CLOSED
+/->/search.do#search,children age in months,3,CLOSED
+/->/search.do#search,children age in months,4,CLOSED
+/->/search.do#search,children age in months,5,CLOSED
+/->/search.do#search,children age in months,6,CLOSED
+/->/search.do#search,children age in months,7,CLOSED
+/->/search.do#search,children age in months,8,CLOSED
+/->/search.do#search,children age in months,9,CLOSED
+/->/search.do#search,children age in months,10,CLOSED
+/->/search.do#search,children age in months,11,CLOSED
+/->/search.do#search,children age in months,12,CLOSED
+/->/search.do#search,children age in months,13,CLOSED
+/->/search.do#search,children age in months,14,CLOSED
+/->/search.do#search,children age in months,15,CLOSED
+/->/search.do#search,children age in months,16,CLOSED
+/->/search.do#search,children age in months,17,CLOSED
+/->/search.do#search,number of adults,1,CLOSED
+/->/search.do#search,number of adults,2,CLOSED
+/->/search.do#search,number of adults,3,CLOSED
+/->/search.do#search,number of adults,4,CLOSED
+/->/search.do#search,number of adults,5,CLOSED
+/->/search.do#search,number of adults,6,CLOSED
+/->/search.do#search,number of adults,7,CLOSED
+/->/search.do#search,number of adults,8,CLOSED
+/->/search.do#search,number of adults,9,CLOSED
+/->/search.do#search,number of adults,10,CLOSED
+/->/search.do#search,number of adults,11,CLOSED
+/->/search.do#search,number of adults,12,CLOSED
+/->/search.do#search,number of adults,13,CLOSED
+/->/search.do#search,number of adults,14,CLOSED
+/->/search.do#search,number of adults,15,CLOSED
+/->/search.do#search,number of adults,16,CLOSED
+/->/search.do#search,number of adults,17,CLOSED
+/->/search.do#search,number of adults,18,CLOSED
+/->/search.do#search,number of adults,19,CLOSED
+/->/search.do#search,number of adults,20,CLOSED
+/->/search.do#search,destination,kirkland,OPEN
+/->/search.do#search,destination,seattle,OPEN
+/->/search.do#search,destination,bellevue,OPEN
+/->/search.do#search,destination,portland,OPEN
+/->/search.do#search,destination,chicago,OPEN
+/->/search.do#search,destination,vancouver,OPEN
+/->/search.do#search,destination,new york,OPEN
+/->/search.do#search,destination,boston,OPEN
+/->/search.do#search,destination,austin,OPEN
+/->/search.do#search,destination,toronto,OPEN
+/->/search.do#search,destination,virginia,OPEN
+/->/search.do#search,destination,texas,OPEN
+hotel-payment-options->/bookingInitialise.do#select payment type,select payment type,pay online,CLOSED
+hotel-payment-options->/bookingInitialise.do#select payment type,select payment type,pay at hotel,CLOSED
+hotel-info->hotel-info#room choices,room choices,room choices,CLOSED
+hotel-info->hotel-info#what s around,what s around,What is around,CLOSED
+hotel-info->hotel-info#overview,overview,overview,CLOSED
+hotel-info->hotel-info#reviews,reviews,reviews,CLOSED
+hotel-info->hotel-info#map,map,map,CLOSED
+hotel-info->hotel-info#hotel information,hotel information,hotel information,CLOSED
+hotel-info->hotel-payment-options#book room,book room,Superior Suite 1 King Bed with Sofa bed,CLOSED
+hotel-info->hotel-payment-options#book room,book room,standard bedroom,CLOSED
+hotel-info->hotel-payment-options#book room,book room,superior 2-bedroom,CLOSED
+hotel-info->hotel-payment-options#book room,book room,family apartment with balcony,CLOSED
+hotel-info->hotel-payment-options#book room,book room,standard room private bathroom,CLOSED
+hotel-info->hotel-payment-options#book room,book room,room 1 king bed in corner,CLOSED
+hotel-info->hotel-payment-options#book room,book room,classic room with 2 queen beds,CLOSED
+hotel-info->hotel-payment-options#book room,book room,suite with 1 king bed and non smoking,CLOSED
+hotel-info->hotel-payment-options#book room,book room,non smoking suite with multiple beds,CLOSED
+hotel-info->hotel-payment-options#book room,book room,room 1 king bed non smoking (leisure),CLOSED
+hotel-info->hotel-payment-options#book room,book room,room 2 queen beds non smoking,CLOSED
+hotel-info->hotel-payment-options#book room,book room,2-bedroom with garden view,CLOSED
+hotel-info->hotel-payment-options#book room,book room,deluxe suite 1 queen bed city view,CLOSED
+hotel-info->hotel-payment-options#book room,book room,executive suite 1 king bed with sofa bed city view,CLOSED
+hotel-info->hotel-payment-options#book room,book room,1-bedroom with ocean view,CLOSED
+hotel-info->hotel-payment-options#book room,book room,standard room,CLOSED
+hotel-info->hotel-payment-options#book room,book room,standard 2-bedroom,CLOSED
+hotel-info->hotel-payment-options#book room,book room,suite with balcony,CLOSED
+hotel-info->hotel-payment-options#book room,book room,presidential suite 1 king bed with sofa bed city view,CLOSED
+hotel-info->hotel-payment-options#book room,book room,studio 1 queen bed with sofa bed balcony,CLOSED
+hotel-info->hotel-payment-options#book room,book room,mini-studio with kitchenette,CLOSED
+hotel-info->hotel-payment-options#book room,book room,1-bedroom with kitchen,CLOSED
+hotel-info->room-info#show room information,show room information,Superior Suite 1 King Bed with Sofa bed,CLOSED
+hotel-info->room-info#show room information,show room information,standard bedroom,CLOSED
+hotel-info->room-info#show room information,show room information,superior 2-bedroom,CLOSED
+hotel-info->room-info#show room information,show room information,family apartment with balcony,CLOSED
+hotel-info->room-info#show room information,show room information,standard room private bathroom,CLOSED
+hotel-info->room-info#show room information,show room information,room 1 king bed corner,CLOSED
+hotel-info->room-info#show room information,show room information,classic room 2 queen beds,CLOSED
+hotel-info->room-info#show room information,show room information,suite 1 king bed non smoking,CLOSED
+hotel-info->room-info#show room information,show room information,suite multiple beds non smoking,CLOSED
+hotel-info->room-info#show room information,show room information,room 1 king bed non smoking (leisure),CLOSED
+hotel-info->room-info#show room information,show room information,room 2 queen beds non smoking,CLOSED
+hotel-info->room-info#show room information,show room information,2-bedroom with garden view,CLOSED
+hotel-info->room-info#show room information,show room information,deluxe suite 1 queen bed city view,CLOSED
+hotel-info->room-info#show room information,show room information,executive suite 1 king bed with sofa bed city view,CLOSED
+hotel-info->room-info#show room information,show room information,1-bedroom with ocean view,CLOSED
+hotel-info->room-info#show room information,show room information,standard room,CLOSED
+hotel-info->room-info#show room information,show room information,standard 2-bedroom,CLOSED
+hotel-info->room-info#show room information,show room information,suite with balcony,CLOSED
+hotel-info->room-info#show room information,show room information,presidential suite 1 king bed with sofa bed city view,CLOSED
+hotel-info->room-info#show room information,show room information,studio 1 queen bed with sofa bed balcony,CLOSED
+hotel-info->room-info#show room information,show room information,mini-studio with kitchenette,CLOSED
+hotel-info->room-info#show room information,show room information,1-bedroom with kitchen,CLOSED
+/search.do->/search.do#sort by stars,sort by stars,low to high,CLOSED
+/search.do->/search.do#sort by stars,sort by stars,high to low,CLOSED
+/search.do->/search.do#popular filters,popular filters,free breakfast,CLOSED
+/search.do->/search.do#popular filters,popular filters,free parking,CLOSED
+/search.do->/search.do#popular filters,popular filters,pool,CLOSED
+/search.do->/search.do#popular filters,popular filters,pet friendly,CLOSED
+/search.do->/search.do#popular filters,popular filters,free wifi,CLOSED
+/search.do->/search.do#popular filters,popular filters,gym,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,manhattan,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,Central New York City,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,Queens,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,Upper West Side,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,East New York,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,China Town,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,Greenwich Village,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,Brooklyn Heights,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,Upper manhattan,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,Newport,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,Bushwick,CLOSED
+/search.do->/search.do#neighborhood,neighborhood,Cypress Hills,CLOSED
+/search.do->/search.do#search,destination property or landmark,vancouver,OPEN
+/search.do->/search.do#search,destination property or landmark,portland,OPEN
+/search.do->/search.do#search,destination property or landmark,seattle,OPEN
+/search.do->/search.do#search,destination property or landmark,new york,OPEN
+/search.do->/search.do#search,destination property or landmark,boston,OPEN
+/search.do->/search.do#search,destination property or landmark,chicago,OPEN
+/search.do->/search.do#search,destination property or landmark,toronto,OPEN
+/search.do->/search.do#search,destination property or landmark,austin,OPEN
+/search.do->/search.do#search,check out,20,CLOSED
+/search.do->/search.do#search,check out,23,CLOSED
+/search.do->/search.do#search,check out,19,CLOSED
+/search.do->/search.do#search,check out,18,CLOSED
+/search.do->/search.do#search,check out,17,CLOSED
+/search.do->/search.do#search,check out,22,CLOSED
+/search.do->/search.do#search,check out,21,CLOSED
+/search.do->/search.do#search,children age in months,<1,CLOSED
+/search.do->/search.do#search,children age in months,1,CLOSED
+/search.do->/search.do#search,children age in months,2,CLOSED
+/search.do->/search.do#search,children age in months,3,CLOSED
+/search.do->/search.do#search,children age in months,4,CLOSED
+/search.do->/search.do#search,children age in months,5,CLOSED
+/search.do->/search.do#search,children age in months,6,CLOSED
+/search.do->/search.do#search,children age in months,7,CLOSED
+/search.do->/search.do#search,children age in months,8,CLOSED
+/search.do->/search.do#search,children age in months,9,CLOSED
+/search.do->/search.do#search,children age in months,10,CLOSED
+/search.do->/search.do#search,children age in months,11,CLOSED
+/search.do->/search.do#search,children age in months,12,CLOSED
+/search.do->/search.do#search,children age in months,13,CLOSED
+/search.do->/search.do#search,children age in months,14,CLOSED
+/search.do->/search.do#search,children age in months,15,CLOSED
+/search.do->/search.do#search,children age in months,16,CLOSED
+/search.do->/search.do#search,children age in months,17,CLOSED
+/search.do->/search.do#search,number of rooms,1,CLOSED
+/search.do->/search.do#search,number of rooms,2,CLOSED
+/search.do->/search.do#search,number of rooms,3,CLOSED
+/search.do->/search.do#search,number of rooms,4,CLOSED
+/search.do->/search.do#search,number of rooms,5,CLOSED
+/search.do->/search.do#search,number of rooms,6,CLOSED
+/search.do->/search.do#search,number of rooms,7,CLOSED
+/search.do->/search.do#search,number of rooms,8,CLOSED
+/search.do->/search.do#search,number of rooms,9+,CLOSED
+/search.do->/search.do#search,check in,22,CLOSED
+/search.do->/search.do#search,check in,21,CLOSED
+/search.do->/search.do#search,number of adults,1,CLOSED
+/search.do->/search.do#search,number of adults,2,CLOSED
+/search.do->/search.do#search,number of adults,3,CLOSED
+/search.do->/search.do#search,number of adults,4,CLOSED
+/search.do->/search.do#search,number of adults,5,CLOSED
+/search.do->/search.do#search,number of adults,6,CLOSED
+/search.do->/search.do#search,number of adults,7,CLOSED
+/search.do->/search.do#search,number of adults,8,CLOSED
+/search.do->/search.do#search,number of adults,9,CLOSED
+/search.do->/search.do#search,number of adults,10,CLOSED
+/search.do->/search.do#search,number of adults,11,CLOSED
+/search.do->/search.do#search,number of adults,12,CLOSED
+/search.do->/search.do#search,number of adults,13,CLOSED
+/search.do->/search.do#search,number of adults,14,CLOSED
+/search.do->/search.do#search,number of adults,15,CLOSED
+/search.do->/search.do#search,number of adults,16,CLOSED
+/search.do->/search.do#search,number of adults,17,CLOSED
+/search.do->/search.do#search,number of adults,18,CLOSED
+/search.do->/search.do#search,number of adults,19,CLOSED
+/search.do->/search.do#search,number of adults,20,CLOSED
+/search.do->/search.do#search,number of children,1,CLOSED
+/search.do->/search.do#search,number of children,2,CLOSED
+/search.do->/search.do#search,number of children,3,CLOSED
+/search.do->/search.do#search,number of children,4,CLOSED
+/search.do->/search.do#search,number of children,5,CLOSED
+/search.do->/search.do#search,number of children,6,CLOSED
+/search.do->/search.do#search,number of children,0,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,seattle paramount theatre,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,seattle cruise ship terminal 91,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,safeco field,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,space needle,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,pioneer square,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,seattle waterfront,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,bell street cruise terminal at pier 66,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,WaMu Theater,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,Burbank CA,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,woodland park zoo,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,centurylink field,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,fullerton ca,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,Hawthorne CA,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,washington state convention center,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,Long Beach CA,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,fremont,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,university of washington,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,museum of flight,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,los angeles intl lax,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,pike place market,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,museum of pop culture,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,westfield southcenter mall,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,van nuys ca,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,bellevue square,CLOSED
+/search.do->/search.do#sort by distance from,sort by distance from,santa monica ca,CLOSED
+/search.do->/search.do#sort by price,sort by price,high to low,CLOSED
+/search.do->/search.do#sort by price,sort by price,low to high,CLOSED
+/search.do->/search.do#nightly price,nightly price,$100 to $200,CLOSED
+/search.do->/search.do#nightly price,nightly price,$200 to $250,CLOSED
+/search.do->/search.do#nightly price,nightly price,$75 to $100,CLOSED
+/search.do->/search.do#payment preference,payment preference,hotels.com gift card,CLOSED
+/search.do->/search.do#payment preference,payment preference,Hotels.com rewards,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,apart-hotel,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,apartment,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,bed and breakfast,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,caravan Park,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,cottages,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,guest house,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,hostel,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,hotel,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,Villa,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,inn,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,motel,CLOSED
+/search.do->/search.do#accommodation type,accommodation type,vacation home/condo,CLOSED
+/search.do->/search.do#star rating,star rating,5-star,CLOSED
+/search.do->/search.do#star rating,star rating,4-star,CLOSED
+/search.do->/search.do#star rating,star rating,3-star,CLOSED
+/search.do->/search.do#star rating,star rating,2-star,CLOSED
+/search.do->/search.do#star rating,star rating,1-star,CLOSED
+/search.do->/search.do#amenities,amenities,airport transfers,CLOSED
+/search.do->/search.do#amenities,amenities,bar,CLOSED
+/search.do->/search.do#amenities,amenities,bathtub in room,CLOSED
+/search.do->/search.do#amenities,amenities,business facilities,CLOSED
+/search.do->/search.do#amenities,amenities,car charging point,CLOSED
+/search.do->/search.do#amenities,amenities,childcare,CLOSED
+/search.do->/search.do#amenities,amenities,connecting rooms available,CLOSED
+/search.do->/search.do#amenities,amenities,cribs available,CLOSED
+/search.do->/search.do#amenities,amenities,free parking,CLOSED
+/search.do->/search.do#amenities,amenities,free breakfast,CLOSED
+/search.do->/search.do#amenities,amenities,free wifi,CLOSED
+/search.do->/search.do#amenities,amenities,gym,CLOSED
+/search.do->/search.do#amenities,amenities,internet access,CLOSED
+/search.do->/search.do#amenities,amenities,kitchen,CLOSED
+/search.do->/search.do#amenities,amenities,meeting facilities,CLOSED
+/search.do->/search.do#amenities,amenities,non-smoking,CLOSED
+/search.do->/search.do#amenities,amenities,parking avaialble,CLOSED
+/search.do->/search.do#amenities,amenities,pet friendly,CLOSED
+/search.do->/search.do#amenities,amenities,pool,CLOSED
+/search.do->/search.do#amenities,amenities,restaurant,CLOSED
+/search.do->/search.do#amenities,amenities,smoking areas,CLOSED
+/search.do->/search.do#amenities,amenities,spa,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Aloft Seattle Sea-Tac Airport,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Redmond Inn,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Talaris Conference Center,CLOSED
+/search.do->hotel-info#select hotel,select hotel,The ART INN Seattle,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Larkspur Landing Renton - An All-Suite Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Larkspur Landing Bellevue - An All-Suite Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hyatt House Seattle/Redmond,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hilton Garden Inn Seattle/Renton,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Coast Gateway Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Sunset Inn and Suites,CLOSED
+/search.do->hotel-info#select hotel,select hotel,The Residence Club Vancouver,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Accent Inns Burnaby,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Accent Inn Vancouver Airport Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,North Vancouver Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,River Rock Casino Resort,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Happy Day Inn,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Budget Inn Patricia Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Ferris Wheel Waterfront Apartments By Barsala,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Kasa Seattle Bellevue Apartments,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Seattle Waterfront Apartments by Barsala,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Pelicanstay in Pioneer Square,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Stay Alfred on Western Avenue,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Stay Alfred on North Western Avenue,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Stay Alfred on Union Street,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Seattle Center Luxury Suites by Nspire,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Downtown Apartments by Barsala,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Pike Place Apartments by Barsala,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Red Lion Hotel Bellevue,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hotel 116 A Coast Hotel Bellevue,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Bellevue Club Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Embassy Suites by Hilton Seattle Bellevue,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hyatt House Seattle/Bellevue,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hyatt Regency Bellevue,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hampton Inn & Suites Bellevue Downtown-Seattle WA,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hilton Bellevue,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hilton Garden Inn Seattle Bellevue Downtown,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Sheraton Bellevue Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Los Angeles RoomRentals near USC,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Los Angeles RoomRentals Harvard Heights,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Vagabond Inn Los Angeles-USC,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Rotex Western Inn,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Oxford Palace Hotel And Galleria,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Aventura Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Garden Suite Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Ramada by Wyndham Los Angeles/Koreatown West,CLOSED
+/search.do->hotel-info#select hotel,select hotel,East West Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hometel Suites,CLOSED
+/search.do->hotel-info#select hotel,select hotel,JJ Grand Hotel - Wilshire,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Casa Bella Inn,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Woodmark Hotel and Still Spa,CLOSED
+/search.do->hotel-info#select hotel,select hotel,The Heathman Hotel,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Hotel Sorrento,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Archer Hotel Seattle/Redmond,CLOSED
+/search.do->hotel-info#select hotel,select hotel,Willows Lodge,CLOSED
+/search.do->hotel-info#select hotel,select hotel,The Westin Bellevue,CLOSED

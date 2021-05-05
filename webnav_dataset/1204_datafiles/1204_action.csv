@@ -1,0 +1,14 @@
+SD: /search-listings/###Restaurant,PL: 1,PATH: /search-listings/->Restaurant#restaurant name[];
+SD: Restaurant###Restaurant,PL: 1,PATH: Restaurant->Restaurant#menu[];
+SD: Restaurant###Restaurant,PL: 1,PATH: Restaurant->Restaurant#location[];
+SD: Restaurant###Restaurant,PL: 1,PATH: Restaurant->Restaurant#reviews[];
+SD: /search-listings/###/search-listings/,PL: 1,PATH: /search-listings/->/search-listings/#location[];
+SD: /search-listings/###/search-listings/,PL: 1,PATH: /search-listings/->/search-listings/#show restaurants with offer[];
+SD: /search-listings/###/search-listings/,PL: 1,PATH: /search-listings/->/search-listings/#cuisine[];
+SD: /###/search-listings/,PL: 1,PATH: /->/search-listings/#search[restaurant name or location];
+SD: Restaurant###Restaurant availability,PL: 1,PATH: Restaurant->Restaurant availability#find table[time:date:number of people];
+SD: Restaurant availability###Reservation form,PL: 1,PATH: Restaurant availability->Reservation form#booking time[];
+SD: Reservation form###Reservation confirmation,PL: 1,PATH: Reservation form->Reservation confirmation#continue reservation[email:first name:last name:phone number];
+SD: /###/city-restaurants,PL: 1,PATH: /->/city-restaurants#search[search by name or location];
+SD: /###/city-restaurants,PL: 1,PATH: /->/city-restaurants#uk cities[];
+SD: /city-restaurants###/search-listings/,PL: 1,PATH: /city-restaurants->/search-listings/#city area[];

@@ -1,0 +1,283 @@
+/search->/search#restaurant feature,restaurant feature,reservations,CLOSED
+/search->/search#restaurant feature,restaurant feature,open now,CLOSED
+/search->/search#restaurant feature,restaurant feature,good for dinner,CLOSED
+/search->/search#restaurant feature,restaurant feature,delivery,CLOSED
+/search->/search#restaurant feature,restaurant feature,good for groups,CLOSED
+/search->/search#restaurant feature,restaurant feature,takeout,CLOSED
+/search->/search#restaurant feature,restaurant feature,all filters,CLOSED
+/search->/search#find table,time,10:30 AM,CLOSED
+/search->/search#find table,time,10:00 AM,CLOSED
+/search->/search#find table,time,11:30 AM,CLOSED
+/search->/search#find table,time,11:00 AM,CLOSED
+/search->/search#find table,time,12:30 AM,CLOSED
+/search->/search#find table,time,12:00 AM,CLOSED
+/search->/search#find table,time,1:30 PM,CLOSED
+/search->/search#find table,time,1:00 PM,CLOSED
+/search->/search#find table,time,2:30 PM,CLOSED
+/search->/search#find table,time,2:00 PM,CLOSED
+/search->/search#find table,time,3:30 PM,CLOSED
+/search->/search#find table,time,3:00 PM,CLOSED
+/search->/search#find table,time,4:30 PM,CLOSED
+/search->/search#find table,time,4:00 PM,CLOSED
+/search->/search#find table,time,5:30 PM,CLOSED
+/search->/search#find table,time,5:00 PM,CLOSED
+/search->/search#find table,time,6:30 PM,CLOSED
+/search->/search#find table,time,6:00 PM,CLOSED
+/search->/search#find table,time,7:30 PM,CLOSED
+/search->/search#find table,time,7:00 PM,CLOSED
+/search->/search#find table,time,8:30 PM,CLOSED
+/search->/search#find table,time,8:00 PM,CLOSED
+/search->/search#find table,time,9:30 PM,CLOSED
+/search->/search#find table,time,9:00 PM,CLOSED
+/search->/search#find table,time,10:30 PM,CLOSED
+/search->/search#find table,time,10:00 PM,CLOSED
+/search->/search#find table,time,11:30 PM,CLOSED
+/search->/search#find table,time,11:00 PM,CLOSED
+/search->/search#find table,date,17-Dec,CLOSED
+/search->/search#find table,date,1-Oct,CLOSED
+/search->/search#find table,date,12-Nov,CLOSED
+/search->/search#find table,date,15-Jul,CLOSED
+/search->/search#find table,date,25-Dec,CLOSED
+/search->/search#find table,date,19-Sep,CLOSED
+/search->/search#find table,date,18-Dec,CLOSED
+/search->/search#find table,date,8-Jul,CLOSED
+/search->/search#find table,date,17-Jul,CLOSED
+/search->/search#find table,date,22-Jul,CLOSED
+/search->/search#find table,date,24-Oct,CLOSED
+/search->/search#find table,date,2-Oct,CLOSED
+/search->/search#find table,date,25-Oct,CLOSED
+/search->/search#find table,date,2-Dec,CLOSED
+/search->/search#find table,date,16-Aug,CLOSED
+/search->/search#find table,date,9-Aug,CLOSED
+/search->/search#find table,date,21-Nov,CLOSED
+/search->/search#find table,date,28-Aug,CLOSED
+/search->/search#find table,date,21-Oct,CLOSED
+/search->/search#find table,date,3-Sep,CLOSED
+/search->/search#find table,date,9-Jul,CLOSED
+/search->/search#find table,date,15-Aug,CLOSED
+/search->/search#find table,date,23-Oct,CLOSED
+/search->/search#find table,date,18-Jul,CLOSED
+/search->/search#find table,date,11-Jul,CLOSED
+/search->/search#find table,date,5-Sep,CLOSED
+/search->/search#find table,date,6-Nov,CLOSED
+/search->/search#find table,date,30-Dec,CLOSED
+/search->/search#find table,date,8-Nov,CLOSED
+/search->/search#find table,date,17-Sep,CLOSED
+/search->/search#find table,people,1 person,CLOSED
+/search->/search#find table,people,2 people,CLOSED
+/search->/search#find table,people,3 people,CLOSED
+/search->/search#find table,people,4 people,CLOSED
+/search->/search#find table,people,5 people,CLOSED
+/search->/search#find table,people,6 people,CLOSED
+/search->/search#find table,people,7 people,CLOSED
+/search->/search#find table,people,8 people,CLOSED
+/search->/search#find table,people,9 people,CLOSED
+/search->/search#find table,people,10 people,CLOSED
+/search->/search#find table,people,11 people,CLOSED
+/search->/search#find table,people,12 people,CLOSED
+/search->/search#find table,people,13 people,CLOSED
+/search->/search#find table,people,14 people,CLOSED
+/search->/search#find table,people,15 people,CLOSED
+/search->/search#find table,people,16 people,CLOSED
+/search->/search#find table,people,17 people,CLOSED
+/search->/search#find table,people,18 people,CLOSED
+/search->/search#find table,people,19 people,CLOSED
+/search->/search#find table,people,20 people,CLOSED
+/search->/search#search,address neighborhood city state or zip,redmond,OPEN
+/search->/search#search,address neighborhood city state or zip,puget sound area,OPEN
+/search->/search#search,address neighborhood city state or zip,chicago,OPEN
+/search->/search#search,address neighborhood city state or zip,los angeles,OPEN
+/search->/search#search,address neighborhood city state or zip,new york,OPEN
+/search->/search#search,address neighborhood city state or zip,seattle downtown,OPEN
+/search->/search#search,address neighborhood city state or zip,bellevue,OPEN
+/search->/search#search,address neighborhood city state or zip,seattle wa,OPEN
+/search->/search#price,price,$$,CLOSED
+/search->/search#price,price,$$$,CLOSED
+/search->/search#price,price,$$$$,CLOSED
+/search->/search#price,price,$,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,19,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,10,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,13,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,16,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,8,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,2,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,4,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,11,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,17,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,1,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,7,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,15,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,3,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,6,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,14,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,20,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,9,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,18,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,12,CLOSED
+Restaurant->Restaurant availability#find table,reservation date,5,CLOSED
+Restaurant->Restaurant availability#find table,number of people,1 person,CLOSED
+Restaurant->Restaurant availability#find table,number of people,2 people,CLOSED
+Restaurant->Restaurant availability#find table,number of people,3 people,CLOSED
+Restaurant->Restaurant availability#find table,number of people,4 people,CLOSED
+Restaurant->Restaurant availability#find table,number of people,5 people,CLOSED
+Restaurant->Restaurant availability#find table,number of people,6 people,CLOSED
+Restaurant->Restaurant availability#find table,number of people,7 people,CLOSED
+Restaurant->Restaurant availability#find table,number of people,8 people,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,10:30 AM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,10:00 AM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,11:30 AM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,11:00 AM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,12:30 AM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,12:00 AM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,1:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,1:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,2:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,2:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,3:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,3:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,4:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,4:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,5:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,5:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,6:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,6:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,7:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,7:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,8:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,8:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,9:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,9:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,10:30 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,10:00 PM,CLOSED
+Restaurant->Restaurant availability#find table,reservation time,11:30 PM,CLOSED
+Restaurant->Restaurant#search,search within the reviews,wine,OPEN
+Restaurant->Restaurant#search,search within the reviews,bar,OPEN
+Restaurant->Restaurant#search,search within the reviews,starter,OPEN
+Restaurant->Restaurant#search,search within the reviews,ambience,OPEN
+Restaurant->Restaurant#search,search within the reviews,service,OPEN
+Restaurant->Restaurant#search,search within the reviews,family,OPEN
+Restaurant->Restaurant#sort reviews,sort reviews,lowest rated,CLOSED
+Restaurant->Restaurant#sort reviews,sort reviews,highest rated,CLOSED
+Restaurant->Restaurant#sort reviews,sort reviews,newest first,CLOSED
+Restaurant->Restaurant#sort reviews,sort reviews,oldest first,CLOSED
+Restaurant->Restaurant#sort reviews,sort reviews,elites,CLOSED
+Restaurant->Restaurant#sort reviews,sort reviews,yelp sort,CLOSED
+Restaurant->Menu#view full menu,view full menu,view full menu,CLOSED
+Restaurant->Map#get directions,get directions,get directions,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,2:30 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,2:00 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,3:30 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,3:00 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,4:30 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,4:00 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,5:30 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,5:00 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,6:30 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,6:00 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,7:30 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,7:00 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,8:30 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,8:00 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,9:30 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,9:00 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,10:30 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,10:00 PM,CLOSED
+Restaurant availability->Reservation form 2#booking time,booking time,11:00 PM,CLOSED
+/search->Restaurant#restaurant name,restaurant name,vinifera wine bar & bistro,CLOSED
+/search->Restaurant#restaurant name,restaurant name,din tai fung,CLOSED
+/search->Restaurant#restaurant name,restaurant name,flat iron grill,CLOSED
+/search->Restaurant#restaurant name,restaurant name,the mill restaurant and sports bar,CLOSED
+/search->Restaurant#restaurant name,restaurant name,red cedar & sage,CLOSED
+/search->Restaurant#restaurant name,restaurant name,la cocina oaxaquena,CLOSED
+/search->Restaurant#restaurant name,restaurant name,cortina,CLOSED
+/search->Restaurant#restaurant name,restaurant name,agave cocina and tequilas,CLOSED
+/search->Restaurant#restaurant name,restaurant name,sharps roasthouse,CLOSED
+/search->Restaurant#restaurant name,restaurant name,bistrot,CLOSED
+/search->Restaurant#restaurant name,restaurant name,dim sum shanghainese,CLOSED
+/search->Restaurant#restaurant name,restaurant name,pacific grill,CLOSED
+/search->Reservation form 1#time,restaurant,suika seattle,CLOSED
+/search->Reservation form 1#time,restaurant,portage bay cafe roosevelt,CLOSED
+/search->Reservation form 1#time,restaurant,din tai fung,CLOSED
+/search->Reservation form 1#time,restaurant,swel restaurant,CLOSED
+/search->Reservation form 1#time,restaurant,stateside,CLOSED
+/search->Reservation form 1#time,restaurant,red cedar & sage,CLOSED
+/search->Reservation form 1#time,restaurant,the dolar shop,CLOSED
+/search->Reservation form 1#time,restaurant,pasta bella,CLOSED
+/search->Reservation form 1#time,restaurant,brimmer & heeltap,CLOSED
+/search->Reservation form 1#time,restaurant,petra bistro,CLOSED
+/search->Reservation form 1#time,restaurant,portage bay cafe south lake union,CLOSED
+/search->Reservation form 1#time,restaurant,yoroshiku,CLOSED
+Reservation form 1->Reservation confirmation#confirm reservation,first name,richard,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,first name,robert,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,first name,james,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,first name,tim,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,first name,david,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,first name,john,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,first name,joseph,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,first name,william,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,first name,michael,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,first name,thomas,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,email,lee@gmail.com,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,email,george@outlook.com,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,email,david_10@outlook.com,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,email,james123@yahoo.com,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,email,tim_brown@gmail.com,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,jones,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,williams,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,johnson,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,smith,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,lee,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,miller,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,davis,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,wilson,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,taylor,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,anderson,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,last name,brown,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,phone,3123445678,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,phone,4251231111,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,phone,7723245343,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,phone,7724342343,OPEN
+Reservation form 1->Reservation confirmation#confirm reservation,phone,3123452345,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,last name,smith,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,last name,lee,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,last name,miller,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,last name,taylor,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,last name,white,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,last name,anderson,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,last name,brown,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,email,james.lee@yahoo.com,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,email,mark_20@outlook.com,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,email,james234@gmail.com,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,email,white.jack@hotmail.com,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,email,m.taylor@gmail.com,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,first name,james,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,first name,david,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,first name,tim,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,first name,jhon,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,first name,mark,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,first name,jack,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,phone,7724356787,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,phone,4252415623,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,phone,3125447898,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,phone,3124568798,OPEN
+Reservation form 2->Reservation confirmation#confirm reservation,phone,7723456789,OPEN
+/search->Reservation form 1#time,time,suika seattle,CLOSED
+/search->Reservation form 1#time,time,1:30 PM,CLOSED
+/search->Reservation form 1#time,time,1:00 PM,CLOSED
+/search->Reservation form 1#time,time,2:30 PM,CLOSED
+/search->Reservation form 1#time,time,2:00 PM,CLOSED
+/search->Reservation form 1#time,time,3:30 PM,CLOSED
+/search->Reservation form 1#time,time,3:00 PM,CLOSED
+/search->Reservation form 1#time,time,4:30 PM,CLOSED
+/search->Reservation form 1#time,time,4:00 PM,CLOSED
+/search->Reservation form 1#time,time,5:30 PM,CLOSED
+/search->Reservation form 1#time,time,5:00 PM,CLOSED
+/search->Reservation form 1#time,time,6:30 PM,CLOSED
+/search->Reservation form 1#time,time,6:00 PM,CLOSED
+/search->Reservation form 1#time,time,7:30 PM,CLOSED
+/search->Reservation form 1#time,time,7:00 PM,CLOSED
+/search->Reservation form 1#time,time,8:30 PM,CLOSED
+/search->Reservation form 1#time,time,8:00 PM,CLOSED
+/search->Reservation form 1#time,time,9:30 PM,CLOSED
+/search->Reservation form 1#time,time,9:00 PM,CLOSED
+/search->Reservation form 1#time,time,10:00 PM,CLOSED

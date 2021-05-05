@@ -1,0 +1,14 @@
+SD: Restaurant###Map,PL: 1,PATH: Restaurant->Map#get directions[];
+SD: Restaurant###Restaurant availability,PL: 1,PATH: Restaurant->Restaurant availability#find table[number of people:reservation time:reservation date];
+SD: Restaurant###Restaurant,PL: 1,PATH: Restaurant->Restaurant#sort reviews[];
+SD: Restaurant###Restaurant,PL: 1,PATH: Restaurant->Restaurant#search[search within the reviews];
+SD: Reservation form 2###Reservation confirmation,PL: 1,PATH: Reservation form 2->Reservation confirmation#confirm reservation[phone:first name:last name:email];
+SD: /search###/search,PL: 1,PATH: /search->/search#restaurant feature[];
+SD: /search###/search,PL: 1,PATH: /search->/search#search[address neighborhood city state or zip];
+SD: /search###/search,PL: 1,PATH: /search->/search#price[];
+SD: /search###/search,PL: 1,PATH: /search->/search#find table[people:time:date];
+SD: /search###Reservation form 1,PL: 1,PATH: /search->Reservation form 1#time[time:restaurant];
+SD: /search###Restaurant,PL: 1,PATH: /search->Restaurant#restaurant name[];
+SD: Reservation form 1###Reservation confirmation,PL: 1,PATH: Reservation form 1->Reservation confirmation#confirm reservation[phone:first name:last name:email];
+SD: Restaurant###Menu,PL: 1,PATH: Restaurant->Menu#view full menu[];
+SD: Restaurant availability###Reservation form 2,PL: 1,PATH: Restaurant availability->Reservation form 2#booking time[];

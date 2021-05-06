@@ -120,7 +120,7 @@ if __name__ == '__main__':
     parser.add_argument('--model-dir', help='directory for storing learned QA_models',
                                                                                  default='./qa_model/flin/')
     parser.add_argument('--resource-dir', help='directory for storing resource', default='../resource/')
-    parser.add_argument('--data-path', help='directory for dataset annotation', default='./dataset_dir/')
+    parser.add_argument('--data-path', help='directory for dataset annotation', default='../webnav_dataset/')
     parser.add_argument('--train-trace-id', help='train trace id', default='925')
     parser.add_argument('--test-trace-id', help='test trace id', default='925')
     parser.add_argument('--model-result-dict', help='model result dict', default='flin')

@@ -1,7 +1,7 @@
 import numpy as np, os
 import pickle
 from code.train_data_preprocessing.vectorize_dataset import get_vectorized_dataset
-from code.dataset_genaration.data_gen_util import replace_punctuations
+from code.dataset_preparation.data_prep_util import replace_punctuations
 from code.train_data_preprocessing.preprocess_util import lemmatizer, get_candidate_query_phrases
 
 

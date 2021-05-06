@@ -17,6 +17,11 @@ def replace_punctuations(s, default_char=''):
     return s
 
 
+def preprocess_text(phrase):
+    phrase = replace_punctuations(phrase)
+    return phrase.lower().strip()
+
+
 def get_activity_id(node_DB, activity_name):
     for activity_id in node_DB['activity']:
         if node_DB['activity'][activity_id]['ActivityName'] == activity_name:

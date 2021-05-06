@@ -1,5 +1,4 @@
-from code.dataset_genaration.data_gen_util import *
-from code.graphdb_interface.graphdb_util import get_action_content, preprocess_text
+from code.dataset_preparation.data_prep_util import *
 from code.train_data_preprocessing.preprocess_util import get_candidate_query_phrases
 np.random.seed(1234)
 
@@ -166,35 +165,6 @@ def get_activity_id(node_DB, activity_name):
         if node_DB['activity'][activity_id]['ActivityName'] == activity_name:
             return activity_id
     return '-'
-
-
-def generate_query_set(content_DB, para_dom, node_DB, para_DB, no_query=250):
-    Q_DB = {}
-    activity_content = {}
-    query_per_activity = int(no_query / len(content_DB))
-
-    for activity_id in content_DB:
-        all_content = []
-        if activity_id in content_DB and 'page_content' in content_DB[activity_id]:
-            all_content.extend(list(content_DB[activity_id]['page_content']))
-        if activity_id in content_DB and 'page_description' in content_DB[activity_id]:
-            all_content.extend(list(content_DB[activity_id]['page_description']))
-        all_content.extend(list(get_action_content(para_dom, node_DB, para_DB, activity_id, 'in')))
-
-        all_content = list(set(all_content))
-
-        if len(all_content) > 0:
-            activity_content[activity_id] = list(np.random.choice(all_content, min(len(all_content), query_per_activity), replace=False))
-
-    for activity_id, phrase_set in activity_content.items():
-
-        i = 1
-        for phrase in phrase_set:
-            if len(phrase.split()) > 2:
-                Q_DB[activity_id+"__"+str(i)] = phrase
-                i += 1
-
-    return Q_DB
 
 
 def extract_parameters(para_str):

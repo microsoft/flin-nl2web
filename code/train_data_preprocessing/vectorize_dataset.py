@@ -1,4 +1,4 @@
-from code.dataset_genaration.data_gen_util import *
+from code.dataset_preparation.data_prep_util import *
 from code.train_data_preprocessing.bert_preprocess_util import *
 from code.train_data_preprocessing.preprocess_util import get_vectorized_phrase, pad_arr_seq,\
                                  get_vectorized_char_seq, char_vocab_to_id, ent_vocab_to_id, \

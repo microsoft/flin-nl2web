@@ -20,38 +20,48 @@ month = jun
 
 ## About
 
-The flin code can be found in the `code` folder. The code is organized in five directories:
+The FLIN code can be found in the `code` folder. The code is organized in four directories:
 
-1. `graphdb_interface` contains the code for reading the graph database which stores activities, actions, parameters and their domains and index and store them in local data structures like dictionaries for in-memory usage. The code assumes the graph database uses the Gremlin API. In our development we have used [Azure Cosmos DB] (https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction). Please set up your own graph database using the data provided in [OR: which data?]
+1. `dataset_preparation` contains the code for reading website action parameter files, external resource files (e.g., list of dates in various formats) and data processing utility modules used by other modules in the repository. 
 
-2. `navigation_module` contains the code to run the web navigation system which uses the trained AI agent. Given a natural language user utterance, the system returns a predicted path.
+2. `navigation_module` contains the code to run the web navigation system which uses the trained AI agent. Given a natural language user utterance, the system returns a predicted navigation path.
 
 3. `nsm_model` contains the code for building the AI agent. The AI agent is a deep learning model implemented using TensorFlow and BERT. 
 
-4. `dataset_generation` contains ... [ OR: please add]
-
-5. `train_data_preprocessing` contains the code for data pre-processing and generating training and validation data. The data is saved in a vectorized dataset as `data_dump.pickle` which is used for training the AI agent.
+4. `train_data_preprocessing` contains the code for data pre-processing and generating training and validation data. The data is saved in a vectorized dataset as `data_vec_dump.pickle` which is used for training the AI agent.
 
 Additionally, in `code` there are four files that primarily serve as entry points to the above packages. 
 
-1. `train.py` is the entry point to the `path_learning` module [OR: where is it????] which contains code for batch training of the AI agent using the generated `data_dump` file. The entry point of train_5.py is main.py which invokes training functions.
+1. `train.py` is the entry point to the `nsm_model` module which contains code for batch training of the AI agent using the generated `data_vec_dump` file. The entry point of train_5.py is main.py which invokes training functions.
 
-2. `evaluation.py` is the entry point to `navigation_module/` which contains code for running the AI agent on a test trace in various evaluation modes. This code is invoked by `main.py` which collects the evaluation modes specified by the user.
+2. `evaluation.py` is the entry point to `navigation_module` which contains code for running the AI agent on a test trace in various evaluation modes. This code is invoked by `main.py` which collects the evaluation modes (the `eval_mode` argument) as specified by the user.
 
-3.  `globals.py` contains global variables.
+3. `globals.py` contains global variables.
 
-4.	`main.py` is the main entry point of the full code repository. If a trained model exists in the `qa_model/` folder, it simply bypasses the model training and invokes the evaluation module. Otherwise, it trains the model using `data_dump.pickle` and start the evaluation.
+4. `main.py` is the main entry point of the full code repository. If a trained model exists in the `qa_model` folder, it simply bypasses the model training and invokes the evaluation module. Otherwise, it trains the model using `data_vec_dump.pickle` and starts the evaluation.
 
 	`main.py` takes various command line arguments. The important ones include:
-	- `test-trace-id` specifying which test trace the evaluation is to be performed on.
-	- `query-mode` specifying the executon mode of the agent. `query-mode`  can take two values:
+	- `test-trace-id` specifying which test trace the evaluation has to be performed on.
+	- `eval-mode` specifying the executon mode of the agent. `eval-mode`  can take two values:
 		- `of`: the evaluation runs in offline mode on the test queries and evaluation results are obtained by comparing the predicted paths against the gold paths
-		- `i`: the agent runs in interactive mode where a user can issue test queries and see the prediction results
+		- `i`: the agent runs in interactive mode where a user can manually issue test queries and see the prediction results
 
+
+# Disclaimer
+In our implementation, we built a graph DB for each website and hosted them in [Azure Cosmos DB] (https://docs.microsoft.com/en-us/azure/cosmos-db/graph-introduction)
+for analysis and query purposes (using the Gremlin API). The code repository (in parcular evaluation.py) was linked to the graph DB for real-time quering of website 
+schema and utilized it for web navigation. In the realese, we are currently unable to provide access to our hosted graph DB and its code interface to run the code with remote 
+graph server access facility. Thus, in order to run the code in `eval-mode`, we recommend users to write a website schema reading module to be interfaced with the code 
+(see Line # 20 - 24 in evaluation.py) to make it runnable. 
+
+The website schema reading module should read the [trace_id]_action.csv and [trace_id]_para.csv files in [trace_id]_datafiles/ folders under webnav_dataset/ directrory to fetch 
+information about the correspoding website schema ( i.e, states, actions, parameters and their domains) and  index and store them in local data structures like dictionaries for 
+in-memory usage (e.g., node_DB for states and actions, para_DB for action parameters and para_dom for parameter domains) to be used by other modules in the navigation_module/ package.
+We will update the code repository to incorporate the website schema reading module for running the code locally sooner.
 
 ## Set up
 
-- Install Python 3.5 or 3.6. The code is developed using Python 3.6.8. Python 3.7 may cause compatibility issues.
+- Install Python 3.6. The code is developed using Python 3.6.8. Python 3.7 may cause compatibility issues.
 - Install the required Python packages
     ```
 	bash
@@ -72,7 +82,7 @@ Additionally, in `code` there are four files that primarily serve as entry point
     ```
 	bash
     cd code/
-    python main.py –query-mode=of
+    python main.py –eval-mode=of
     ```
 
     If the code runs successfully, and there is no import error, then everything is set up properly 

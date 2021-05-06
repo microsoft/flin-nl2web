@@ -1,9 +1,9 @@
 import os
 
-from code.graphdb_interface.retrieve_process_graph import *
 from code.navigation_module.test_query_read import *
 from code.navigation_module.navigate_test_domain import navigate_domain
-from code.dataset_genaration.annotated_dataset_reading import read_annotated_para_file
+from code.dataset_preparation.website_para_reading import read_annotated_para_file
+from code.dataset_preparation.load_additional_resources import load_external_resources
 from code.navigation_module.util_navigation import evaluate_performance, get_root_activity
 
 
@@ -16,6 +16,12 @@ def run_evaluation(args, nsm_model, data_vec_dump):
 
     if not os.path.isdir('./all_results/' + model_result_dict + '/'):
         os.makedirs('./all_results/' + model_result_dict + '/')
+
+    ''' call a test website schema parsing module here'''
+    # node_DB, para_DB, para_dom, _, _, _ = get_processed_graph_info(test_trace_id)
+    node_DB = None
+    para_DB = None
+    para_dom = None
 
     if args['eval_mode'] == 'of':
 
@@ -52,9 +58,8 @@ def run_evaluation(args, nsm_model, data_vec_dump):
         for para_val_ext, paraphrase_set in ext_KB['date'].items():
             ext_para_vals['date'].append((para_val_ext, 1))
 
-        node_DB, para_DB, para_dom, _, _, _ = get_processed_graph_info(test_trace_id)
-        te_p_DB = read_annotated_para_file(test_trace_id, args, ext_KB)
 
+        te_p_DB = read_annotated_para_file(test_trace_id, args, ext_KB)
         print('# test queries: ', len(test_query_DB))
         total_queries = len(test_query_DB)
 
@@ -95,7 +100,6 @@ def run_evaluation(args, nsm_model, data_vec_dump):
 
         print("OK....WAIT.....READING DOMAIN KNOwLEDGE!!!\n")
         result_DB = {}
-        node_DB, para_DB, para_dom, _, _, _ = get_processed_graph_info(trace_id)
 
         print("\n ****** AGENT is READY TO GO ..........\n")
 

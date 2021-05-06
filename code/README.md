@@ -45,6 +45,8 @@ Additionally, in `code` there are four files that primarily serve as entry point
 	- `eval-mode` specifying the executon mode of the agent. `eval-mode`  can take two values:
 		- `of`: the evaluation runs in offline mode on the test queries and evaluation results are obtained by comparing the predicted paths against the gold paths
 		- `i`: the agent runs in interactive mode where a user can manually issue test queries and see the prediction results
+		
+The `all_results` folder contains all evaluation results for FLIN and its variants FLIN-sem (based on semantic similarity only) and FLIN-lex (based on lexical similarity only) reported in our paper. 
 
 
 # Disclaimer
